@@ -15,18 +15,8 @@ With the following command the angular-cli will be installed globally in your ma
 
 This repository is made of several separate npm modules, that are installable separately. For example, to run the au-input module, we can do the following:
 
-    cd angular-course
     npm install
 
-Its also possible to install the modules as usual using npm:
-
-    npm install
-
-
-To run the frontend part of our code, we will use the Angular CLI:
-
-    npm start
+    ng serve
 
 The application is visible at port 4200: [http://localhost:4200](http://localhost:4200)
-
-
