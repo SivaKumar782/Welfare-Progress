@@ -1,0 +1,59 @@
+<nav [ngClass]="{'fixed': isScrolled}" class="text-primary-color top-0 absolute z-50 w-full flex-wrap items-center justify-between navbar-expand-lg nav">
+    <div class="container mx-auto flex flex-wrap items-center justify-between">
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <!-- <img src="../../../assets//wp/logo-color.png" width="200" class="" alt="wf"> -->
+        <a
+          class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 px-12 whitespace-nowrap uppercase">
+          <img alt="Logo" src="../../../assets/img/newlogo.png"
+           width="150" height="70">
+        </a>
+        <button
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          type="button" (click)="setNavbarOpen()">
+          <i class="text-white fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="lg:flex flex-grow items-center bg-white lg:bg-opacity-0 lg:shadow-none"
+        [ngClass]="{ hidden: !navbarOpen, 'block rounded shadow-lg': navbarOpen }" id="example-navbar-warning">
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <li class="flex items-center">
+            <a class="lg:hover:text-blueGray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="http://dev.welfareprogress.com/"> Sign In
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  
+  
+  
+    <!-- <div class=" bg-blueGray-800 items-center">
+      <div class="nav text-center">
+        <a (click)="ScrollIntoView('#who_we_are')" class="inline-block px-4 text-white hover:bg-gray-500  uppercase"> Who We Are</a>
+        <a (click)="ScrollIntoView('#the_sdgs')" class="inline-block px-4 text-white hover:bg-gray-500  hover:text-white uppercase"> The SDGS</a>
+        <a [routerLink]="['/participation']" class="inline-block px-4 text-white hover:bg-gray-500  hover:text-white uppercase"> participation </a>
+        <a href="#" class="inline-block px-4 text-white hover:bg-gray-500  hover:text-white uppercase"> take action</a>
+        <a (click)="ScrollIntoView('#participation')" class="inline-block px-4 text-white hover:bg-gray-500  hover:text-white uppercase">engage locally</a>
+        <a (click)="ScrollIntoView('#explore_library')" class="inline-block px-4 text-white hover:bg-gray-500 uppercase">explore library</a>
+      </div>
+    </div> -->
+  
+  
+    
+    <!-- <div class="items-center">
+      <div class="bg-primary-color text-center">
+        <a (click)="ScrollIntoView('#who_we_are')"
+          class="inline-block px-4 text-white hover:bg-gray-500 pointer uppercase">Who We Are</a>
+        <a (click)="ScrollIntoView('#the_sdgs')"
+          class="inline-block px-4 text-white hover:bg-gray-500  hover:text-white pointer uppercase">The SDGS</a>
+        <a (click)="ScrollIntoView('#participation')"
+          class="inline-block px-4 text-white hover:bg-gray-500  hover:text-white pointer uppercase">Participation</a>
+        <a (click)="ScrollIntoView('#explore_library')" 
+          class="inline-block px-4 text-white hover:bg-gray-500 pointer uppercase">Explore Library</a>
+      </div>
+    </div> -->
+  
+  
+  
+  
+  </nav>
