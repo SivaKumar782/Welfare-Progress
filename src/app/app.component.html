@@ -6,7 +6,7 @@
 
   <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="space-around center">
     <mat-card fxFlex="45%" fxFlex.sm="100%">
-      <mat-card-header>
+      <mat-card-header fxLayoutAlign="space-around center">
         <mat-card-title class="heading">Search Reports</mat-card-title>
       </mat-card-header>
       <mat-card-content>
@@ -51,7 +51,7 @@
   <hr>
   <div class="carousel-main">
     <owl-carousel-o [options]="customOptions">
-      <ng-template carouselSlide>
+      <!-- <ng-template carouselSlide>
         <div class="slide-container">
           <span class="image">
             <img src="../assets/img/slide2.jpeg" alt="Snow" class="img-center"></span>
@@ -83,18 +83,13 @@
                 </div>
               </div>
             </div>
-      
-      
-      
-      
-      
           </div>
         </div>
-      </ng-template>
+      </ng-template> -->
 
       <ng-template carouselSlide>
-        <section>
-          <div class="container mx-auto px-4">
+        <section style="background-color: rgba(209, 250, 229);">
+          <div  class="container mx-auto p-4">
             <div class="flex flex-wrap">
               <div class="pt-6 md:w-6/12 px-4 text-center">
                 <div
@@ -159,10 +154,10 @@
       </ng-template>
 
       <ng-template carouselSlide>
-        <section>
-          <div>
+        <section >
+          <div style="background-color: rgba(209, 250, 229);" class="p-14">
             <div class="flex flex-wrap items-center">
-              <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+              <div class="w-full md:w-8/12 px-4 mr-auto ml-auto bg-green-100 " >
                 <div
                   class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                   <i class="fas fa-user-friends text-xl"></i>
@@ -183,30 +178,51 @@
                 <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
                   These organisations include: <br> -logos (THL, MFA, Sinergia, AE, Alianima, Forum)
                 </p>
-                <!-- <a [routerLink]="['/']" class="font-bold text-blueGray-700 mt-8">
-                Check Notus Angular!
-              </a> -->
+
               </div>
-              <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+
+            </div>
+          </div>
+        </section>
+      </ng-template>
+
+
+
+      <ng-template carouselSlide>
+        <section >
+          <div style="background-color: rgba(209, 250, 229);" class="p-14">
+            <div class="flex flex-wrap items-center">
+              <div class="w-full md:w-8/12 px-4 mr-auto ml-auto bg-green-100 " >
                 <div
-                  class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-red-600">
-                  <img alt="..."
-                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
-                    class="w-full align-middle rounded-t-lg" />
-                  <blockquote class="relative p-8 mb-4">
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
-                      class="absolute left-0 w-full block h-95-px -top-94-px">
-                      <polygon points="-30,95 583,95 583,65" class="text-red-600 fill-current"></polygon>
-                    </svg>
-                    <!-- <h4 class="text-xl font-bold text-white">Top Notch Services</h4> -->
-                    <p class="text-md font-light mt-2 text-white">
-                      Organisations including Compassion in World Farming and FAIRR also support this platform and will
-                      use
-                      this as a reference for their scoring and benchmarking initiatives.
-                    </p>
-                  </blockquote>
+                  class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                  <i class="fas fa-user-friends text-xl"></i>
                 </div>
+                <h3 class="text-3xl mb-2 font-semibold leading-normal">
+                Who We Are
+                </h3>
+                <div class="flex flex-wrap justify-center">
+                  <div class="">
+                    <p class="mb-4 text-lg leading-relaxed tx-white">
+                      Global Food Partners is a multinational consulting firm that works with businesses todevelop,
+                      implement and report progress on high animal welfare and responsible sourcing policies to improve
+                      their profitability and sustainability.
+                    </p>
+                    <p>
+                      Our team has a combined 50+ years of corporate and on-farm experience developing and executing
+                      animal
+                      welfare policies and production practices, with a focus on cage-free eggs. We’ve worked with food
+                      industry leaders, governments and egg industries globally, including across Latin America and Asia,
+                      to
+                      transition to and maintain high welfare cage-free supply chains and production systems. Having
+                      worked
+                      extensively with animal advocacy organisations, we know the value of transparent communication of
+                      progress to mitigate reputational risks
+                    </p>
+                  </div>
+                </div>
+
               </div>
+
             </div>
           </div>
         </section>
@@ -214,107 +230,115 @@
 
 
       <ng-template carouselSlide>
-        <div class="slide-container">
-          <span class="image">
-            <img src="../assets/img/slide3.jpeg" alt="Snow" class="img-center"></span>
-          <div class="centered">
-            <div class="px-6">
-              <h3 class="text-3xl font-semibold">Commitment checklist</h3>
-                  <p class="mt-4 text-lg leading-relaxed">
-                    Does your cage-free egg commitment meet stakeholder expectations?
-                  </p>
-                  <ul class="list-none mt-6">
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <span
-                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3">
-                            <i class="fas fa-fingerprint"></i>
-                          </span>
-                        </div>
-                        <div>
-                          <h4>
-                            Clearly states that we will source exclusively cage-free egg throughout supplychain
-                          </h4>
-                        </div>
+        <section >
+          <div style="background-color: rgba(209, 250, 229);" class="p-14">
+            <div class="flex flex-wrap items-center">
+              <div class="w-full md:w-8/12 px-4 mr-auto ml-auto bg-green-100 " >
+
+                <h3 class="text-3xl mb-2 font-semibold leading-normal">
+                  Commitment Checklist
+                </h3>
+                <p class="mt-4 text-lg text-blueGray-600 leading-relaxed">
+                  Does your cage-free egg commitment meet stakeholder expectations?
+                </p>
+                <ul class="list-none mt-6">
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3">
+                          <i class="fas fa-fingerprint"></i>
+                        </span>
                       </div>
-                    </li>
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <span
-                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3">
-                            <i class="fab fa-html5"></i>
-                          </span>
-                        </div>
-                        <div>
-                          <h4>Covers all eggs in my supply chain, including shell, egg products
-                            (liquid, powder, etc.), and food products manufactured by a 3rd party (e.g. pastries)</h4>
-                        </div>
+                      <div>
+                        <h4>
+                          Clearly states that we will source exclusively cage-free egg throughout supplychain
+                        </h4>
                       </div>
-                    </li>
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <span
-                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3">
-                            <i class="far fa-paper-plane"></i>
-                          </span>
-                        </div>
-                        <div>
-                          <h4>States a deadline – the date by which my entire supply chain
-                            will be
-                            cage-free</h4>
-                        </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3">
+                          <i class="fab fa-html5"></i>
+                        </span>
                       </div>
-                    </li>
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <span
-                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3">
-                            <i class="far fa-paper-plane"></i>
-                          </span>
-                        </div>
-                        <div>
-                          <h4>Covers our entire supply chain, including all brands and
-                            franchises
-                          </h4>
-                        </div>
+                      <div>
+                        <h4>Covers all eggs in my supply chain, including shell, egg products
+                          (liquid, powder, etc.), and food products manufactured by a 3rd party (e.g. pastries)</h4>
                       </div>
-                    </li>
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <span
-                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3">
-                            <i class="far fa-paper-plane"></i>
-                          </span>
-                        </div>
-                        <div>
-                          <h4>Includes a commitment to translate the policy into key local
-                            languages</h4>
-                        </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3">
+                          <i class="far fa-paper-plane"></i>
+                        </span>
                       </div>
-                    </li>
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <span
-                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3">
-                            <i class="far fa-paper-plane"></i>
-                          </span>
-                        </div>
-                        <div>
-                          <h4>Includes a commitment to annual public on progress</h4>
-                        </div>
+                      <div>
+                        <h4>States a deadline – the date by which my entire supply chain
+                          will be
+                          cage-free</h4>
                       </div>
-                    </li>
-                  </ul>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3">
+                          <i class="far fa-paper-plane"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4>Covers our entire supply chain, including all brands and
+                          franchises
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3">
+                          <i class="far fa-paper-plane"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4>Includes a commitment to translate the policy into key local
+                          languages</h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3">
+                          <i class="far fa-paper-plane"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4>Includes a commitment to annual public on progress</h4>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+
+              </div>
+
             </div>
           </div>
-        </div>
+        </section>
       </ng-template>
+
+
+
 
 
 
@@ -325,7 +349,7 @@
 
   <div class="faq">Frequently Asked Questions</div>
 
-  <div fxLayout="row" fxLayoutAlign="space-around center" >
+  <div fxLayout="row" fxLayoutAlign="space-around center">
     <div fxFlex="70%" fxFlex.sm="100%">
       <div class="mb-20">
         <mat-accordion>
@@ -345,13 +369,16 @@
               overwhelming and time consuming for food businesses. It has become a never-ending task.
               While these surveys all seek to evaluate progress on the same initiative – cage-free eggs-
               they often use different metrics and cover different geographies. We’ve received
-              a lot of feedback from the food industry that there is a need for a more centralised and streamlined reporting
+              a lot of feedback from the food industry that there is a need for a more centralised and streamlined
+              reporting
               process.
-              In order to support our clients and the food industry as a whole, we’ve taken this feedback and developed this
+              In order to support our clients and the food industry as a whole, we’ve taken this feedback and developed
+              this
               platform,
               which aims to make this process more efficient and uniform.We hope this platform offers a solution to food
               businessesto
-              efficiently demonstratetheir progress and mitigate reputation risk.Please reach out to us if we can help you
+              efficiently demonstratetheir progress and mitigate reputation risk.Please reach out to us if we can help
+              you
               with this
               reporting process.</p>
           </mat-expansion-panel>
@@ -434,7 +461,7 @@
         </div>
       </div>
       <div class="flex flex-wrap mt-12 justify-center">
-        <div class="w-full lg:w-3/12 px-4 text-center card-border">
+        <div class="w-full p-4 lg:w-3/12 px-4 text-center card-border">
           <div
             class="text-blueGray-800 p-3 wh-24 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
             <i class="material-icons logo-size">notes</i>
@@ -447,7 +474,7 @@
             cage-free targets and stakeholder expectations
           </p>
         </div>
-        <div class="w-full lg:w-3/12 px-4 text-center card-border">
+        <div class="w-full p-4 lg:w-3/12 px-4 text-center card-border">
           <div
             class="text-blueGray-800 p-3 wh-24 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
             <i class="material-icons logo-size">settings</i>
@@ -460,7 +487,7 @@
             challenging Asianmarkets.
           </p>
         </div>
-        <div class="w-full lg:w-3/12 px-4 text-center card-border">
+        <div class="w-full p-4 lg:w-3/12 px-4 text-center card-border">
           <div
             class="text-blueGray-800 p-3 wh-24 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
             <i class="material-icons text-xl logo-size">support</i>
