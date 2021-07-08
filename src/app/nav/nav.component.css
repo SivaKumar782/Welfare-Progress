@@ -8,5 +8,5 @@
     background: white;
     color: #333;
     box-shadow: 0px 1px 10px #CCC;
+    z-index: 9999;
   }
-

@@ -72,5 +72,4 @@ export class AppComponent implements OnInit {
         
       ];
 
-s
 }
