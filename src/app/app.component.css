@@ -1,8 +1,8 @@
 .mat-form-field + .mat-form-field {
   margin-left: 8px;
 }
-
 .faq{
+  margin-top: 60px;
   text-align: center;
   color: #61C9A8;
   font-weight: bold;
@@ -34,7 +34,7 @@ mat-panel-title{
   box-shadow: none;
 }
 
-mat-form-field {
+.company {
   width: 100%;
 }
 
@@ -46,7 +46,6 @@ mat-form-field {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-
 .box {
   border: 1px solid #ccc;
   font-size: 18px;
@@ -70,13 +69,15 @@ mat-form-field {
 }
 
 
-.heading{
+
+
+.heading1{
   font-weight: 600;
   font-size: 28px;
+  text-align: center;
 }
 
 .heading2{
-  text-align: center;
   font-weight: 600;
   font-size: 28px;
 }
@@ -84,12 +85,12 @@ mat-form-field {
 button{
   border-radius: 0%;
   outline: none;
-  width: 100%;
+  width: 30%;
   color: white;
   font-weight: 400;
   background-color: #61C9A8;
-  height: 50.5px;
-  margin-bottom: 21.5px;
+  height: 45px;
+  margin-bottom: 18px;
 }
 
 ::ng-deep .mat-form-field-outline-start,
@@ -98,7 +99,8 @@ button{
 }
 
 hr {
-  width: 100%;
+  margin-top: 100px;
+  width: 95%;
   height: 3px;
   margin-left: auto;
   margin-right: auto;
@@ -114,4 +116,80 @@ hr {
 
 .logo-size{
   font-size: 50px;
+}
+
+::ng-deep .mat-card{
+  margin: 20px;
+  border:none !important;
+  transition: none !important;
+  box-shadow: none !important;
+}
+
+.reports{
+  padding: 10px 80px;
+}
+
+
+
+
+.period{
+  width: 70%;
+}
+
+
+
+.slide-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 86%;
+  height: 500px;
+}
+
+
+.image:after {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  content:'\A';
+  position:absolute;
+  width:86%;
+  height:100%;
+  top:0; left:7%;
+  background:rgba(0,0,0,0.6);
+  opacity:0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  opacity:1;
+}
+
+::ng-deep .owl-carousel .owl-item img{
+  display: block;
+  width: 86%;
+}
+
+
+.containerrr .box {
+  display : flex;
+  flex-direction : row;
+  
+  }
+
+  
+.carousel-main{
+  margin-top: 100px;
 }

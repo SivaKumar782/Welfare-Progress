@@ -1,12 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+/* @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'); */
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 @import url('https://kit.fontawesome.com/a076d05399.js');
 
 
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css');
+
 *{
   font-family: 'Raleway', sans-serif;
 }
+
+
 
 
 *,
@@ -255,7 +264,7 @@ a {
 }
 
 
-button,
+/* button,
 input,
 optgroup,
 select,
@@ -263,7 +272,7 @@ textarea {
   padding: 0;
   line-height: inherit;
   color: inherit;
-}
+} */
 
 pre,
 code,
@@ -1891,34 +1900,49 @@ select {
   line-height: 1.5rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-2xl {
+.text-nm {
   font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
   line-height: 2.5rem;
 }
 
+.text-md {
+  font-size: 1.7rem;
+  line-height: 2.75rem;
+}
+
+.text-l {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.text-lg {
+  font-size: 2.125rem;
+  line-height: 2.75rem;
+}
+
+.text-xl {
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+}
+
+.text-2xl {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.text-3xl {
+  font-size: 2.875rem;
+  line-height: 3.25rem;
+}
+
+.text-4xl {
+  font-size: 3.25rem;
+  line-height: 3.5rem;
+}
+
 .text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+  font-size: 4rem;
+  line-height: 4;
 }
 
 .leading-none {
@@ -3314,6 +3338,10 @@ select {
   width: 4rem;
 }
 
+.w-20 {
+  width: 5rem;
+}
+
 .wh-24{
   width: 6rem;
   height: 6rem;
@@ -3909,9 +3937,6 @@ select {
   cursor: pointer;
 }
 
-.nav {
-  position:fixed;
-}
 
 
 .is-active{
@@ -3919,7 +3944,10 @@ select {
 }
 
 
-
+.navbar-inverse{
+  background-color: #61C9A8;
+  border-color: white;
+}
 
 
 @media (min-width: 1536px) {
@@ -3969,7 +3997,34 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 
+
+/* @media (max-width: 978px) {
+  .main {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 578px) {
+  .main {
+    margin: 100px 0 0;
+  }
+} */
+
+
+
 .main{
-  margin-top: 100px;
+  margin: 100px 40px 0;
+}
+
+.navbar-nav>li>.dropdown-menu{
+  width: 350px;
+}
+
+.navbar-nav>li>a {
+  padding: 20px;
+}
+
+.carousel-bg{
+  background-color: rgb(193, 255, 234);
 }
 
