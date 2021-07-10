@@ -40,6 +40,8 @@
               "src/styles.css"
             ],
             "scripts": [
+              "src/jquery-1.10.2.min.js",
+              "src/bootstrap.min.js",
               {
                 "input": "node_modules/document-register-element/build/document-register-element.js",
                 "inject": true

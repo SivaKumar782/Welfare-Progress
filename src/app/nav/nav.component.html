@@ -1,106 +1,40 @@
-<!-- <nav [ngClass]="{'fixed': isScrolled}" class="text-primary-color top-0 absolute z-50 w-full flex-wrap items-center justify-between navbar-expand-lg nav">
-  <div class="container mx-auto flex flex-wrap items-center justify-between">
-    <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-      <div class="flex">
-        <p class="py-3 text-blueGray-500 text-2xl">Welfare Progress by </p>
-        <a
-        class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 px-6 whitespace-nowrap uppercase">
-       <img alt="Logo" src="../../../assets/img/newlogo.png"
-         width="150" height="70">
-      </a>
-      </div>
-      <button
-        class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-        type="button" (click)="setNavbarOpen()">
-        <i class="text-white fas fa-bars"></i>
-      </button>
+
+  <nav class="text-primary-color top-0 absolute z-50 w-full flex-wrap items-center justify-between navbar-expand-lg nav">
+    <div class="menu-icon">
+        <span class="fas fa-bars"></span>
     </div>
-    <div class="lg:flex flex-grow items-center bg-white lg:bg-opacity-0 lg:shadow-none"
-      [ngClass]="{ hidden: !navbarOpen, 'block rounded shadow-lg': navbarOpen }" id="example-navbar-warning">
-      <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
-        <li class="flex items-center">
-          <a class="lg:hover:text-blueGray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-          target="_blank" href="https://app.welfareprogress.com/"> Sign In
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-</nav> -->
-
-
-
-
- 
-
-
-
-    <!-- <div ngbDropdown class="d-inline-block">
-      <button class="btn btn-outline-primary" id="dropdownForm1" ngbDropdownToggle>Toggle dropdown</button>
-      <div ngbDropdownMenu aria-labelledby="dropdownForm1">
-        <form class="px-4 py-3">
-          <div class="form-group">
-            <label for="exampleDropdownFormEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com" autocomplete="username">
-          </div>
-          <div class="form-group">
-            <label for="exampleDropdownFormPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password" autocomplete="current-password">
-          </div>
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="dropdownCheck">
-            <label class="form-check-label" for="dropdownCheck">
-              Remember me
-            </label>
-          </div>
-          <button type="submit" class="btn btn-primary">Sign in</button>
-        </form>
-        <div class="dropdown-divider"></div>
-        <button ngbDropdownItem>New around here? Sign up</button>
-        <button ngbDropdownItem>Forgot password?</button>
-      </div>
-    </div> -->
-  
-
-<!-- <nav [ngClass]="{'fixed': isScrolled}" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-    <div id="navbar" class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li><a href=""><div class="flex">
-          <p class="py-3 text-blueGray-500 text-2xl">Welfare Progress by </p>
-          <a
-          class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 px-6 whitespace-nowrap uppercase">
+    <p class="py-3 text-blueGray-500 text-2xl">WelfareProgress by</p>
+    <div class="nav-items">
+        <li><a
+          class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase">
          <img alt="Logo" src="../../../assets/img/newlogo.png"
            width="150" height="70">
-        </a>
-        </div></a></li>
-      </ul>
+        </a></li>
+    </div>
+    <form action="#">
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign In <span class="caret"></span></a>
+          <button class="btn btn-signin dropdown-toggle" data-toggle="dropdown">Report Cage-free Progress <span class="caret"></span></button>
+          <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign In <span class="caret"></span></a> -->
           <ul class="dropdown-menu dropdown-lr animated slideInRight" role="menu">
-            <div class="col-lg-12">
-              <div class="text-center">
-                <h3><b>Log In</b></h3></div>
+            <div class="col-lg-12 mt-4">
               <form id="ajax-login-form" action="" method="post" role="form" autocomplete="off">
                 <div class="form-group">
                   <label for="username">Username</label>
                   <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="" autocomplete="off">
                 </div>
-
+  
                 <div class="form-group">
                   <label for="password">Password</label>
                   <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" autocomplete="off">
                 </div>
                 <div class="form-group">
                   <div class="row">
-                    <div class="col-xs-7">
-                      <input type="checkbox" tabindex="3" name="remember" id="remember">
-                      <label for="remember"> Remember Me</label>
+                    <div class="col-xs-6 pull-left button-lc">
+                      <input type="submit" name="login-submit" id="login-submit" class="form-control btn btn-success1" value="Sign In">
                     </div>
-                    <div class="col-xs-5 pull-right">
-                      <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-success" value="Log In">
+                    <div class="col-xs-6 pull-right">
+                      <input type="submit" name="create-submit" id="create-submit" class="form-control btn btn-success2" value="Create Account">
                     </div>
                   </div>
                 </div>
@@ -118,65 +52,13 @@
           </ul>
         </li>
       </ul>
-    </div>
-  </div>
-</nav>
- -->
-
-
-
-
-<nav  [ngClass]="{'fixed': isScrolled}" class="text-primary-color top-0 absolute z-50 w-full flex-wrap items-center justify-between navbar-expand-lg nav">
-  <div class="menu-icon">
-      <span class="fas fa-bars"></span>
-  </div>
-  <p class="py-3 text-blueGray-500 text-2xl">Welfare Progress by </p>
-  <div class="nav-items">
-      <li><a
-        class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 px-6 whitespace-nowrap uppercase">
-       <img alt="Logo" src="../../../assets/img/newlogo.png"
-         width="150" height="70">
-      </a></li>
-  </div>
-  <form action="#">
-    <ul class="nav navbar-nav navbar-right">
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign In <span class="caret"></span></a>
-        <ul class="dropdown-menu dropdown-lr animated slideInRight" role="menu">
-          <div class="col-lg-12 mt-4">
-            <form id="ajax-login-form" action="" method="post" role="form" autocomplete="off">
-              <div class="form-group">
-                <label for="username">Username</label>
-                <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="" autocomplete="off">
-              </div>
-
-              <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" autocomplete="off">
-              </div>
-              <div class="form-group">
-                <div class="row">
-                  <div class="col-xs-6 pull-left button-lc">
-                    <input type="submit" name="login-submit" id="login-submit" class="form-control btn btn-success1" value="Sign In">
-                  </div>
-                  <div class="col-xs-6 pull-right">
-                    <input type="submit" name="create-submit" id="create-submit" class="form-control btn btn-success2" value="Create Account">
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="row">
-                  <div class="col-lg-12">
-                    <div class="text-center">
-                      <a href="http://phpoll.com/recover" tabindex="5" class="forgot-password">Forgot Password?</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </ul>
-      </li>
-    </ul>
-  </form>
-</nav>
+    </form>
+  
+  
+  
+  
+  
+  
+    
+  </nav>
+  
