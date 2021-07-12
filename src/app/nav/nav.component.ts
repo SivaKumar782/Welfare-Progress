@@ -1,7 +1,4 @@
-import { Component, OnInit, HostListener, Inject } from '@angular/core';
-
-import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
-
+import { Component, OnInit, HostListener, NgModule } from '@angular/core';
 
 
 @Component({
@@ -11,15 +8,15 @@ import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog
 })
 export class NavComponent implements OnInit {
 
-  constructor(public dialog: MatDialog) {}
+  constructor() { }
 
   navbarOpen = false;
   logoSrc = "../"
 
 
   ngOnInit() {
-    
-  }
+
+    }
 
   setNavbarOpen() {
     this.navbarOpen = !this.navbarOpen;
@@ -39,9 +36,6 @@ export class NavComponent implements OnInit {
       : (this.isScrolled = false);
   }
 
-
-
-
+ 
 
 }
-
