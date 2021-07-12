@@ -35,7 +35,8 @@ export class AppComponent implements OnInit {
         touchDrag: false,
         pullDrag: false,
         dots: true,
-        autoplay: true,
+        dotsData: true,
+        autoplay: false,
         autoplaySpeed: 1000,
         navSpeed: 700,
         navText: ['<i class="material-icons">chevron_left</i>','<i class="material-icons">chevron_right</i>'],
@@ -58,6 +59,8 @@ export class AppComponent implements OnInit {
 
 
       periods = [
+        {value: '2021', viewValue: '2021'},
+        {value: '2020', viewValue: '2020'},
         {value: '2019', viewValue: '2019'},
         {value: '2018', viewValue: '2018'},
         {value: '2017', viewValue: '2017'},
