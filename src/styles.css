@@ -3952,7 +3952,10 @@ mat-panel-title, .primary-text{
   font-size: 18px;
   line-height: 2.75rem;
   color: #333;
+}
 
+.w-text{
+  color: #fff;
 }
 
 .is-active{
@@ -4037,3 +4040,4 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   font-size: 16px;
   font-weight: 700;
 }
+

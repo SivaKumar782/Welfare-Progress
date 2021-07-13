@@ -17,11 +17,13 @@ mat-panel-title{
   color: #333;
 }
 
-/* .carouselOne{
-  background-image: url('../assets/wp/20210709_eggs.jpg');
-  opacity: 0.5;
+.carouselOne{
+  /* background-image: url('../assets/img/slide1.jpg'); */
+  /* opacity: 0.5; */
+  
 
-} */
+}
+
 
 .ans{
   font-size: 16px;
@@ -267,3 +269,34 @@ hr {
   background: #61C9A8;
 }
 
+
+
+.test1 {
+  width:100%;
+  height: 600px;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../assets/img/slide1.jpg");
+  position: relative;
+}
+
+.test2 {
+  width:100%;
+  height: 600px;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../assets/img/slide2.jpg");
+  position: relative;
+}
+
+.test3 {
+  width:100%;
+  height: 600px;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../assets/img/slide3.jpg");
+  position: relative;
+}
+
+.test1 .p, .test2 .p, .test3 .p {
+  color: #fff;
+  position: absolute;
+  width: 100%;
+}
