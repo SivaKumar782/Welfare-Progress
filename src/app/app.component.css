@@ -20,7 +20,7 @@ mat-panel-title{
 .carouselOne{
   /* background-image: url('../assets/img/slide1.jpg'); */
   /* opacity: 0.5; */
-  
+
 
 }
 
@@ -273,6 +273,7 @@ hr {
 
 .test1 {
   width:100%;
+  background-position: center;
   height: 600px;
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../assets/img/slide1.jpg");
