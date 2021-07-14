@@ -138,9 +138,9 @@
       /*! @angular/material/core */
       7817);
 
-      function AppComponent_mat_option_13_Template(rf, ctx) {
+      function AppComponent_mat_option_17_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "mat-option", 65);
+          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "mat-option", 61);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](1);
 
@@ -251,9 +251,9 @@
       _AppComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
         type: _AppComponent,
         selectors: [["app-root"]],
-        decls: 217,
+        decls: 207,
         vars: 1,
-        consts: [[1, "main"], ["fxLayout", "row wrap", "fxLayout.xs", "column", "fxLayoutAlign", "space-around center"], ["fxFlex", "45%", "fxFlex.sm", "100%"], [1, "heading1"], [1, "reports"], ["floatLabel", "never", "appearance", "outline", 1, "company"], ["matInput", "", "placeholder", "Enter company name or part of it"], ["floatLabel", "never", "appearance", "outline", 1, "period"], ["placeholder", "Period"], [3, "value", 4, "ngFor", "ngForOf"], ["mat-flat-button", ""], [1, "support-title"], [1, "heading2"], [1, "support-logos"], ["fxLayout", "row", "fxLayoutAlign", "space-around center"], ["src", "../assets/img/angular.jpg", "alt", "THL", "height", "150px", "width", "150px"], [1, "section1-hr"], ["mat-align-tabs", "center", 1, "pt-20", "mb-5"], ["label", "Why report"], [1, "test1"], [1, "p"], [1, "carouselOne"], ["fxFlex", "90%", "fxFlex.md", "100%", "fxFlex.sm", "100%", "fxFlex.xs", "100%"], ["align", "left", 1, "carousel-hr"], [1, "text-2xl", "font-bold", "w-text", "pt-4"], [1, "mt-2", "mb-4", "primary-text", "w-text", "pt-4"], [1, "mt-2", "mb-4", "w-text", "primary-text"], ["label", "Who supports us"], [1, "test2"], [1, ""], [1, "flex", "flex-wrap", "items-center"], ["fxFlex", "90%", "fxFlex.md", "100%", "fxFlex.sm", "100%", "fxFlex.xs", "100%", 1, "mr-auto", "ml-auto", "bg-green-100"], [1, "text-2xl", "pt-4", "font-bold", "mb-2", "font-bold", "leading-normal"], [1, "primary-text", "font-light", "leading-relaxed", "mt-4", "mb-4", "w-text"], [1, "text-lg", "font-light", "leading-relaxed", "mt-0", "mb-4"], ["label", "Who we are"], [1, "test3"], [1, "flex", "mt-4", "flex-wrap", "justify-center"], [1, "mb-4", "primary-text", "leading-relaxed", "tx-white", "w-text"], [1, "primary-text", "w-text"], ["label", "Commitment Checklist"], [1, "text-2xl", "font-bold", "mt-4", "mb-2", "leading-normal"], [1, "mt-4", "px-4", "text-lg", "text-blueGray-600", "leading-relaxed"], [1, "checklist", "mt-6"], [1, "check"], [1, "primary-text"], [1, "main-title"], [1, "mb-20"], [1, "ans"], [1, "ans-head"], [1, "pt-15", "relative", "block"], [1, "container", "mx-auto", "px-4", "lg:pt-6", "pb-20"], [1, "flex", "flex-wrap", "text-center", "justify-center"], [1, "w-full", "lg:w-6/12", "px-4"], [1, "text-3xl", "main-title"], [1, "flex", "flex-wrap", "mt-12", "justify-center"], [1, "w-full", "lg:w-4/12", "px-4", "py-12", "card-section"], ["align", "left", 1, "support-hr"], [1, "text-2xl", "mt-5", "font-semibold"], [1, "mt-4", "mb-4", "primary-text", "text-left"], [1, "text-2xl", "text-center", "mt-5", "font-semibold"], ["href", "http://globalfoodpartners.org/", "target", "_blank", 1, "text-sm", "font-bold", "leading-relaxed", "inline-block", "mr-4", "py-2", "whitespace-nowrap", "uppercase"], ["alt", "Logo", "src", "../assets/wp/rectangulo letra negra fondo trasparente (1) (1).png", "width", "300"], [1, "mt-5", "mb-4", "primary-text", "text-left"], ["href", "#"], [3, "value"]],
+        consts: [[1, "main"], ["fxLayout", "row wrap", "fxLayout.xs", "column", "fxLayoutAlign", "space-around center", 1, "py-24"], ["fxFlex", "45%", "fxFlex.sm", "100%"], [1, "heading1"], [1, "reports"], ["floatLabel", "never", "appearance", "outline", 1, "company"], ["matInput", "", "placeholder", "Enter company name or part of it"], ["floatLabel", "never", "appearance", "outline", 1, "period"], ["placeholder", "Period"], [3, "value", 4, "ngFor", "ngForOf"], ["mat-flat-button", ""], [1, "section1-hr"], ["mat-align-tabs", "center", 1, "pt-20", "mb-5"], ["label", "Why report"], [1, "test1"], [1, "p"], [1, "carouselOne"], ["fxLayout", "row", "fxLayoutAlign", "space-around center"], ["fxFlex", "90%", "fxFlex.md", "100%", "fxFlex.sm", "100%", "fxFlex.xs", "100%"], ["align", "left", 1, "carousel-hr"], [1, "text-2xl", "font-bold", "w-text", "pt-4"], [1, "mt-2", "mb-4", "primary-text", "w-text", "pt-4"], [1, "mt-2", "mb-4", "w-text", "primary-text"], ["label", "Who supports us"], [1, "test2"], [1, ""], [1, "flex", "flex-wrap", "items-center"], ["fxFlex", "90%", "fxFlex.md", "100%", "fxFlex.sm", "100%", "fxFlex.xs", "100%", 1, "mr-auto", "ml-auto", "bg-green-100"], [1, "text-2xl", "pt-4", "font-bold", "mb-2", "font-bold", "leading-normal"], [1, "primary-text", "font-light", "leading-relaxed", "mt-4", "mb-4", "w-text"], [1, "text-lg", "font-light", "leading-relaxed", "mt-0", "mb-4"], ["label", "Who we are"], [1, "test3"], [1, "flex", "mt-4", "flex-wrap", "justify-center"], [1, "mb-4", "primary-text", "leading-relaxed", "tx-white", "w-text"], [1, "primary-text", "w-text"], ["label", "Commitment Checklist"], [1, "text-2xl", "font-bold", "mt-4", "mb-2", "leading-normal"], [1, "mt-4", "px-4", "text-lg", "text-blueGray-600", "leading-relaxed"], [1, "checklist", "mt-6"], [1, "check"], [1, "primary-text"], [1, "main-title"], [1, "mb-20"], [1, "ans"], [1, "ans-head"], [1, "pt-15", "relative", "block"], [1, "container", "mx-auto", "px-4", "lg:pt-6", "pb-20"], [1, "flex", "flex-wrap", "text-center", "justify-center"], [1, "w-full", "lg:w-6/12", "px-4"], [1, "text-3xl", "main-title"], [1, "flex", "flex-wrap", "mt-12", "justify-center"], [1, "w-full", "lg:w-4/12", "px-4", "py-12", "card-section"], ["align", "left", 1, "support-hr"], [1, "text-2xl", "mt-5", "font-semibold"], [1, "mt-4", "mb-4", "primary-text", "text-left"], [1, "text-2xl", "text-center", "mt-5", "font-semibold"], ["href", "http://globalfoodpartners.org/", "target", "_blank", 1, "text-sm", "font-bold", "leading-relaxed", "inline-block", "mr-4", "py-2", "whitespace-nowrap", "uppercase"], ["alt", "Logo", "src", "../assets/wp/rectangulo letra negra fondo trasparente (1) (1).png", "width", "300"], [1, "mt-5", "mb-4", "primary-text", "text-left"], ["href", "#"], [3, "value"]],
         template: function AppComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](0, "app-nav");
@@ -264,39 +264,11 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "mat-card", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "mat-card-title", 3);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "mat-card-header");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5, "View Cage-free Progress");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](5, "mat-card-title");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](6, "mat-card-content");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "div", 4);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "mat-form-field", 5);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](9, "input", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](10, "div", 4);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "mat-form-field", 7);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "mat-select", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](13, AppComponent_mat_option_13_Template, 2, 2, "mat-option", 9);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](14, "button", 10);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](15, "Find Report");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6, "WelfareProgress is an initiative by Global Food Partners, supported by leading animal advocacy organisations. WelfareProgress is a tool for food businesses to report progress against their cage-free egg commitments. Multiple stakeholders use this platform to evaluate corporate progress on this topic.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
@@ -304,105 +276,105 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "mat-card", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](16, "mat-card", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "mat-card-title", 3);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](17, "mat-card-header");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](18, "mat-card-title", 11);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](19, "WelfareProgress is an initiative by Global Food Partners, supported by leading animal advocacy organisations. WelfareProgress is a tool for food businesses to report progress against their cage-free egg commitments. Multiple stakeholders use this platform to evaluate corporate progress on this topic.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](9, "View Cage-free Progress");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](20, "mat-card-title", 12);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](10, "mat-card-content");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](21, "Supported by :");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "mat-form-field", 5);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](13, "input", 6);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](22, "mat-card-content", 13);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](14, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](15, "mat-form-field", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](16, "mat-select", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](17, AppComponent_mat_option_17_Template, 2, 2, "mat-option", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](18, "button", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](19, "Find Report");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](20, "hr", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](21, "mat-tab-group", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](22, "mat-tab", 13);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](23, "div", 14);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](24, "img", 15);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](24, "div", 15);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](25, "img", 15);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](25, "section", 16);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](26, "img", 15);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](26, "div", 17);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](27, "div", 14);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](28, "img", 15);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](29, "img", 15);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](30, "hr", 16);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](31, "mat-tab-group", 17);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](32, "mat-tab", 18);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](33, "div", 19);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](34, "div", 20);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](35, "section", 21);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](36, "div", 14);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](37, "div", 22);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](27, "div", 18);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](38, "hr", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](28, "hr", 19);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](39, "h6", 24);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](29, "h6", 20);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](40, "Reduce your reporting burden");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](30, "Reduce your reporting burden");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](41, "p", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](31, "p", 21);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](42, " The focus of animal advocacy groups is quickly shifting from policy adoption to policy enforcement and accountability, with both local and global organisations nowlaunching questionnaires, surveys, trackers, and benchmarking tools to assess progress. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](32, " The focus of animal advocacy groups is quickly shifting from policy adoption to policy enforcement and accountability, with both local and global organisations nowlaunching questionnaires, surveys, trackers, and benchmarking tools to assess progress. ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](43, "p", 26);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](33, "p", 22);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](44, " Food and hospitality companies around the world are proactively seeking to report and communicate their progress to these advocacy groups and other key stakeholders. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](34, " Food and hospitality companies around the world are proactively seeking to report and communicate their progress to these advocacy groups and other key stakeholders. ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](45, "p", 26);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](35, "p", 22);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](46, " WelfareProgress allows companies to publicly showcase their cage-free implementation progress on a single platform, and reduce the burden of filling out multiple questionnaires. We have got an agreement among key animal advocacy organisations to reference this platform in lieu of their individual progress surveys and questionnaires. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](36, " WelfareProgress allows companies to publicly showcase their cage-free implementation progress on a single platform, and reduce the burden of filling out multiple questionnaires. We have got an agreement among key animal advocacy organisations to reference this platform in lieu of their individual progress surveys and questionnaires. ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](47, "hr", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](37, "hr", 19);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](48, "h6", 24);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](38, "h6", 20);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](49, "Increase transparency ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](39, "Increase transparency ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](50, "p", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](40, "p", 21);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](51, " With hundreds of food businesses around the world committing to go cage-free, it\u2019s now expected that companies report and disclose their progress on this issue. WelfareProgress helps companies demonstrate progress on their cage-free commitments through accurate, thorough and timely reporting, allowing them to provide credible information to investors, animal advocacy groups, suppliers and consumers. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](41, " With hundreds of food businesses around the world committing to go cage-free, it\u2019s now expected that companies report and disclose their progress on this issue. WelfareProgress helps companies demonstrate progress on their cage-free commitments through accurate, thorough and timely reporting, allowing them to provide credible information to investors, animal advocacy groups, suppliers and consumers. ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
@@ -418,41 +390,41 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](52, "mat-tab", 27);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](42, "mat-tab", 23);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](53, "div", 28);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](43, "div", 24);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](54, "div", 20);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](44, "div", 15);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](55, "section", 21);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](45, "section", 16);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](56, "div", 29);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](46, "div", 25);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](57, "div", 30);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](47, "div", 26);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](58, "div", 31);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](48, "div", 27);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](59, "hr", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](49, "hr", 19);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](60, "h6", 32);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](50, "h6", 28);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](61, " Who supports us ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](51, " Who supports us ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](62, "p", 33);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](52, "p", 29);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](63, " Leading animal advocacy organisations endorse and support WelfareProgress. To make the reporting process more efficient and streamlined, they\u2019ve agreed to no longer circulate their individual cage-free egg progress surveys and questionnaires, and instead reference this platform for all cage-free related progress information. We\u2019ll continue engaging with these and other stakeholders to ensure ongoing alignment around cage-free reporting. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](53, " Leading animal advocacy organisations endorse and support WelfareProgress. To make the reporting process more efficient and streamlined, they\u2019ve agreed to no longer circulate their individual cage-free egg progress surveys and questionnaires, and instead reference this platform for all cage-free related progress information. We\u2019ll continue engaging with these and other stakeholders to ensure ongoing alignment around cage-free reporting. ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](64, "p", 34);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](54, "p", 30);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](65, " These organisations include: ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](55, " These organisations include: ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](66, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](56, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](67, " -logos (THL, MFA, Sinergia, AE, Alianima, Forum) ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](57, " -logos (THL, MFA, Sinergia, AE, Alianima, Forum) ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
@@ -470,41 +442,41 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](68, "mat-tab", 35);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](58, "mat-tab", 31);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](69, "div", 36);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](59, "div", 32);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](70, "div", 20);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](60, "div", 15);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](71, "section", 21);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](61, "section", 16);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](72, "div", 29);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](62, "div", 25);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](73, "div", 30);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](63, "div", 26);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](74, "div", 31);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](64, "div", 27);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](75, "hr", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](65, "hr", 19);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](76, "h3", 32);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](66, "h3", 28);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](77, " Who We Are ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](67, " Who We Are ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](78, "div", 37);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](68, "div", 33);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](79, "div", 29);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](69, "div", 25);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](80, "p", 38);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](70, "p", 34);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](81, " Global Food Partners is a multinational consulting firm that works with businesses todevelop, implement and report progress on high animal welfare and responsible sourcing policies to improve their profitability and sustainability. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](71, " Global Food Partners is a multinational consulting firm that works with businesses todevelop, implement and report progress on high animal welfare and responsible sourcing policies to improve their profitability and sustainability. ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](82, "p", 39);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](72, "p", 35);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](83, " Our team has a combined 50+ years of corporate and on-farm experience developing and executing animal welfare policies and production practices, with a focus on cage-free eggs. We\u2019ve worked with food industry leaders, governments and egg industries globally, including across Latin America and Asia, to transition to and maintain high welfare cage-free supply chains and production systems. Having worked extensively with animal advocacy organisations, we know the value of transparent communication of progress to mitigate reputational risks ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](73, " Our team has a combined 50+ years of corporate and on-farm experience developing and executing animal welfare policies and production practices, with a focus on cage-free eggs. We\u2019ve worked with food industry leaders, governments and egg industries globally, including across Latin America and Asia, to transition to and maintain high welfare cage-free supply chains and production systems. Having worked extensively with animal advocacy organisations, we know the value of transparent communication of progress to mitigate reputational risks ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
@@ -526,85 +498,85 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](84, "mat-tab", 40);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](74, "mat-tab", 36);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](85, "section", 21);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](75, "section", 16);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](86, "div", 14);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](76, "div", 17);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](87, "div", 22);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](77, "div", 18);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](88, "hr", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](78, "hr", 19);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](89, "h3", 41);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](79, "h3", 37);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](90, " Commitment Checklist ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](80, " Commitment Checklist ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](91, "p", 42);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](81, "p", 38);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](92, " Does your cage-free egg commitment meet stakeholder expectations? ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](82, " Does your cage-free egg commitment meet stakeholder expectations? ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](93, "ul", 43);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](83, "ul", 39);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](94, "li", 44);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](84, "li", 40);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](95, "h4", 45);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](85, "h4", 41);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](96, " Clearly states that we will source exclusively cage-free egg throughout supplychain ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](86, " Clearly states that we will source exclusively cage-free egg throughout supplychain ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](97, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](87, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](98, "h4", 45);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](88, "h4", 41);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](99, "Covers all eggs in my supply chain, including shell, egg products (liquid, powder, etc.), and food products manufactured by a 3rd party (e.g. pastries)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](89, "Covers all eggs in my supply chain, including shell, egg products (liquid, powder, etc.), and food products manufactured by a 3rd party (e.g. pastries)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](100, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](90, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](101, "h4", 45);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](91, "h4", 41);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](102, "States a deadline \u2013 the date by which my entire supply chain will be cage-free");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](92, "States a deadline \u2013 the date by which my entire supply chain will be cage-free");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](103, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](93, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](104, "h4", 45);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](94, "h4", 41);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](105, "Covers our entire supply chain, including all brands and franchises ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](95, "Covers our entire supply chain, including all brands and franchises ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](106, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](96, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](107, "h4", 45);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](97, "h4", 41);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](108, "Includes a commitment to translate the policy into key local languages");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](98, "Includes a commitment to translate the policy into key local languages");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](109, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](99, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](110, "h4", 45);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](100, "h4", 41);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](111, "Includes a commitment to annual public on progress");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](101, "Includes a commitment to annual public on progress");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
@@ -622,179 +594,179 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](112, "hr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](102, "hr");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](113, "div", 46);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](103, "div", 42);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](114, "Frequently Asked Questions");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](104, "Frequently Asked Questions");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](115, "div", 14);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](105, "div", 17);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](116, "div", 22);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](106, "div", 18);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](117, "div", 47);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](107, "div", 43);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](118, "mat-accordion");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](108, "mat-accordion");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](119, "mat-expansion-panel");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](109, "mat-expansion-panel");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](120, "mat-expansion-panel-header");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](110, "mat-expansion-panel-header");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](121, "mat-panel-title");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](111, "mat-panel-title");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](122, " 1. Why is GFP running welfareprogress.com ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](112, " 1. Why is GFP running welfareprogress.com ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](123, "p", 48);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](113, "p", 44);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](124, "Mitigating reputational risk is a key service we offer to our clients. Having worked extensively with animal advocacy organisations, we know the value of transparent communication of progress to mitigate reputational risks. The focus of animal advocacy groups is shifting quickly from policy adoption to policy enforcement and accountability, with global and local groups now launching questionnaires, surveys, trackers, and benchmarking tools.Filling out numerous cage-free egg progress surveys and questionnaires is overwhelming and time consuming for food businesses. It has become a never-ending task. While these surveys all seek to evaluate progress on the same initiative \u2013 cage-free eggs- they often use different metrics and cover different geographies. We\u2019ve received a lot of feedback from the food industry that there is a need for a more centralised and streamlined reporting process. In order to support our clients and the food industry as a whole, we\u2019ve taken this feedback and developed this platform, which aims to make this process more efficient and uniform.We hope this platform offers a solution to food businessesto efficiently demonstratetheir progress and mitigate reputation risk.Please reach out to us if we can help you with this reporting process.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](114, "Mitigating reputational risk is a key service we offer to our clients. Having worked extensively with animal advocacy organisations, we know the value of transparent communication of progress to mitigate reputational risks. The focus of animal advocacy groups is shifting quickly from policy adoption to policy enforcement and accountability, with global and local groups now launching questionnaires, surveys, trackers, and benchmarking tools.Filling out numerous cage-free egg progress surveys and questionnaires is overwhelming and time consuming for food businesses. It has become a never-ending task. While these surveys all seek to evaluate progress on the same initiative \u2013 cage-free eggs- they often use different metrics and cover different geographies. We\u2019ve received a lot of feedback from the food industry that there is a need for a more centralised and streamlined reporting process. In order to support our clients and the food industry as a whole, we\u2019ve taken this feedback and developed this platform, which aims to make this process more efficient and uniform.We hope this platform offers a solution to food businessesto efficiently demonstratetheir progress and mitigate reputation risk.Please reach out to us if we can help you with this reporting process.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](125, "mat-expansion-panel");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](115, "mat-expansion-panel");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](126, "mat-expansion-panel-header");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](116, "mat-expansion-panel-header");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](127, "mat-panel-title");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](117, "mat-panel-title");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](128, " 2. What benefits does this platform have for food businesses? ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](118, " 2. What benefits does this platform have for food businesses? ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](129, "div", 48);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](119, "div", 44);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](130, "div", 49);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](120, "div", 45);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](131, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](121, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](132, "Reduce your reporting burden");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](122, "Reduce your reporting burden");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](133, " The focus of animal advocacy groups is quickly shifting from policy adoption to policy enforcement and accountability, with both local and global organisations nowlaunching questionnaires, surveys, trackers, and benchmarking tools to assess progress.Food and hospitality companies around the world are proactively seeking to report and communicate their progress to these advocacy groups and other key stakeholders. WelfareProgress allows companies to publicly showcase their cage-free implementation progress on a single platform, and reduce the burden of filling out multiple questionnaires. We have got an agreement among key animal advocacy organisations to reference this platform in lieu of their individual progress surveys and questionnaires. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](123, " The focus of animal advocacy groups is quickly shifting from policy adoption to policy enforcement and accountability, with both local and global organisations nowlaunching questionnaires, surveys, trackers, and benchmarking tools to assess progress.Food and hospitality companies around the world are proactively seeking to report and communicate their progress to these advocacy groups and other key stakeholders. WelfareProgress allows companies to publicly showcase their cage-free implementation progress on a single platform, and reduce the burden of filling out multiple questionnaires. We have got an agreement among key animal advocacy organisations to reference this platform in lieu of their individual progress surveys and questionnaires. ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](134, "div", 49);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](124, "div", 45);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](135, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](125, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](136, "Increase transparency");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](126, "Increase transparency");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](137, " With hundreds of food businesses around the world committing to go cage-free, it\u2019s now expected that companies report and disclose their progress on this issue. WelfareProgress helps companies demonstrate progress on their cage-free commitments through accurate, thorough and timely reporting, allowing them to provide credible information to investors, animal advocacy groups, suppliers and consumers. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](127, " With hundreds of food businesses around the world committing to go cage-free, it\u2019s now expected that companies report and disclose their progress on this issue. WelfareProgress helps companies demonstrate progress on their cage-free commitments through accurate, thorough and timely reporting, allowing them to provide credible information to investors, animal advocacy groups, suppliers and consumers. ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](138, "mat-expansion-panel");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](128, "mat-expansion-panel");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](139, "mat-expansion-panel-header");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](129, "mat-expansion-panel-header");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](140, "mat-panel-title");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](130, "mat-panel-title");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](141, " 3. What animal advocacy groups endorse this initiative? ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](131, " 3. What animal advocacy groups endorse this initiative? ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](142, "p", 48);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](132, "p", 44);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](143, "Leading animal advocacy organisations endorse and support WelfareProgress. To make the reporting process more efficient and streamlined, they\u2019ve agreed to no longer circulate their individual cage-free egg progress surveys and questionnaires, and instead reference this platform for all cage-free related progress information. We\u2019ll continue engaging with these and other stakeholders to ensure ongoing alignment around cage-free reporting. These organisations include The Humane League, Mercy for Animals, Sinergia Animal, and Animal Equality. Organisations like Compassion in World Farming and FAIRR also support this platform and will use it as a reference for their scoring and benchmarking initiatives.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](133, "Leading animal advocacy organisations endorse and support WelfareProgress. To make the reporting process more efficient and streamlined, they\u2019ve agreed to no longer circulate their individual cage-free egg progress surveys and questionnaires, and instead reference this platform for all cage-free related progress information. We\u2019ll continue engaging with these and other stakeholders to ensure ongoing alignment around cage-free reporting. These organisations include The Humane League, Mercy for Animals, Sinergia Animal, and Animal Equality. Organisations like Compassion in World Farming and FAIRR also support this platform and will use it as a reference for their scoring and benchmarking initiatives.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](144, "mat-expansion-panel");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](134, "mat-expansion-panel");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](145, "mat-expansion-panel-header");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](135, "mat-expansion-panel-header");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](146, "mat-panel-title");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](136, "mat-panel-title");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](147, " 4. What if I receive a request for reporting cage-free progress through a different questionnaire or platform? ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](137, " 4. What if I receive a request for reporting cage-free progress through a different questionnaire or platform? ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](148, "p", 48);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](138, "p", 44);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](149, "Key animal advocacy organisations have agreed to use WelfareProgress in lieu of individual progress surveys and questionnaires. Please reach out to us if you receiverequests to report through a different system, and we will be happy to get in touch with that organization.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](139, "Key animal advocacy organisations have agreed to use WelfareProgress in lieu of individual progress surveys and questionnaires. Please reach out to us if you receiverequests to report through a different system, and we will be happy to get in touch with that organization.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](150, "mat-expansion-panel");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](140, "mat-expansion-panel");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](151, "mat-expansion-panel-header");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](141, "mat-expansion-panel-header");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](152, "mat-panel-title");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](142, "mat-panel-title");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](153, " 5. How do I report my cage-free progress? ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](143, " 5. How do I report my cage-free progress? ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](154, "p", 48);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](144, "p", 44);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](155, "You can report your cage-free implementation progress here (link it to \"report progress\" registration page).");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](145, "You can report your cage-free implementation progress here (link it to \"report progress\" registration page).");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](156, "mat-expansion-panel");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](146, "mat-expansion-panel");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](157, "mat-expansion-panel-header");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](147, "mat-expansion-panel-header");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](158, "mat-panel-title");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](148, "mat-panel-title");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](159, " 6. What questions will I be asked? ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](149, " 6. What questions will I be asked? ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](160, "p", 48);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](150, "p", 44);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](161, "You can view the questions here [insert pdf questionnaire link] so that you can prepare your data in advance. Please note that this is just for your reference. You can report your progress here (link to \"report progress\" registration page).");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](151, "You can view the questions here [insert pdf questionnaire link] so that you can prepare your data in advance. Please note that this is just for your reference. You can report your progress here (link to \"report progress\" registration page).");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](162, "mat-expansion-panel");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](152, "mat-expansion-panel");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](163, "mat-expansion-panel-header");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](153, "mat-expansion-panel-header");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](164, "mat-panel-title");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](154, "mat-panel-title");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](165, " 7. What if I need help? ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](155, " 7. What if I need help? ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](166, "p", 48);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](156, "p", 44);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](167, "We'd be happy to walk you through the reporting process and answer any questions you have. Please reach out to us at [help link] for assistance. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](157, "We'd be happy to walk you through the reporting process and answer any questions you have. Please reach out to us at [help link] for assistance. ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
@@ -808,21 +780,21 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](168, "hr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](158, "hr");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](169, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](159, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](170, "section", 50);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](160, "section", 46);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](171, "div", 51);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](161, "div", 47);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](172, "div", 52);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](162, "div", 48);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](173, "div", 53);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](163, "div", 49);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](174, "h2", 54);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](164, "h2", 50);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](175, "Who we are");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](165, "Who we are");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
@@ -830,57 +802,57 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](176, "div", 55);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](166, "div", 51);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](177, "div", 56);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](167, "div", 52);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](178, "hr", 57);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](168, "hr", 53);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](179, "h6", 58);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](169, "h6", 54);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](180, " Planning ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](170, " Planning ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](181, "p", 59);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](171, "p", 55);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](182, " we help you develop your policy and sourcing criteria, and localised roadmaps to ensure you meet your cage-free targets and stakeholder expectations ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](172, " we help you develop your policy and sourcing criteria, and localised roadmaps to ensure you meet your cage-free targets and stakeholder expectations ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](183, "div", 56);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](173, "div", 52);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](184, "hr", 57);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](174, "hr", 53);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](185, "h5", 58);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](175, "h5", 54);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](186, " Implementation ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](176, " Implementation ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](187, "p", 59);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](177, "p", 55);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](188, " we work with you to implement your cage-free roadmaps, so you can meet your animal welfare targets in challenging Asianmarkets. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](178, " we work with you to implement your cage-free roadmaps, so you can meet your animal welfare targets in challenging Asianmarkets. ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](189, "div", 56);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](179, "div", 52);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](190, "hr", 57);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](180, "hr", 53);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](191, "h5", 58);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](181, "h5", 54);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](192, "Support");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](182, "Support");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](193, "p", 59);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](183, "p", 55);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](194, " we help youcommunicate andreport yourcommitments andprogress, and narrate your impact story to key stakeholders. This platform is one tool we\u2019ve developed to facilitate this. We also provide ongoing support for egg suppliers, risk management strategies, and regional monitoring. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](184, " we help youcommunicate andreport yourcommitments andprogress, and narrate your impact story to key stakeholders. This platform is one tool we\u2019ve developed to facilitate this. We also provide ongoing support for egg suppliers, risk management strategies, and regional monitoring. ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
@@ -892,19 +864,19 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](195, "hr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](185, "hr");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](196, "section", 50);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](186, "section", 46);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](197, "div", 51);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](187, "div", 47);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](198, "div", 52);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](188, "div", 48);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](199, "div", 53);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](189, "div", 49);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](200, "h2", 54);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](190, "h2", 50);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](201, "Who support us");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](191, "Who support us");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
@@ -912,41 +884,41 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](202, "div", 55);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](192, "div", 51);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](203, "div", 56);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](193, "div", 52);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](204, "h6", 60);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](194, "h6", 56);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](205, "a", 61);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](195, "a", 57);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](206, "img", 62);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](196, "img", 58);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](207, "p", 63);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](197, "p", 59);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](208, " We believe that reporting on progress is an essential step to make sure cage-free policies are followed. We have been working with companies in Latin America and launched reports to share more about companies\u2019 progress in the region. We will be doing the same in Asia. We are happy to see a new platform that will centralize questionnaires and reporting from companies, so we decided to start sharing this new questionnaire with companies. We\u2019ll create regional reports using the public data available on ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](198, " We believe that reporting on progress is an essential step to make sure cage-free policies are followed. We have been working with companies in Latin America and launched reports to share more about companies\u2019 progress in the region. We will be doing the same in Asia. We are happy to see a new platform that will centralize questionnaires and reporting from companies, so we decided to start sharing this new questionnaire with companies. We\u2019ll create regional reports using the public data available on ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](209, "a", 64);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](199, "a", 60);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](210, "animalwelfare.org ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](200, "animalwelfare.org ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](211, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](201, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](212, " Carolina Galvani, CEO, Sinergia Animal ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](202, " Carolina Galvani, CEO, Sinergia Animal ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](213, "div", 56);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](203, "div", 52);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](214, "div", 56);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](204, "div", 52);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
@@ -954,20 +926,20 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](215, "hr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](205, "hr");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](216, "app-footer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](206, "app-footer");
           }
 
           if (rf & 2) {
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](13);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](17);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngForOf", ctx.periods);
           }
         },
-        directives: [_nav_nav_component__WEBPACK_IMPORTED_MODULE_0__.NavComponent, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_3__.DefaultLayoutDirective, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_3__.DefaultLayoutAlignDirective, _angular_material_card__WEBPACK_IMPORTED_MODULE_4__.MatCard, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_3__.DefaultFlexDirective, _angular_material_card__WEBPACK_IMPORTED_MODULE_4__.MatCardTitle, _angular_material_card__WEBPACK_IMPORTED_MODULE_4__.MatCardContent, _angular_material_form_field__WEBPACK_IMPORTED_MODULE_5__.MatFormField, _angular_material_input__WEBPACK_IMPORTED_MODULE_6__.MatInput, _angular_material_select__WEBPACK_IMPORTED_MODULE_7__.MatSelect, _angular_common__WEBPACK_IMPORTED_MODULE_8__.NgForOf, _angular_material_button__WEBPACK_IMPORTED_MODULE_9__.MatButton, _angular_material_card__WEBPACK_IMPORTED_MODULE_4__.MatCardHeader, _angular_material_tabs__WEBPACK_IMPORTED_MODULE_10__.MatTabGroup, _angular_material_tabs__WEBPACK_IMPORTED_MODULE_10__.MatTab, _angular_material_expansion__WEBPACK_IMPORTED_MODULE_11__.MatAccordion, _angular_material_expansion__WEBPACK_IMPORTED_MODULE_11__.MatExpansionPanel, _angular_material_expansion__WEBPACK_IMPORTED_MODULE_11__.MatExpansionPanelHeader, _angular_material_expansion__WEBPACK_IMPORTED_MODULE_11__.MatExpansionPanelTitle, _footer_footer_component__WEBPACK_IMPORTED_MODULE_1__.FooterComponent, _angular_material_core__WEBPACK_IMPORTED_MODULE_12__.MatOption],
+        directives: [_nav_nav_component__WEBPACK_IMPORTED_MODULE_0__.NavComponent, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_3__.DefaultLayoutDirective, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_3__.DefaultLayoutAlignDirective, _angular_material_card__WEBPACK_IMPORTED_MODULE_4__.MatCard, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_3__.DefaultFlexDirective, _angular_material_card__WEBPACK_IMPORTED_MODULE_4__.MatCardHeader, _angular_material_card__WEBPACK_IMPORTED_MODULE_4__.MatCardTitle, _angular_material_card__WEBPACK_IMPORTED_MODULE_4__.MatCardContent, _angular_material_form_field__WEBPACK_IMPORTED_MODULE_5__.MatFormField, _angular_material_input__WEBPACK_IMPORTED_MODULE_6__.MatInput, _angular_material_select__WEBPACK_IMPORTED_MODULE_7__.MatSelect, _angular_common__WEBPACK_IMPORTED_MODULE_8__.NgForOf, _angular_material_button__WEBPACK_IMPORTED_MODULE_9__.MatButton, _angular_material_tabs__WEBPACK_IMPORTED_MODULE_10__.MatTabGroup, _angular_material_tabs__WEBPACK_IMPORTED_MODULE_10__.MatTab, _angular_material_expansion__WEBPACK_IMPORTED_MODULE_11__.MatAccordion, _angular_material_expansion__WEBPACK_IMPORTED_MODULE_11__.MatExpansionPanel, _angular_material_expansion__WEBPACK_IMPORTED_MODULE_11__.MatExpansionPanelHeader, _angular_material_expansion__WEBPACK_IMPORTED_MODULE_11__.MatExpansionPanelTitle, _footer_footer_component__WEBPACK_IMPORTED_MODULE_1__.FooterComponent, _angular_material_core__WEBPACK_IMPORTED_MODULE_12__.MatOption],
         styles: [".mat-form-field[_ngcontent-%COMP%]    + .mat-form-field[_ngcontent-%COMP%] {\n  margin-left: 8px;\n}\n.main-title[_ngcontent-%COMP%]{\n  margin-top: 60px;\n  text-align: center;\n  color: rgb(51, 51, 51);\n  font-weight: 900;\n  font-size: 36px;\n  padding: 15px 0;\n}\nmat-panel-title[_ngcontent-%COMP%]{\n  font-weight: 500;\n  color: #333;\n}\n.carouselOne[_ngcontent-%COMP%]{\n  \n  \n\n\n}\n.ans[_ngcontent-%COMP%]{\n  font-size: 16px;\n  color: #666;\n  text-align: justify;\n  line-height: 1.6;\n  padding: 0 30px;\n}\n.report[_ngcontent-%COMP%]{\n  padding: 80px;\n}\n.ans-head[_ngcontent-%COMP%]{\n  margin: 10px 0 5px 0;\n}\n.mat-expansion-panel[_ngcontent-%COMP%]:not([class*='mat-elevation-z']) {\n  box-shadow: none;\n}\n.company[_ngcontent-%COMP%] {\n  width: 100%;\n}\n\n  .mat-form-field-appearance-outline .mat-select-arrow-wrapper {\n  transform: translateY(0) !important;\n}\n  .mat-form-field-infix {\n  border-top: .3em solid transparent !important;\n}\n  .mat-form-field-appearance-outline .mat-form-field-outline {\n  color: #61C9A8;\n}\n.heading1[_ngcontent-%COMP%]{\n  font-weight: 600;\n  font-size: 2.75rem;\n  text-align: center;\n}\n.heading2[_ngcontent-%COMP%]{\n  font-weight: 600;\n  font-size: 2.75rem;\n}\n.support-title[_ngcontent-%COMP%]{\n  text-indent: 50px;\n  padding-bottom: 15px;\n  text-align: justify;\n  font-weight: 400;\n  font-size: 1.5rem;\n}\nbutton[_ngcontent-%COMP%]{\n  border-radius: 0%;\n  outline: none;\n  width: 30%;\n  color: white;\n  font-weight: 400;\n  background-color: #61C9A8;\n  height: 45px;\n  margin-bottom: 18px;\n}\n  .mat-form-field-outline-start,   .mat-form-field-outline-end {\n    border-radius: 0px !important;\n}\nhr[_ngcontent-%COMP%] {\n  margin-top: 40px;\n  width: 90%;\n  height: 4px;\n  margin-left: auto;\n  margin-right: auto;\n  background-color: #61C9A8;\n  border: 0 none;\n}\n.carousel-hr[_ngcontent-%COMP%]{\n    width: 70px;\n    height: 4px;\n    margin-left: 0;\n    margin-right: 0;\n    background-color: #61C9A8;\n    border: 0 none;\n    text-align: left;\n}\n.support-hr[_ngcontent-%COMP%]{\n  width: 50px;\n  height: 4px;\n  margin-left: 0;\n  margin-right: 0;\n  background-color: #61C9A8;\n  border: 0 none;\n  text-align: left;\n}\n.section1-hr[_ngcontent-%COMP%] {\n  margin-top: 0px;\n}\n.card-section[_ngcontent-%COMP%]{\n  padding:0 34px;\n}\n.logo-size[_ngcontent-%COMP%]{\n  font-size: 50px;\n}\n  .mat-card{\n  margin: 0 20px;\n  border:none !important;\n  transition: none !important;\n  box-shadow: none !important;\n}\n.reports[_ngcontent-%COMP%]{\n  padding: 10px 80px;\n}\n.period[_ngcontent-%COMP%]{\n  width: 70%;\n}\n.slide-container[_ngcontent-%COMP%] {\n  position: relative;\n  text-align: center;\n  color: white;\n}\n.centered[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.img-center[_ngcontent-%COMP%] {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  width: 86%;\n  height: 500px;\n}\n.image[_ngcontent-%COMP%]:after {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  content:'\\A';\n  position:absolute;\n  width:86%;\n  height:100%;\n  top:0; left:7%;\n  background:rgba(0,0,0,0.6);\n  opacity:0;\n  transition: all 0.5s;\n  -webkit-transition: all 0.5s;\n  opacity:1;\n}\n  .owl-carousel .owl-item img{\n  display: block;\n  width: 50%;\n}\n.containerrr[_ngcontent-%COMP%]   .box[_ngcontent-%COMP%] {\n  display : flex;\n  flex-direction : row;\n\n  }\n.carousel-main[_ngcontent-%COMP%]{\n  margin-top: 100px;\n}\n.support-logos[_ngcontent-%COMP%]{\n  padding: 0 80px 80px;\n}\n.checklist[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n  background: url('check.png') no-repeat left center;\n  padding: 5px 10px 5px 50px;\n  list-style: none;\n  margin-top: 15px;\n  vertical-align: middle;\n}\n  .owl-theme .owl-dots .owl-dot span {\n  width: 100px;\n  height: auto;\n  font-size: 16px;\n  margin: 5px 7px;\n  background: #e3fffa;\n  display: block;\n  transition: opacity .2s ease;\n  border-radius: 4px;\n  position: relative;\n}\n  .owl-theme .owl-dots .owl-dot.active span, .owl-theme[_ngcontent-%COMP%]   .owl-dots[_ngcontent-%COMP%]   .owl-dot[_ngcontent-%COMP%]:hover   span[_ngcontent-%COMP%] {\n  background: #61C9A8;\n}\n.test1[_ngcontent-%COMP%] {\n  width:100%;\n  background-position: center;\n  height: 600px;\n  background-size: cover;\n  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('slide1.jpg');\n  position: relative;\n}\n.test2[_ngcontent-%COMP%] {\n  width:100%;\n  height: 600px;\n  background-size: cover;\n  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('slide2.jpg');\n  position: relative;\n}\n.test3[_ngcontent-%COMP%] {\n  width:100%;\n  height: 600px;\n  background-size: cover;\n  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('slide3.jpg');\n  position: relative;\n}\n.test1[_ngcontent-%COMP%]   .p[_ngcontent-%COMP%], .test2[_ngcontent-%COMP%]   .p[_ngcontent-%COMP%], .test3[_ngcontent-%COMP%]   .p[_ngcontent-%COMP%] {\n  color: #fff;\n  position: absolute;\n  width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBRUE7RUFDRSxnQkFBZ0I7QUFDbEI7QUFDQTtFQUNFLGdCQUFnQjtFQUNoQixrQkFBa0I7RUFDbEIsc0JBQXNCO0VBQ3RCLGdCQUFnQjtFQUNoQixlQUFlO0VBQ2YsZUFBZTtBQUNqQjtBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLFdBQVc7QUFDYjtBQUVBO0VBQ0UsdURBQXVEO0VBQ3ZELGtCQUFrQjs7O0FBR3BCO0FBR0E7RUFDRSxlQUFlO0VBQ2YsV0FBVztFQUNYLG1CQUFtQjtFQUNuQixnQkFBZ0I7RUFDaEIsZUFBZTtBQUNqQjtBQUVBO0VBQ0UsYUFBYTtBQUNmO0FBRUE7RUFDRSxvQkFBb0I7QUFDdEI7QUFFQTtFQUNFLGdCQUFnQjtBQUNsQjtBQUVBO0VBQ0UsV0FBVztBQUNiO0FBRUE7Ozs7Ozs7Ozs7Ozs7RUFhRTtBQUVEO0VBQ0MsbUNBQW1DO0FBQ3JDO0FBSUE7RUFDRSw2Q0FBNkM7QUFDL0M7QUFHQTtFQUNFLGNBQWM7QUFDaEI7QUFLQTtFQUNFLGdCQUFnQjtFQUNoQixrQkFBa0I7RUFDbEIsa0JBQWtCO0FBQ3BCO0FBRUE7RUFDRSxnQkFBZ0I7RUFDaEIsa0JBQWtCO0FBQ3BCO0FBRUE7RUFDRSxpQkFBaUI7RUFDakIsb0JBQW9CO0VBQ3BCLG1CQUFtQjtFQUNuQixnQkFBZ0I7RUFDaEIsaUJBQWlCO0FBQ25CO0FBR0E7RUFDRSxpQkFBaUI7RUFDakIsYUFBYTtFQUNiLFVBQVU7RUFDVixZQUFZO0VBQ1osZ0JBQWdCO0VBQ2hCLHlCQUF5QjtFQUN6QixZQUFZO0VBQ1osbUJBQW1CO0FBQ3JCO0FBRUE7O0lBRUksNkJBQTZCO0FBQ2pDO0FBRUE7RUFDRSxnQkFBZ0I7RUFDaEIsVUFBVTtFQUNWLFdBQVc7RUFDWCxpQkFBaUI7RUFDakIsa0JBQWtCO0VBQ2xCLHlCQUF5QjtFQUN6QixjQUFjO0FBQ2hCO0FBRUE7SUFDSSxXQUFXO0lBQ1gsV0FBVztJQUNYLGNBQWM7SUFDZCxlQUFlO0lBQ2YseUJBQXlCO0lBQ3pCLGNBQWM7SUFDZCxnQkFBZ0I7QUFDcEI7QUFHQTtFQUNFLFdBQVc7RUFDWCxXQUFXO0VBQ1gsY0FBYztFQUNkLGVBQWU7RUFDZix5QkFBeUI7RUFDekIsY0FBYztFQUNkLGdCQUFnQjtBQUNsQjtBQUVBO0VBQ0UsZUFBZTtBQUNqQjtBQUVBO0VBQ0UsY0FBYztBQUNoQjtBQUVBO0VBQ0UsZUFBZTtBQUNqQjtBQUVBO0VBQ0UsY0FBYztFQUNkLHNCQUFzQjtFQUN0QiwyQkFBMkI7RUFDM0IsMkJBQTJCO0FBQzdCO0FBRUE7RUFDRSxrQkFBa0I7QUFDcEI7QUFLQTtFQUNFLFVBQVU7QUFDWjtBQUlBO0VBQ0Usa0JBQWtCO0VBQ2xCLGtCQUFrQjtFQUNsQixZQUFZO0FBQ2Q7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixRQUFRO0VBQ1IsU0FBUztFQUNULGdDQUFnQztBQUNsQztBQUdBO0VBQ0UsY0FBYztFQUNkLGlCQUFpQjtFQUNqQixrQkFBa0I7RUFDbEIsVUFBVTtFQUNWLGFBQWE7QUFDZjtBQUdBO0VBQ0UsY0FBYztFQUNkLGlCQUFpQjtFQUNqQixrQkFBa0I7RUFDbEIsWUFBWTtFQUNaLGlCQUFpQjtFQUNqQixTQUFTO0VBQ1QsV0FBVztFQUNYLEtBQUssRUFBRSxPQUFPO0VBQ2QsMEJBQTBCO0VBQzFCLFNBQVM7RUFDVCxvQkFBb0I7RUFDcEIsNEJBQTRCO0VBQzVCLFNBQVM7QUFDWDtBQUVBO0VBQ0UsY0FBYztFQUNkLFVBQVU7QUFDWjtBQUdBO0VBQ0UsY0FBYztFQUNkLG9CQUFvQjs7RUFFcEI7QUFHRjtFQUNFLGlCQUFpQjtBQUNuQjtBQUVBO0VBQ0Usb0JBQW9CO0FBQ3RCO0FBTUE7RUFDRSxrREFBZ0U7RUFDaEUsMEJBQTBCO0VBQzFCLGdCQUFnQjtFQUNoQixnQkFBZ0I7RUFDaEIsc0JBQXNCO0FBQ3hCO0FBRUE7RUFDRSxZQUFZO0VBQ1osWUFBWTtFQUNaLGVBQWU7RUFDZixlQUFlO0VBQ2YsbUJBQW1CO0VBQ25CLGNBQWM7RUFDZCw0QkFBNEI7RUFDNUIsa0JBQWtCO0VBQ2xCLGtCQUFrQjtBQUNwQjtBQUVBO0VBQ0UsbUJBQW1CO0FBQ3JCO0FBSUE7RUFDRSxVQUFVO0VBQ1YsMkJBQTJCO0VBQzNCLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsNkZBQTJHO0VBQzNHLGtCQUFrQjtBQUNwQjtBQUVBO0VBQ0UsVUFBVTtFQUNWLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsNkZBQTJHO0VBQzNHLGtCQUFrQjtBQUNwQjtBQUVBO0VBQ0UsVUFBVTtFQUNWLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsNkZBQTJHO0VBQzNHLGtCQUFrQjtBQUNwQjtBQUVBO0VBQ0UsV0FBVztFQUNYLGtCQUFrQjtFQUNsQixXQUFXO0FBQ2IiLCJmaWxlIjoiYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcblxuLm1hdC1mb3JtLWZpZWxkICsgLm1hdC1mb3JtLWZpZWxkIHtcbiAgbWFyZ2luLWxlZnQ6IDhweDtcbn1cbi5tYWluLXRpdGxle1xuICBtYXJnaW4tdG9wOiA2MHB4O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGNvbG9yOiByZ2IoNTEsIDUxLCA1MSk7XG4gIGZvbnQtd2VpZ2h0OiA5MDA7XG4gIGZvbnQtc2l6ZTogMzZweDtcbiAgcGFkZGluZzogMTVweCAwO1xufVxuXG5tYXQtcGFuZWwtdGl0bGV7XG4gIGZvbnQtd2VpZ2h0OiA1MDA7XG4gIGNvbG9yOiAjMzMzO1xufVxuXG4uY2Fyb3VzZWxPbmV7XG4gIC8qIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnLi4vYXNzZXRzL2ltZy9zbGlkZTEuanBnJyk7ICovXG4gIC8qIG9wYWNpdHk6IDAuNTsgKi9cblxuXG59XG5cblxuLmFuc3tcbiAgZm9udC1zaXplOiAxNnB4O1xuICBjb2xvcjogIzY2NjtcbiAgdGV4dC1hbGlnbjoganVzdGlmeTtcbiAgbGluZS1oZWlnaHQ6IDEuNjtcbiAgcGFkZGluZzogMCAzMHB4O1xufVxuXG4ucmVwb3J0e1xuICBwYWRkaW5nOiA4MHB4O1xufVxuXG4uYW5zLWhlYWR7XG4gIG1hcmdpbjogMTBweCAwIDVweCAwO1xufVxuXG4ubWF0LWV4cGFuc2lvbi1wYW5lbDpub3QoW2NsYXNzKj0nbWF0LWVsZXZhdGlvbi16J10pIHtcbiAgYm94LXNoYWRvdzogbm9uZTtcbn1cblxuLmNvbXBhbnkge1xuICB3aWR0aDogMTAwJTtcbn1cblxuLyogaW5wdXRbdHlwZT10ZXh0XSwgc2VsZWN0IHtcbiAgd2lkdGg6IDEwMCU7XG4gIHBhZGRpbmc6IDEycHggMjBweDtcbiAgbWFyZ2luOiA4cHggMDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBib3JkZXI6IDFweCBzb2xpZCAjY2NjO1xuICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xufVxuLmJveCB7XG4gIGJvcmRlcjogMXB4IHNvbGlkICNjY2M7XG4gIGZvbnQtc2l6ZTogMThweDtcbiAgY29sb3I6ICMxYzg3Yzk7XG59XG4gKi9cblxuIDo6bmctZGVlcCAubWF0LWZvcm0tZmllbGQtYXBwZWFyYW5jZS1vdXRsaW5lIC5tYXQtc2VsZWN0LWFycm93LXdyYXBwZXIge1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCkgIWltcG9ydGFudDtcbn1cblxuXG5cbjo6bmctZGVlcCAubWF0LWZvcm0tZmllbGQtaW5maXgge1xuICBib3JkZXItdG9wOiAuM2VtIHNvbGlkIHRyYW5zcGFyZW50ICFpbXBvcnRhbnQ7XG59XG5cblxuOjpuZy1kZWVwIC5tYXQtZm9ybS1maWVsZC1hcHBlYXJhbmNlLW91dGxpbmUgLm1hdC1mb3JtLWZpZWxkLW91dGxpbmUge1xuICBjb2xvcjogIzYxQzlBODtcbn1cblxuXG5cblxuLmhlYWRpbmcxe1xuICBmb250LXdlaWdodDogNjAwO1xuICBmb250LXNpemU6IDIuNzVyZW07XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmhlYWRpbmcye1xuICBmb250LXdlaWdodDogNjAwO1xuICBmb250LXNpemU6IDIuNzVyZW07XG59XG5cbi5zdXBwb3J0LXRpdGxle1xuICB0ZXh0LWluZGVudDogNTBweDtcbiAgcGFkZGluZy1ib3R0b206IDE1cHg7XG4gIHRleHQtYWxpZ246IGp1c3RpZnk7XG4gIGZvbnQtd2VpZ2h0OiA0MDA7XG4gIGZvbnQtc2l6ZTogMS41cmVtO1xufVxuXG5cbmJ1dHRvbntcbiAgYm9yZGVyLXJhZGl1czogMCU7XG4gIG91dGxpbmU6IG5vbmU7XG4gIHdpZHRoOiAzMCU7XG4gIGNvbG9yOiB3aGl0ZTtcbiAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzYxQzlBODtcbiAgaGVpZ2h0OiA0NXB4O1xuICBtYXJnaW4tYm90dG9tOiAxOHB4O1xufVxuXG46Om5nLWRlZXAgLm1hdC1mb3JtLWZpZWxkLW91dGxpbmUtc3RhcnQsXG46Om5nLWRlZXAgLm1hdC1mb3JtLWZpZWxkLW91dGxpbmUtZW5kIHtcbiAgICBib3JkZXItcmFkaXVzOiAwcHggIWltcG9ydGFudDtcbn1cblxuaHIge1xuICBtYXJnaW4tdG9wOiA0MHB4O1xuICB3aWR0aDogOTAlO1xuICBoZWlnaHQ6IDRweDtcbiAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gIG1hcmdpbi1yaWdodDogYXV0bztcbiAgYmFja2dyb3VuZC1jb2xvcjogIzYxQzlBODtcbiAgYm9yZGVyOiAwIG5vbmU7XG59XG5cbi5jYXJvdXNlbC1ocntcbiAgICB3aWR0aDogNzBweDtcbiAgICBoZWlnaHQ6IDRweDtcbiAgICBtYXJnaW4tbGVmdDogMDtcbiAgICBtYXJnaW4tcmlnaHQ6IDA7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzYxQzlBODtcbiAgICBib3JkZXI6IDAgbm9uZTtcbiAgICB0ZXh0LWFsaWduOiBsZWZ0O1xufVxuXG5cbi5zdXBwb3J0LWhye1xuICB3aWR0aDogNTBweDtcbiAgaGVpZ2h0OiA0cHg7XG4gIG1hcmdpbi1sZWZ0OiAwO1xuICBtYXJnaW4tcmlnaHQ6IDA7XG4gIGJhY2tncm91bmQtY29sb3I6ICM2MUM5QTg7XG4gIGJvcmRlcjogMCBub25lO1xuICB0ZXh0LWFsaWduOiBsZWZ0O1xufVxuXG4uc2VjdGlvbjEtaHIge1xuICBtYXJnaW4tdG9wOiAwcHg7XG59XG5cbi5jYXJkLXNlY3Rpb257XG4gIHBhZGRpbmc6MCAzNHB4O1xufVxuXG4ubG9nby1zaXple1xuICBmb250LXNpemU6IDUwcHg7XG59XG5cbjo6bmctZGVlcCAubWF0LWNhcmR7XG4gIG1hcmdpbjogMCAyMHB4O1xuICBib3JkZXI6bm9uZSAhaW1wb3J0YW50O1xuICB0cmFuc2l0aW9uOiBub25lICFpbXBvcnRhbnQ7XG4gIGJveC1zaGFkb3c6IG5vbmUgIWltcG9ydGFudDtcbn1cblxuLnJlcG9ydHN7XG4gIHBhZGRpbmc6IDEwcHggODBweDtcbn1cblxuXG5cblxuLnBlcmlvZHtcbiAgd2lkdGg6IDcwJTtcbn1cblxuXG5cbi5zbGlkZS1jb250YWluZXIge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgY29sb3I6IHdoaXRlO1xufVxuXG4uY2VudGVyZWQge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogNTAlO1xuICBsZWZ0OiA1MCU7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xufVxuXG5cbi5pbWctY2VudGVyIHtcbiAgZGlzcGxheTogYmxvY2s7XG4gIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICBtYXJnaW4tcmlnaHQ6IGF1dG87XG4gIHdpZHRoOiA4NiU7XG4gIGhlaWdodDogNTAwcHg7XG59XG5cblxuLmltYWdlOmFmdGVyIHtcbiAgZGlzcGxheTogYmxvY2s7XG4gIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICBtYXJnaW4tcmlnaHQ6IGF1dG87XG4gIGNvbnRlbnQ6J1xcQSc7XG4gIHBvc2l0aW9uOmFic29sdXRlO1xuICB3aWR0aDo4NiU7XG4gIGhlaWdodDoxMDAlO1xuICB0b3A6MDsgbGVmdDo3JTtcbiAgYmFja2dyb3VuZDpyZ2JhKDAsMCwwLDAuNik7XG4gIG9wYWNpdHk6MDtcbiAgdHJhbnNpdGlvbjogYWxsIDAuNXM7XG4gIC13ZWJraXQtdHJhbnNpdGlvbjogYWxsIDAuNXM7XG4gIG9wYWNpdHk6MTtcbn1cblxuOjpuZy1kZWVwIC5vd2wtY2Fyb3VzZWwgLm93bC1pdGVtIGltZ3tcbiAgZGlzcGxheTogYmxvY2s7XG4gIHdpZHRoOiA1MCU7XG59XG5cblxuLmNvbnRhaW5lcnJyIC5ib3gge1xuICBkaXNwbGF5IDogZmxleDtcbiAgZmxleC1kaXJlY3Rpb24gOiByb3c7XG5cbiAgfVxuXG5cbi5jYXJvdXNlbC1tYWlue1xuICBtYXJnaW4tdG9wOiAxMDBweDtcbn1cblxuLnN1cHBvcnQtbG9nb3N7XG4gIHBhZGRpbmc6IDAgODBweCA4MHB4O1xufVxuXG5cblxuXG5cbi5jaGVja2xpc3QgbGkge1xuICBiYWNrZ3JvdW5kOiB1cmwoJy4uL2Fzc2V0cy9pbWcvY2hlY2sucG5nJykgbm8tcmVwZWF0IGxlZnQgY2VudGVyO1xuICBwYWRkaW5nOiA1cHggMTBweCA1cHggNTBweDtcbiAgbGlzdC1zdHlsZTogbm9uZTtcbiAgbWFyZ2luLXRvcDogMTVweDtcbiAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcbn1cblxuOjpuZy1kZWVwIC5vd2wtdGhlbWUgLm93bC1kb3RzIC5vd2wtZG90IHNwYW4ge1xuICB3aWR0aDogMTAwcHg7XG4gIGhlaWdodDogYXV0bztcbiAgZm9udC1zaXplOiAxNnB4O1xuICBtYXJnaW46IDVweCA3cHg7XG4gIGJhY2tncm91bmQ6ICNlM2ZmZmE7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICB0cmFuc2l0aW9uOiBvcGFjaXR5IC4ycyBlYXNlO1xuICBib3JkZXItcmFkaXVzOiA0cHg7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuOjpuZy1kZWVwIC5vd2wtdGhlbWUgLm93bC1kb3RzIC5vd2wtZG90LmFjdGl2ZSBzcGFuLCAub3dsLXRoZW1lIC5vd2wtZG90cyAub3dsLWRvdDpob3ZlciBzcGFuIHtcbiAgYmFja2dyb3VuZDogIzYxQzlBODtcbn1cblxuXG5cbi50ZXN0MSB7XG4gIHdpZHRoOjEwMCU7XG4gIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcbiAgaGVpZ2h0OiA2MDBweDtcbiAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KHJnYmEoMCwgMCwgMCwgMC41KSwgcmdiYSgwLCAwLCAwLCAwLjUpICksIHVybChcIi4uL2Fzc2V0cy9pbWcvc2xpZGUxLmpwZ1wiKTtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xufVxuXG4udGVzdDIge1xuICB3aWR0aDoxMDAlO1xuICBoZWlnaHQ6IDYwMHB4O1xuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQocmdiYSgwLCAwLCAwLCAwLjUpLCByZ2JhKDAsIDAsIDAsIDAuNSkgKSwgdXJsKFwiLi4vYXNzZXRzL2ltZy9zbGlkZTIuanBnXCIpO1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG5cbi50ZXN0MyB7XG4gIHdpZHRoOjEwMCU7XG4gIGhlaWdodDogNjAwcHg7XG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudChyZ2JhKDAsIDAsIDAsIDAuNSksIHJnYmEoMCwgMCwgMCwgMC41KSApLCB1cmwoXCIuLi9hc3NldHMvaW1nL3NsaWRlMy5qcGdcIik7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuLnRlc3QxIC5wLCAudGVzdDIgLnAsIC50ZXN0MyAucCB7XG4gIGNvbG9yOiAjZmZmO1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHdpZHRoOiAxMDAlO1xufVxuIl19 */"]
       });
       /***/
