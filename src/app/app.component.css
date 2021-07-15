@@ -101,6 +101,14 @@ mat-panel-title{
   font-size: 1.5rem;
 }
 
+.ceo{
+  margin-left: 12px;
+}
+
+
+a{
+  color: #61C9A8;
+}
 
 button{
   border-radius: 0%;
