@@ -79,13 +79,23 @@ mat-panel-title{
   color: #61C9A8;
 }
 
+.soon{
+  color: grey;
+  cursor: not-allowed;
+}
 
-
+.coming-soon{
+  color: grey;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 2rem;
+}
 
 .heading1{
   font-weight: 600;
   font-size: 2.75rem;
-  text-align: center;
+  text-align: right;
+  padding-right: 13%;
 }
 
 .heading2{
@@ -105,6 +115,10 @@ mat-panel-title{
   margin-left: 12px;
 }
 
+.intro{
+  text-indent: 50px;
+  text-align: justify;
+}
 
 a{
   color: #61C9A8;
@@ -257,7 +271,7 @@ hr {
   background: url('../assets/img/check.png') no-repeat left center;
   padding: 5px 10px 5px 50px;
   list-style: none;
-  margin-top: 15px;
+  margin-top: 5px;
   vertical-align: middle;
 }
 
@@ -308,4 +322,8 @@ hr {
   color: #fff;
   position: absolute;
   width: 100%;
+}
+
+.tab-img{
+  border-radius: 8px;
 }
