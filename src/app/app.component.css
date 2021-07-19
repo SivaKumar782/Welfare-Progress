@@ -4,7 +4,7 @@
   margin-left: 8px;
 }
 .main-title{
-  margin-top: 60px;
+  /* margin-top: 60px; */
   text-align: center;
   color: rgb(51, 51, 51);
   font-weight: 900;
@@ -23,7 +23,6 @@ mat-panel-title{
 
 
 }
-
 
 .ans{
   font-size: 16px;
@@ -86,16 +85,15 @@ mat-panel-title{
 
 .coming-soon{
   color: grey;
-  text-align: center;
   font-size: 18px;
+  float: right;
   font-weight: 2rem;
 }
 
 .heading1{
   font-weight: 600;
   font-size: 2.75rem;
-  text-align: right;
-  padding-right: 13%;
+  text-align: left;
 }
 
 .heading2{
@@ -113,11 +111,6 @@ mat-panel-title{
 
 .ceo{
   margin-left: 12px;
-}
-
-.intro{
-  text-indent: 50px;
-  text-align: justify;
 }
 
 a{
@@ -141,7 +134,7 @@ button{
 }
 
 hr {
-  margin-top: 40px;
+  margin-top: 20px;
   width: 90%;
   height: 4px;
   margin-left: auto;
@@ -184,14 +177,14 @@ hr {
 }
 
 ::ng-deep .mat-card{
-  margin: 0 20px;
+  /* margin: 0 20px; */
   border:none !important;
   transition: none !important;
   box-shadow: none !important;
 }
 
 .reports{
-  padding: 10px 80px;
+  padding: 10px 0;
 }
 
 
@@ -260,10 +253,8 @@ hr {
 }
 
 .support-logos{
-  padding: 0 80px 80px;
+  padding: 0 90px 80px;
 }
-
-
 
 
 
@@ -324,6 +315,7 @@ hr {
   width: 100%;
 }
 
-.tab-img{
+/* .tab-img{
   border-radius: 8px;
-}
+} */
+
