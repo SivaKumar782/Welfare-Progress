@@ -15,28 +15,29 @@
           progress <span class="caret"></span></button>
         <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign In <span class="caret"></span></a> -->
         <ul class="dropdown-menu dropdown-lr animated slideInRight" role="menu">
+          <div class="construction">Under construction...</div>
           <div class="col-lg-12 mt-4">
             <form id="ajax-login-form" action="" method="post" role="form" autocomplete="off">
               <div class="form-group">
                 <label for="username">Email ID</label>
                 <input type="text" name="username" id="username" tabindex="1" class="form-control"
-                  placeholder="Email ID" value="" autocomplete="off">
+                  placeholder="Email ID" value="" autocomplete="off" disabled>
               </div>
 
               <div class="form-group">
                 <label for="password">Password</label>
                 <input type="password" name="password" id="password" tabindex="2" class="form-control"
-                  placeholder="Password" autocomplete="off">
+                  placeholder="Password" autocomplete="off" disabled>
               </div>
               <div class="form-group">
                 <div class="row">
                   <div class="col-xs-6 pull-left button-lc">
                     <button type="submit" name="login-submit" id="login-submit" class="form-control btn btn-success1"
-                      value="Sign In"> Sign in</button>
+                      value="Sign In" disabled> Sign in</button>
                   </div>
                   <div class="col-xs-6 pull-right">
                       <a href="https://app.welfareprogress.com/#/authentication/signup" target="_blank" type="submit" name="create-submit" id="create-submit" class="form-control btn btn-success2"
-                      value="Create Account"> Register</a>
+                      value="Create Account" disabled> Register</a>
 
                   </div>
                 </div>
@@ -45,7 +46,7 @@
                 <div class="row">
                   <div class="col-lg-12">
                     <div class="text-center">
-                      <a href="#" class="forgot-password">Forgot password?</a>
+                      <span class="forgot-password" disabled>Forgot password?</span>
                     </div>
                   </div>
                 </div>

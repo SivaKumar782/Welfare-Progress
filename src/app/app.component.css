@@ -81,9 +81,11 @@ mat-panel-title{
 .soon{
   color: grey;
   cursor: not-allowed;
+  text-align: left;
 }
 
 .coming-soon{
+  padding-top: 6px;
   color: grey;
   font-size: 18px;
   float: right;
@@ -252,9 +254,9 @@ hr {
   margin-top: 100px;
 }
 
-.support-logos{
-  padding: 0 90px 80px;
-}
+/* .support-logos{
+  padding: 0 90px;
+} */
 
 
 
