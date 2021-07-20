@@ -4060,6 +4060,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   text-indent: 50px;
 }
 
+.ti-35{
+  text-indent: 35px;
+}
 
 .mat-tab-label-active{
   opacity: 1 !important;
