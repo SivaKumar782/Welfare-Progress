@@ -2206,6 +2206,14 @@ select {
   margin-top: 4rem;
 }
 
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
+.mb-16{
+  margin-bottom: 4rem;
+}
+
 .mt-20 {
   margin-top: 5rem;
 }
@@ -2685,8 +2693,20 @@ select {
   padding-right: 3rem;
 }
 
+.pr-20 {
+  padding-right: 5rem;
+}
+
+.pr-28 {
+  padding-right: 7rem;
+}
+
 .pt-16 {
   padding-top: 4rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
 }
 
 .pb-16 {
@@ -4084,6 +4104,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   margin: 100px 40px 0;
 }
 
+.main2{
+  margin: 0 40px 0;
+}
+
 .navbar-nav>li>.dropdown-menu{
   width: 350px;
 }
@@ -4101,4 +4125,24 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   font-weight: 700;
 }
 
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+  background: #fff;
+}
 
+.ti-50{
+  text-indent: 50px;
+}
+
+.ti-35{
+  text-indent: 35px;
+}
+
+.mat-tab-label-active{
+  opacity: 1 !important;
+  }
+
+.mat-tab-nav-bar, .mat-tab-header {
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    width: 60%;
+    margin: 0px auto;
+}
