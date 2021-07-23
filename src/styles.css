@@ -214,6 +214,10 @@ body {
   border-color: #333;
 }
 
+.heading-color{
+  color: #333;
+}
+
 hr {
   border-top-width: 1px;
 }
@@ -2639,6 +2643,11 @@ select {
   padding-left: 2.5rem;
 }
 
+.pl-20 {
+  padding-left: 5rem;
+}
+
+
 .pt-12 {
   padding-top: 3rem;
 }
@@ -4035,7 +4044,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 
-
+.pt-100{
+  padding-top: 100px;
+}
 
 
 .main{
@@ -4086,3 +4097,4 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     width: 60%;
     margin: 0px auto;
 }
+

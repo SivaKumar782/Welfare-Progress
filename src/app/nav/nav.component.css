@@ -1,23 +1,14 @@
 
-
-/* @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'); */
-
 nav{
-  position: fixed;
-  box-shadow: 0px 1px 10px #CCC;
-  background: #fff;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  height: 60px;
-  padding: 0 110px 0 110px;
+  box-shadow: 0px 1px 10px #ccc;
+  background-color: #fff;
 }
 
 nav .nav-items{
   display: flex;
   flex: 1;
 }
+
 nav .nav-items li{
   list-style: none;
   padding: 0 8px;
@@ -43,7 +34,6 @@ nav .nav-items li{
     color: #61C9A8;
     font-weight: bold;
     background-color: #e8fff8;
-    /* border: 1px solid #fcfdfd; */
 }
 
 [type='text'], [type='password'],textarea, select {
@@ -56,12 +46,15 @@ nav .nav-items li{
 .btn-signin, .btn-signin:active {
     padding: 0 20px;
     color: back;
-    /* background-color: rgb(32, 32, 32); */
-    /* border-color: rgb(32, 32, 32); */
 }
 
 a {
   text-decoration: none !important;
+}
+
+
+.nav>li {
+  background-color: #fff;
 }
 
 
@@ -70,3 +63,21 @@ a {
   color: grey;
   font-weight: bold;
 }
+
+.forgot-password{
+  color: #61C9A8;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #61C9A8;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #61C9A8;
+}
+
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #c9f5e7;
+}
+

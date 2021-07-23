@@ -1,97 +1,62 @@
 <app-nav></app-nav>
-
-
-
-
-
-
-
-<div fxLayout="row" fxLayoutAlign="space-around center" class="main">
-  <div fxFlex="90%" fxFlex.md="100%" fxFlex.sm="100%" fxFlex.xs="100%">
-
-    <mat-card fxFlex="50%" fxFlex.sm="100%">
-      <mat-card-content class="primary-text">WelfareProgress is an initiative by Global Food Partners, supported by
-        leading animal advocacy organisations.
-        WelfareProgress is a tool for food businesses to report progress against their cage-free egg commitments.
-        Multiple stakeholders use this platform to evaluate corporate progress on this topic.</mat-card-content>
-
-      <div fxLayout="row" fxLayoutAlign="start center">
-
-
-
-        <div fxFlex="80%" fxFlex.sm="100%">
-          <mat-card-title class="coming-soon">Coming soon...</mat-card-title>
-          <mat-card-title class="heading1 soon">View cage-free progress
-          </mat-card-title>
-          <div class="reports soon">
-            <mat-form-field floatLabel="never" appearance="outline" class="company">
-              <input matInput placeholder="Enter company name" disabled>
-            </mat-form-field>
-          </div>
-          <div class="reports soon">
-            <mat-form-field floatLabel="never" appearance="outline" class="period">
-              <mat-select placeholder="Period" disabled>
-                <mat-option *ngFor="let period of periods" [value]="period.value">
-                  {{period.viewValue}}
-                </mat-option>
-              </mat-select>
-            </mat-form-field>
-            <button mat-flat-button disabled>Find report</button>
-          </div>
+<div fxLayout="row wrap" fxLayoutAlign="center strech" fxLayoutGap="30px" class="pt-100">
+  <div fxFlex="43%" fxFlex.md="45%" fxFlex.sm="90%" fxFlex.xs="95%" class="px-6">
+    <mat-card-content class="primary-text">WelfareProgress is an initiative by Global Food Partners, supported by
+      leading animal advocacy organisations.
+      WelfareProgress is a tool for food businesses to report progress against their cage-free egg commitments.
+      Multiple stakeholders use this platform to evaluate corporate progress on this topic.</mat-card-content>
+    <div fxLayout="row" fxLayoutAlign="start center">
+      <div fxFlex="80%" fxFlex.md="80%" fxFlex.sm="100%" fxFlex.xs="100%">
+        <hr class="carousel-hr" align="left">
+        <mat-card-title class="coming-soon">Coming soon</mat-card-title>
+        <mat-card-title class="heading1 soon">View cage-free progress
+        </mat-card-title>
+        <div class="soon">
+          <mat-form-field floatLabel="never" appearance="outline" class="company">
+            <input matInput placeholder="Enter company name" disabled>
+          </mat-form-field>
+        </div>
+        <div class="soon">
+          <mat-form-field floatLabel="never" appearance="outline" class="period">
+            <mat-select placeholder="Period" disabled>
+              <mat-option *ngFor="let period of periods" [value]="period.value">
+                {{period.viewValue}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+          <button mat-flat-button disabled>Find report</button>
         </div>
       </div>
+    </div>
+  </div>
 
-    </mat-card>
+  <div fxFlex="40%" fxFlex.md="40%" fxFlex.sm="90%" fxFlex.xs="95%">
+    <mat-card-title class="heading2">An initiative supported by</mat-card-title>
+    <mat-card-content>
+      <div fxLayout="row wrap" fxLayoutAlign="space-around center">
+        <img src="../assets/img/angular.jpg" alt="THL" height="150px" width="150px">
+        <img src="../assets/img/angular.jpg" alt="THL" height="150px" width="150px">
+        <img src="../assets/img/angular.jpg" alt="THL" height="150px" width="150px">
+      </div>
 
-    <mat-card fxFlex="100%" fxFlex.sm="100%">
-      <mat-card-title class="heading2 ti-35">An initiative supported by</mat-card-title>
-
-
-
-
-      <mat-card-content class="support-logos">
-        <div fxLayout="row" fxLayoutAlign="space-between center">
-          <img src="../assets/img/angular.jpg" alt="THL" height="150px" width="150px">
-          <img src="../assets/img/angular.jpg" alt="THL" height="150px" width="150px">
-          <img src="../assets/img/angular.jpg" alt="THL" height="150px" width="150px">
-        </div>
-
-        <div fxLayout="row" fxLayoutAlign="space-around center">
-          <img src="../assets/img/angular.jpg" alt="THL" height="150px" width="150px">
-          <img src="../assets/img/angular.jpg" alt="THL" height="150px" width="150px">
-        </div>
-      </mat-card-content>
-    </mat-card>
+      <div fxLayout="row wrap" fxLayoutAlign="space-around center">
+        <img src="../assets/img/angular.jpg" alt="THL" height="150px" width="150px">
+        <img src="../assets/img/angular.jpg" alt="THL" height="150px" width="150px">
+      </div>
+    </mat-card-content>
 
   </div>
 </div>
 
-
-
-
-
-
-<hr class="section1-hr main">
-
-
-
-
-
+<hr class="section1-hr">
 
 <mat-tab-group mat-align-tabs="center" class="pt-16 mb-5">
-
-
   <mat-tab label="Why report">
-
-    <div fxLayout="row wrap" fxLayoutAlign="end center" class="py-6">
-
-
-      <div fxFlex="46%" fxFlex.md="46%" fxFlex.sm="100%" fxFlex.xs="100%" class="px-6 pr-28">
-
+    <div fxLayout="row wrap" fxLayoutAlign="end center" fxLayoutGap="56px" class="py-6">
+      <div fxFlex="42.3%" fxFlex.md="43.5%" fxFlex.sm="90%" fxFlex.xs="95%" class="px-6">
         <hr class="carousel-hr" align="left">
         <h6 class="text-2xl font-bold pt-4">Reduce your reporting burden</h6>
         <p class="mt-2 mb-4 primary-text pt-4">
-
           The focus of animal advocacy groups is quickly shifting from policy adoption to policy enforcement
           and
           accountability, with both local and global organisations now launching questionnaires, surveys,
@@ -113,12 +78,6 @@
           progress
           surveys and questionnaires.
         </p>
-
-        <!-- </div> -->
-
-
-        <!-- <div fxFlex="70%" fxFlex.sm="100%"> -->
-
         <hr class="carousel-hr" align="left">
 
         <h6 class="text-2xl font-bold pt-4">Increase transparency </h6>
@@ -131,28 +90,18 @@
           allowing them to provide credible information to investors, animal advocacy groups, suppliers and
           consumers.
         </p>
-
-
       </div>
-
-      <div fxFlex="46.5%" fxFlex.md="46.5%" fxFlex.sm="100%" fxFlex.xs="100%">
-
+      <div fxFlex="46.5%" fxFlex.md="46.5%" fxFlex.sm="90%" fxFlex.xs="95%">
         <div class="py-6">
-          <img src="../assets/img/tab1.jpg">
+          <img src="../assets/img/tab11.jpg">
         </div>
-
       </div>
     </div>
   </mat-tab>
 
-
   <mat-tab label="About Global Food Partners">
-
-    <div fxLayout="row wrap" fxLayoutAlign="end center" class="py-6">
-
-
-      <div fxFlex="46%" fxFlex.md="46%" fxFlex.sm="100%" fxFlex.xs="100%" class="px-6 pr-28">
-
+    <div fxLayout="row wrap" fxLayoutAlign="end center" fxLayoutGap="56px" class="py-6">
+      <div fxFlex="42.3%" fxFlex.md="43.5%" fxFlex.sm="90%" fxFlex.xs="95%" class="px-6">
         <hr class="carousel-hr" align="left">
         <h3 class="text-2xl pt-4 font-bold mb-2 font-bold leading-normal">
           Who we are
@@ -180,76 +129,25 @@
           </p>
 
         </div>
-
-
       </div>
-
-      <div fxFlex="46.5%" fxFlex.md="46.5%" fxFlex.sm="100%" fxFlex.xs="100%">
-
+      <div fxFlex="46.5%" fxFlex.md="46.5%" fxFlex.sm="90%" fxFlex.xs="95%">
         <div class="py-6">
-          <img src="../assets/img/tab2.jpg">
+          <img src="../assets/img/tab21.jpg">
         </div>
-
       </div>
     </div>
   </mat-tab>
 
-  <!-- <mat-tab label="Who supports us">
-      <div class="test2">
-        <div class="p">
-          <section class="carouselOne">
-            <div class="">
-              <div class="flex flex-wrap items-center">
-                <div fxFlex="90%" fxFlex.md="100%" fxFlex.sm="100%" fxFlex.xs="100%"
-                  class=" mr-auto ml-auto bg-green-100 ">
-                  <hr class="carousel-hr" align="left">
-                  <h6 class="text-2xl pt-4 font-bold mb-2 font-bold leading-normal">
-                    Who supports us
-                  </h6>
-                  <p class="primary-text font-light leading-relaxed mt-4 mb-4 w-text">
-                    Leading animal advocacy organisations endorse and support WelfareProgress. To make the reporting
-                    process
-                    more efficient and streamlined, they’ve agreed to no longer circulate their individual cage-free egg
-                    progress surveys and questionnaires, and instead reference this platform for all cage-free related
-                    progress
-                    information. We’ll continue engaging with these and other stakeholders to ensure ongoing alignment
-                    around
-                    cage-free reporting.
-                  </p>
-                  <p class="text-lg font-light leading-relaxed mt-0 mb-4">
-                    These organisations include: <br> -logos (THL, MFA, Sinergia, AE, Alianima, Forum)
-                  </p>
-
-                </div>
-
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-
-    </mat-tab> -->
-
-
-
   <mat-tab label="Commitment checklist">
-
-    <div fxLayout="row wrap" fxLayoutAlign="end center" class="py-6">
-
-
-      <div fxFlex="46%" fxFlex.md="46%" fxFlex.sm="100%" fxFlex.xs="100%" class="px-6 pr-28">
-
+    <div fxLayout="row wrap" fxLayoutAlign="end center" fxLayoutGap="56px" class="py-6">
+      <div fxFlex="42.3%" fxFlex.md="43.5%" fxFlex.sm="90%" fxFlex.xs="95%" class="px-6">
         <hr class="carousel-hr" align="left">
-
         <h3 class="text-2xl font-bold mt-4 mb-2 leading-normal">
           Commitment checklist
         </h3>
         <p class="mt-4 px-4 text-lg text-blueGray-600 leading-relaxed">
           Does your cage-free egg commitment meet stakeholder expectations?
         </p>
-
-
-
         <ul class="checklist mt-6">
           <li class="check">
             <h4 class="primary-text">
@@ -283,36 +181,28 @@
 
       </div>
 
-      <div fxFlex="46.5%" fxFlex.md="46.5%" fxFlex.sm="100%" fxFlex.xs="100%">
+      <div fxFlex="46.5%" fxFlex.md="46.5%" fxFlex.sm="90%" fxFlex.xs="95%">
 
         <div class="py-6">
-          <img src="../assets/img/tab3.jpg">
+          <img src="../assets/img/tab31.jpg">
         </div>
 
       </div>
     </div>
   </mat-tab>
-
-
-
-
-
 </mat-tab-group>
 
-
-
-
-<hr class="main">
+<hr class="top-100">
 
 <div class="main-title mt-10">Frequently Asked Questions</div>
-<div fxLayout="row" fxLayoutAlign="space-around center" class="main2">
-  <div fxFlex="90%" fxFlex.md="100%" fxFlex.sm="100%" fxFlex.xs="100%">
+<div fxLayout="row" fxLayoutAlign="space-around center">
+  <div fxFlex="85%" fxFlex.md="85%" fxFlex.sm="90%" fxFlex.xs="95%">
     <div class="mb-16">
       <mat-accordion>
         <mat-expansion-panel>
           <mat-expansion-panel-header>
             <mat-panel-title>
-              1. Why is GFP running welfareprogress.com
+              1. Why is GFP running welfareprogress.com?
             </mat-panel-title>
           </mat-expansion-panel-header>
           <p class="ans">Mitigating reputational risk is a key service we offer to our clients.
@@ -394,10 +284,6 @@
             and we will be happy to get in touch with that organization.</p>
         </mat-expansion-panel>
 
-
-
-
-
         <mat-expansion-panel>
           <mat-expansion-panel-header>
             <mat-panel-title>
@@ -430,71 +316,20 @@
               target="_blank">team@globalfoodpartners.com</a> for assistance.
           </p>
         </mat-expansion-panel>
-
-
-
-
       </mat-accordion>
     </div>
   </div>
 </div>
 
 
-<!-- <hr>
-  <br>
-
-  <section class="pt-15 relative block">
-    <div class="container mx-auto px-4 lg:pt-6 pb-20">
-      <div class="flex flex-wrap text-center justify-center">
-        <div class="w-full lg:w-6/12 px-4">
-          <h2 class="text-3xl main-title">Who we are</h2>
-        </div>
-      </div>
-      <div class="flex flex-wrap mt-12 justify-center">
-        <div class="w-full lg:w-4/12 px-4 py-12  card-section">
-          <hr class="support-hr" align="left">
-
-          <h6 class="text-2xl mt-5 font-semibold">
-            Planning
-          </h6>
-          <p class="mt-4 mb-4 primary-text text-left">
-            we help you develop your policy and sourcing criteria, and localised roadmaps to ensure you meet your
-            cage-free targets and stakeholder expectations
-          </p>
-        </div>
-        <div class="w-full lg:w-4/12 px-4 py-12  card-section">
-          <hr class="support-hr" align="left">
-
-          <h5 class="text-2xl mt-5 font-semibold">
-            Implementation
-          </h5>
-          <p class="mt-4 mb-4 primary-text text-left">
-            we work with you to implement your cage-free roadmaps, so you can meet your animal welfare targets in
-            challenging Asianmarkets.
-          </p>
-        </div>
-        <div class="w-full lg:w-4/12 px-4 py-12  card-section">
-          <hr class="support-hr" align="left">
-
-          <h5 class="text-2xl mt-5 font-semibold">Support</h5>
-          <p class="mt-4 mb-4 primary-text text-left">
-            we help you communicate and report your commitments and progress, and narrate your impact story to key
-            stakeholders. This platform is one tool we’ve developed to facilitate this. We also provide ongoing
-            support
-            for egg suppliers, risk management strategies, and regional monitoring.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-<hr class="main">
+<hr class="top-100">
 
 
 
-<section class="pt-15 relative block main2">
+<section class="pt-15 relative block">
   <div fxLayout="row" fxLayoutAlign="space-around center">
-    <div fxFlex="90%" fxFlex.md="100%" fxFlex.sm="100%" fxFlex.xs="100%">
+    <div fxFlex="85%" fxFlex.md="85%" fxFlex.sm="90%" fxFlex.xs="95%">
+
 
       <div class="mx-auto lg:pt-6 pb-16">
         <div class="flex flex-wrap text-center justify-center">
@@ -502,20 +337,17 @@
             <h2 class="text-3xl main-title mt-14">An initiative supported by</h2>
           </div>
         </div>
-        <div class="flex flex-wrap mt-12 justify-center">
-          <div class="w-full lg:w-4/12 py-12 card-section">
-            <!-- <hr class="support-hr" align="left"> -->
+        <div class="flex flex-wrap mt-8 justify-center">
 
-            <h6 class="text-2xl text-center mt-5 font-semibold">
+          <div class="w-full lg:w-4/12 py-12 card-section">
+
+            <h6 class="text-2xl text-center font-semibold">
               <a href="http://globalfoodpartners.org/" target="_blank"
                 class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase">
                 <img alt="Logo" src="../assets/wp/rectangulo letra negra fondo trasparente (1) (1).png" width="300">
               </a>
             </h6>
-
-
-
-            <p class="mt-5 mb-4 primary-text text-left">
+            <p class="mb-4 primary-text text-left pr-12">
               <q>We believe that reporting on progress is an essential step to make sure cage-free policies are
                 followed.
                 We
@@ -525,71 +357,52 @@
                 questionnaire with companies. We’ll create regional reports using the public data available on
                 <a href="http://welfareprogress.com" target="_blank">welfareprogress.com</a>.</q>
               <br>
-              <span class="ceo">- Carolina Galvani, CEO, Sinergia Animal</span>
+              <span class="ceo">Carolina Galvani, CEO, Sinergia Animal</span>
             </p>
           </div>
-          <div class="w-full lg:w-4/12 px-4 py-12  card-section">
-              <!-- <hr class="support-hr" align="left"> -->
+          <div class="w-full lg:w-4/12 px-4 py-12 card-section">
+            <h6 class="text-2xl text-center font-semibold">
+              <a href="http://globalfoodpartners.org/" target="_blank"
+                class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase">
+                <img alt="Logo" src="../assets/wp/Animal Equality Square Logo (3).jpg" width="300">
+              </a>
+            </h6>
 
-              <h6 class="text-2xl text-center mt-5 font-semibold">
-                <a href="http://globalfoodpartners.org/" target="_blank"
-                  class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase">
-                  <img alt="Logo" src="../assets/wp/animal equity.jpg" width="300">
-                </a>
-              </h6>
-
-
-
-              <p class="mt-5 mb-4 primary-text text-left">
-                <q>At a time when transparency is more important than ever to consumers, WelfareProgress.com
-                  provides a centralized place for people to see how their favorite companies are measuring up
-                  on their promises to get hens out of cages. Animal Equality plans to work with over a hundred
-                  companies worldwide to start publishing their progress on the platform.</q>
-                <br>
-                <span class="ceo">- Katie Arth, International Director of Corporate Outreach, Animal Equality</span>
-              </p>
+            <p class="mb-4 primary-text text-left">
+              <q>At a time when transparency is more important than ever to consumers, WelfareProgress.com
+                provides a centralized place for people to see how their favorite companies are measuring up
+                on their promises to get hens out of cages. Animal Equality plans to work with over a hundred
+                companies worldwide to start publishing their progress on the platform.</q>
+              <br>
+              <span class="ceo">Katie Arth, International Director of Corporate Outreach, Animal Equality</span>
+            </p>
           </div>
-          <div class="w-full lg:w-4/12 px-4 py-12  card-section">
-            <!-- <hr class="support-hr" align="left"> -->
+          <div class="w-full lg:w-4/12 px-4 py-12 card-section">
+            <h6 class="text-2xl text-center font-semibold">
 
-
-            <h6 class="text-2xl text-center mt-5 font-semibold">
               <a href="http://globalfoodpartners.org/" target="_blank"
                 class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase">
                 <img alt="Logo" src="../assets/wp/MercyforAnimals_PrimaryLockup_RGB (2).png" width="300">
               </a>
             </h6>
-
-
-
-            <p class="mt-5 mb-4 primary-text text-left">
+            <p class="mb-4 primary-text text-left">
               <q>Mercy For Animals supports the comprehensive, uniform cage-free egg progress reporting enabled
                 by WelfareProgress.com. As we encourage transparency on corporate animal welfare goals through
                 initiatives like Monitor de Iniciativas Corporativas por los Animales, this tool streamlines
-                reporting expectations and formats to help the world transition away from the cruel caging of laying hens.</q>
+                reporting expectations and formats to help the world transition away from the cruel caging of laying
+                hens.</q>
               <br>
-              <span class="ceo">- Zoë Sigle, Global Corporate Engagement Manager at Mercy For Animals
+              <span class="ceo">Zoë Sigle, Global Corporate Engagement Manager, Mercy For Animals
+
 
               </span>
             </p>
+          </div>
         </div>
-
-
-        </div>
-
-
 
       </div>
     </div>
   </div>
 </section>
-<hr class="main">
-
-
-
-
-
-
-
-
+<hr>
 <app-footer></app-footer>
