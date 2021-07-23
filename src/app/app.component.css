@@ -93,6 +93,7 @@ mat-panel-title{
 }
 
 .heading1{
+  color: #333;
   font-weight: 600;
   font-size: 2.75rem;
   text-align: left;
@@ -112,7 +113,9 @@ mat-panel-title{
 }
 
 .ceo{
-  padding-left: 12px;
+  /* padding-left: 12px; */
+  text-align: left;
+  font-weight: 600;
 }
 
 a{
@@ -167,12 +170,9 @@ hr {
 }
 
 .section1-hr {
-  margin-top: 0px;
+  margin-top: 50px;
 }
 
-.card-section{
-  padding:0 34px;
-}
 
 .logo-size{
   font-size: 50px;
@@ -185,11 +185,10 @@ hr {
   box-shadow: none !important;
 }
 
-.reports{
-  padding: 10px 0;
+
+@media screen and (min-width:1166px) {
+  .card-section{ padding-right:60px;}
 }
-
-
 
 
 .period{
@@ -290,3 +289,7 @@ hr {
   border-radius: 8px;
 } */
 
+.mat-card-actions, .mat-card-subtitle, .mat-card-content {
+  display: block;
+  margin-bottom: 0;
+}
