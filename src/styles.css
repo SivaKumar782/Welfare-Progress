@@ -214,6 +214,10 @@ body {
   border-color: #333;
 }
 
+.heading-color{
+  color: #333;
+}
+
 hr {
   border-top-width: 1px;
 }
@@ -2639,6 +2643,11 @@ select {
   padding-left: 2.5rem;
 }
 
+.pl-20 {
+  padding-left: 5rem;
+}
+
+
 .pt-12 {
   padding-top: 3rem;
 }
@@ -2647,8 +2656,20 @@ select {
   padding-right: 3rem;
 }
 
+.pr-20 {
+  padding-right: 5rem;
+}
+
+.pr-28 {
+  padding-right: 7rem;
+}
+
 .pt-16 {
   padding-top: 4rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
 }
 
 .pb-16 {
@@ -4023,7 +4044,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 
-
+.pt-100{
+  padding-top: 100px;
+}
 
 
 .main{
@@ -4060,6 +4083,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   text-indent: 50px;
 }
 
+.ti-35{
+  text-indent: 35px;
+}
 
 .mat-tab-label-active{
   opacity: 1 !important;
@@ -4071,3 +4097,4 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     width: 60%;
     margin: 0px auto;
 }
+
