@@ -42,9 +42,15 @@ mat-panel-title{
   box-shadow: none;
 }
 
+::ng-deep .mat-expansion-panel-body{
+  padding: 0 24px!important;
+}
+
 .company {
   width: 100%;
 }
+
+
 
 /* input[type=text], select {
   width: 100%;
