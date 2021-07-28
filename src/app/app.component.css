@@ -25,10 +25,8 @@ mat-panel-title{
 }
 
 .ans{
-  font-size: 16px;
   color: #666;
   text-align: justify;
-  line-height: 1.6;
   padding: 0 30px;
 }
 
@@ -156,17 +154,6 @@ hr {
     background-color: #61C9A8;
     border: 0 none;
     text-align: left;
-}
-
-.heading-hr{
-  margin-top: 16px;
-  width: 70px;
-  height: 4px;
-  margin-left: 0;
-  margin-right: 0;
-  background-color: #61C9A8;
-  border: 0 none;
-  text-align: left;
 }
 
 
