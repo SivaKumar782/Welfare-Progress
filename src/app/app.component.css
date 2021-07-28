@@ -12,6 +12,7 @@
 }
 
 mat-panel-title{
+  font-size: 19px;
   font-weight: 500;
   color: #333;
 }
@@ -84,7 +85,6 @@ mat-panel-title{
 }
 
 .coming-soon{
-  padding-top: 6px;
   color: grey;
   font-size: 18px;
   float: right;
@@ -155,6 +155,17 @@ hr {
     background-color: #61C9A8;
     border: 0 none;
     text-align: left;
+}
+
+.heading-hr{
+  margin-top: 16px;
+  width: 70px;
+  height: 4px;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #61C9A8;
+  border: 0 none;
+  text-align: left;
 }
 
 
@@ -291,4 +302,14 @@ hr {
 .mat-card-actions, .mat-card-subtitle, .mat-card-content {
   display: block;
   margin-bottom: 0;
+}
+
+.wrapper {
+  margin: 100px;
+}
+
+
+mat-expansion-panel-header {
+  height: 100% !important;
+  margin: 10px 0;
 }
