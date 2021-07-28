@@ -85,6 +85,7 @@ mat-panel-title{
 }
 
 .coming-soon{
+  padding-top: 10px;
   color: grey;
   font-size: 18px;
   float: right;
