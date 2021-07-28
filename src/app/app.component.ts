@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
-
+// import * as $ from 'jquery';
+declare var $: any;
+// import 'bootstrap';
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
@@ -23,6 +25,12 @@ export class AppComponent implements OnInit {
     }
 
     ngOnInit() {
+
+      
+      $('[data-toggle="tooltip"]').tooltip()
+
+      // (<any>$('[data-toggle="tooltip"]')).tooltip();
+      
 
 
     }
