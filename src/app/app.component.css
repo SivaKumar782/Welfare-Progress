@@ -30,9 +30,9 @@ mat-panel-title{
   padding: 0 30px;
 }
 
-.report{
+/* .report{
   padding: 80px;
-}
+} */
 
 .ans-head{
   margin: 10px 0 5px 0;
@@ -307,3 +307,4 @@ mat-expansion-panel-header {
   height: 100% !important;
   margin: 10px 0;
 }
+
