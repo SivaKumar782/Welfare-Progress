@@ -3991,6 +3991,9 @@ mat-panel-title, .primary-text{
   background-color: red !important;
 }
 
+.pr-30{
+  padding-right: 15px;
+}
 
 .navbar-inverse{
   background-color: #61C9A8;
