@@ -4059,6 +4059,10 @@ mat-panel-title, .primary-text{
   background-color: red !important;
 }
 
+.pr-30{
+  padding-right: 15px;
+}
+
 .navbar-inverse{
   background-color: #61C9A8;
   border-color: white;
@@ -4156,6 +4160,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     border-bottom: 1px solid rgba(0,0,0,.12);
     width: 60%;
     margin: 0px auto;
+}
+
+.mat-tab-label {
+  min-width: 25px !important;
 }
 
 
