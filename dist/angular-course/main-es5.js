@@ -140,7 +140,7 @@
 
       function AppComponent_mat_option_16_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "mat-option", 74);
+          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "mat-option", 75);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](1);
 
@@ -254,9 +254,9 @@
       _AppComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
         type: _AppComponent,
         selectors: [["app-root"]],
-        decls: 213,
+        decls: 215,
         vars: 1,
-        consts: [["fxLayout", "row wrap", "fxLayoutAlign", "space-around center", "fxLayoutGap", "30px", 1, "pt-100", "mt-5"], ["fxFlex", "40%", "fxFlex.md", "40%", "fxFlex.sm", "90%", "fxFlex.xs", "95%", 1, "px-6"], [1, "primary-text"], ["fxFlex", "30%", "fxFlex.md", "30%", "fxFlex.sm", "90%", "fxFlex.xs", "95%"], [1, "coming-soon"], [1, "heading1", "soon"], [1, "soon"], ["floatLabel", "never", "appearance", "outline", 1, "company"], ["matInput", "", "placeholder", "Enter company name", "disabled", ""], ["floatLabel", "never", "appearance", "outline", 1, "period"], ["placeholder", "Period", "disabled", ""], [3, "value", 4, "ngFor", "ngForOf"], ["mat-flat-button", "", "disabled", ""], ["fxLayout", "row", "fxLayoutAlign", "space-around center", 1, "mt-12"], ["fxFlex", "83%", "fxFlex.md", "83%", "fxFlex.sm", "90%", "fxFlex.xs", "95%"], [1, "heading2"], ["fxLayout", "row wrap", "fxLayoutAlign", "space-between center", 1, "mt-12"], ["src", "../assets/wp/rectangulo letra negra fondo trasparente (1) (1).png", "alt", "THL", "height", "150px", "width", "150px"], ["src", "../assets/wp/Animal Equality Square Logo (3).jpg", "alt", "THL", "height", "150px", "width", "150px"], ["src", "../assets/wp/MercyforAnimals_PrimaryLockup_RGB (2).png", "alt", "THL", "height", "150px", "width", "150px"], ["src", "../assets/wp/thl-mended-heart-logo@2x.jpg", "alt", "THL", "height", "150px", "width", "150px"], [1, "section1-hr"], ["mat-align-tabs", "center", 1, "pt-16", "mb-5"], ["label", "Why report"], ["fxLayout", "row wrap", "fxLayoutAlign", "end center", "fxLayoutGap", "56px", 1, "py-6"], ["fxFlex", "42.3%", "fxFlex.md", "43.5%", "fxFlex.sm", "90%", "fxFlex.xs", "95%", 1, "px-6"], ["align", "left", 1, "carousel-hr"], [1, "text-2xl", "font-bold", "pt-4"], [1, "mt-2", "mb-4", "primary-text", "pt-4"], [1, "mt-2", "mb-4", "primary-text"], ["fxFlex", "46.5%", "fxFlex.md", "46.5%", "fxFlex.sm", "90%", "fxFlex.xs", "95%"], [1, "py-6"], ["src", "../assets/img/20210709_brown layers on top system.jpg"], ["label", "About Global Food Partners"], [1, "text-2xl", "pt-4", "font-bold", "mb-2", "font-bold", "leading-normal"], [1, "flex", "mt-4", "flex-wrap", "justify-center"], [1, "mb-4", "primary-text", "leading-relaxed"], ["src", "../assets/img/20210709_eggs.jpg"], ["label", "Commitment checklist"], [1, "text-2xl", "font-bold", "mt-4", "mb-2", "leading-normal"], [1, "mt-4", "px-4", "text-lg", "text-blueGray-600", "leading-relaxed"], [1, "checklist", "mt-6"], [1, "check"], ["src", "../assets/img/20210709_IMG_20210524_145900.jpg"], [1, "top-100"], [1, "main-title", "mt-10"], ["fxLayout", "row", "fxLayoutAlign", "space-around center"], ["fxFlex", "85%", "fxFlex.md", "85%", "fxFlex.sm", "90%", "fxFlex.xs", "95%"], [1, "mb-16"], [1, "ans", "mt-2", "mb-4", "primary-text"], [1, "ans", "mt-2", "primary-text"], [1, "ans"], [1, "ans-head", "mt-2", "mb-4", "primary-text"], [1, "ans-head", "mt-2", "primary-text"], ["href", "https://app.welfareprogress.com/#/authentication/signup", "target", "_blank"], ["target", "_blank", "href", "../assets/wp/Questionnaire_EN.pdf"], ["href", "https://devapp.welfareprogress.com/#/authentication/signup", "target", "_blank"], [1, "pt-15", "relative", "block"], [1, "mx-auto", "lg:pt-6"], [1, "flex", "flex-wrap", "text-center", "justify-center"], [1, "w-full", "lg:w-6/12"], [1, "text-3xl", "main-title", "mt-14"], [1, "flex", "flex-wrap", "mt-8", "justify-center"], [1, "w-full", "lg:w-4/12", "py-12", "card-section"], [1, "text-2xl", "text-center", "font-semibold"], ["href", "http://globalfoodpartners.org/", "target", "_blank", 1, "text-sm", "font-bold", "leading-relaxed", "inline-block", "mr-4", "py-2", "whitespace-nowrap", "uppercase"], ["alt", "Logo", "src", "../assets/wp/rectangulo letra negra fondo trasparente (1) (1).png", "width", "300"], [1, "mb-4", "primary-text", "text-left", "pr-12"], ["href", "http://welfareprogress.com", "target", "_blank"], [1, "ceo"], [1, "w-full", "lg:w-4/12", "px-4", "py-12", "card-section"], ["alt", "Logo", "src", "../assets/wp/Animal Equality Square Logo (3).jpg", "width", "300"], [1, "mb-4", "primary-text", "text-left"], ["alt", "Logo", "src", "../assets/wp/MercyforAnimals_PrimaryLockup_RGB (2).png", "width", "300"], [3, "value"]],
+        consts: [["fxLayout", "row wrap", "fxLayoutAlign", "space-around center", "fxLayoutGap", "30px", 1, "pt-100", "mt-5"], ["fxFlex", "40%", "fxFlex.md", "40%", "fxFlex.sm", "90%", "fxFlex.xs", "95%", 1, "px-6"], [1, "primary-text"], ["fxFlex", "30%", "fxFlex.md", "30%", "fxFlex.sm", "90%", "fxFlex.xs", "95%"], [1, "coming-soon"], [1, "heading1", "soon"], [1, "soon"], ["floatLabel", "never", "appearance", "outline", 1, "company"], ["matInput", "", "placeholder", "Enter company name", "disabled", ""], ["floatLabel", "never", "appearance", "outline", 1, "period"], ["placeholder", "Period", "disabled", ""], [3, "value", 4, "ngFor", "ngForOf"], ["mat-flat-button", "", "disabled", ""], ["fxLayout", "row", "fxLayoutAlign", "space-around center", 1, "mt-12"], ["fxFlex", "83%", "fxFlex.md", "83%", "fxFlex.sm", "90%", "fxFlex.xs", "95%"], [1, "heading2"], ["fxLayout", "row wrap", "fxLayoutAlign", "space-between center", 1, "mt-12"], ["src", "../assets/wp/rectangulo letra negra fondo trasparente (1) (1).png", "alt", "THL", "height", "150px", "width", "150px"], ["src", "../assets/wp/Animal Equality Square Logo (3).jpg", "alt", "THL", "height", "150px", "width", "150px"], ["src", "../assets/wp/MercyforAnimals_PrimaryLockup_RGB (2).png", "alt", "THL", "height", "150px", "width", "150px"], ["src", "../assets/wp/thl-mended-heart-logo@2x.jpg", "alt", "THL", "height", "150px", "width", "150px"], [1, "section1-hr"], ["mat-align-tabs", "center", 1, "pt-16", "mb-5"], ["label", "Why report"], ["fxLayout", "row wrap", "fxLayoutAlign", "end center", "fxLayoutGap", "56px", 1, "py-6"], ["fxFlex", "42.3%", "fxFlex.md", "43.5%", "fxFlex.sm", "90%", "fxFlex.xs", "95%", 1, "px-6"], ["align", "left", 1, "carousel-hr"], [1, "text-2xl", "font-bold", "pt-4"], [1, "mt-2", "mb-4", "primary-text", "pt-4"], [1, "mt-2", "mb-4", "primary-text"], ["fxFlex", "46.5%", "fxFlex.md", "46.5%", "fxFlex.sm", "90%", "fxFlex.xs", "95%"], [1, "py-6"], ["src", "../assets/img/20210709_brown layers on top system.jpg"], ["label", "About Global Food Partners"], [1, "text-2xl", "pt-4", "font-bold", "mb-2", "font-bold", "leading-normal"], [1, "flex", "mt-4", "flex-wrap", "justify-center"], [1, "mb-4", "primary-text", "leading-relaxed"], ["src", "../assets/img/20210709_eggs.jpg"], ["label", "Commitment checklist"], [1, "text-2xl", "font-bold", "mt-4", "mb-2", "leading-normal"], [1, "mt-4", "px-4", "text-lg", "text-blueGray-600", "leading-relaxed"], [1, "checklist", "mt-6"], [1, "check"], ["src", "../assets/img/20210709_IMG_20210524_145900.jpg"], [1, "top-100"], [1, "main-title", "mt-10"], ["fxLayout", "row", "fxLayoutAlign", "space-around center"], ["fxFlex", "85%", "fxFlex.md", "85%", "fxFlex.sm", "90%", "fxFlex.xs", "95%"], [1, "mb-16"], [1, "ans", "mt-2", "mb-4", "primary-text"], [1, "ans", "mt-2", "primary-text"], [1, "ans"], [1, "ans-head", "mt-2", "mb-4", "primary-text"], [1, "ans-head", "mt-2", "primary-text"], ["href", "https://app.welfareprogress.com/#/authentication/signup", "target", "_blank"], ["target", "_blank", "href", "../assets/wp/Questionnaire_EN.pdf"], ["href", "https://devapp.welfareprogress.com/#/authentication/signup", "target", "_blank"], ["href", "mailto:welfareprogress@globalfoodpartners.com"], [1, "pt-15", "relative", "block"], [1, "mx-auto", "lg:pt-6"], [1, "flex", "flex-wrap", "text-center", "justify-center"], [1, "w-full", "lg:w-6/12"], [1, "text-3xl", "main-title", "mt-14"], [1, "flex", "flex-wrap", "mt-8", "justify-center"], [1, "w-full", "lg:w-4/12", "py-12", "card-section"], [1, "text-2xl", "text-center", "font-semibold"], ["href", "http://globalfoodpartners.org/", "target", "_blank", 1, "text-sm", "font-bold", "leading-relaxed", "inline-block", "mr-4", "py-2", "whitespace-nowrap", "uppercase"], ["alt", "Logo", "src", "../assets/wp/rectangulo letra negra fondo trasparente (1) (1).png", "width", "300"], [1, "mb-4", "primary-text", "text-left", "pr-12"], ["href", "http://welfareprogress.com", "target", "_blank"], [1, "ceo"], [1, "w-full", "lg:w-4/12", "px-4", "py-12", "card-section"], ["alt", "Logo", "src", "../assets/wp/Animal Equality Square Logo (3).jpg", "width", "300"], [1, "mb-4", "primary-text", "text-left"], ["alt", "Logo", "src", "../assets/wp/MercyforAnimals_PrimaryLockup_RGB (2).png", "width", "300"], [3, "value"]],
         template: function AppComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](0, "app-nav");
@@ -783,9 +783,15 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](165, "p", 50);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](166, "We'd be happy to walk you through the reporting process and answer any questions you have. Please reach out to us at welfareprogress@globalfoodpartners.com ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](166, "We'd be happy to walk you through the reporting process and answer any questions you have. Please reach out to us at ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](167, " for assistance. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](167, "a", 57);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](168, "welfareprogress@globalfoodpartners.com");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](169, " for assistance. ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
@@ -799,65 +805,23 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](168, "hr", 44);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](170, "hr", 44);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](169, "section", 57);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](171, "section", 58);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](170, "div", 46);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](172, "div", 46);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](171, "div", 47);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](173, "div", 47);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](172, "div", 58);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](174, "div", 59);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](173, "div", 59);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](175, "div", 60);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](174, "div", 60);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](176, "div", 61);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](175, "h2", 61);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](177, "h2", 62);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](176, "An initiative endorsed by");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](177, "div", 62);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](178, "div", 63);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](179, "h6", 64);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](180, "a", 65);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](181, "img", 66);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](182, "p", 67);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](183, "q");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](184, "We believe that reporting on progress is an essential step to make sure cage-free policies are followed. We have been working with companies in Latin America and launched reports to share more about companies\u2019 progress in the region. We will be doing the same in Asia. We are happy to see a new platform that will centralize questionnaires and reporting from companies, so we decided to start sharing this new questionnaire with companies. We\u2019ll create regional reports using the public data available on ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](185, "a", 68);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](186, "welfareprogress.com");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](187, ".");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](188, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](189, "span", 69);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](190, "Carolina Galvani, CEO, Sinergia Animal");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](178, "An initiative endorsed by");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
@@ -865,63 +829,41 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](191, "div", 70);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](179, "div", 63);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](192, "h6", 64);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](180, "div", 64);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](193, "a", 65);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](181, "h6", 65);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](194, "img", 71);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](182, "a", 66);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](195, "p", 72);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](196, "q");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](197, "At a time when transparency is more important than ever to consumers, WelfareProgress.com provides a centralized place for people to see how their favorite companies are measuring up on their promises to get hens out of cages. Animal Equality plans to work with over a hundred companies worldwide to start publishing their progress on the platform.");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](198, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](199, "span", 69);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](200, "Katie Arth, International Director of Corporate Outreach, Animal Equality");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](183, "img", 67);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](184, "p", 68);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](201, "div", 70);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](185, "q");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](202, "h6", 64);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](186, "We believe that reporting on progress is an essential step to make sure cage-free policies are followed. We have been working with companies in Latin America and launched reports to share more about companies\u2019 progress in the region. We will be doing the same in Asia. We are happy to see a new platform that will centralize questionnaires and reporting from companies, so we decided to start sharing this new questionnaire with companies. We\u2019ll create regional reports using the public data available on ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](203, "a", 65);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](187, "a", 69);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](204, "img", 73);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](188, "welfareprogress.com");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](205, "p", 72);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](206, "q");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](207, "Mercy For Animals supports the comprehensive, uniform cage-free egg progress reporting enabled by WelfareProgress.com. As we encourage transparency on corporate animal welfare goals through initiatives like Monitor de Iniciativas Corporativas por los Animales, this tool streamlines reporting expectations and formats to help the world transition away from the caging of laying hens.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](189, ".");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](208, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](190, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](209, "span", 69);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](191, "span", 70);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](210, "Zo\xEB Sigle, Global Corporate Engagement Manager, Mercy For Animals ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](192, "Carolina Galvani, CEO, Sinergia Animal");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
@@ -929,7 +871,63 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](193, "div", 71);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](194, "h6", 65);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](195, "a", 66);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](196, "img", 72);
+
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](197, "p", 73);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](198, "q");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](199, "At a time when transparency is more important than ever to consumers, WelfareProgress.com provides a centralized place for people to see how their favorite companies are measuring up on their promises to get hens out of cages. Animal Equality plans to work with over a hundred companies worldwide to start publishing their progress on the platform.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](200, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](201, "span", 70);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](202, "Katie Arth, International Director of Corporate Outreach, Animal Equality");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](203, "div", 71);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](204, "h6", 65);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](205, "a", 66);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](206, "img", 74);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](207, "p", 73);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](208, "q");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](209, "Mercy For Animals supports the comprehensive, uniform cage-free egg progress reporting enabled by WelfareProgress.com. As we encourage transparency on corporate animal welfare goals through initiatives like Monitor de Iniciativas Corporativas por los Animales, this tool streamlines reporting expectations and formats to help the world transition away from the caging of laying hens.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](210, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](211, "span", 70);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](212, "Zo\xEB Sigle, Global Corporate Engagement Manager, Mercy For Animals ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
@@ -939,9 +937,17 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](211, "hr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](212, "app-footer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](213, "hr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](214, "app-footer");
           }
 
           if (rf & 2) {
