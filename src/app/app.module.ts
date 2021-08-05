@@ -13,7 +13,13 @@ import { FooterComponent } from './footer/footer.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { DemoMaterialModule } from '../app/material-module';
 
-import { FormsModule } from '@angular/forms'; 
+import { FormsModule } from '@angular/forms';
+import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-conditions.component';
+import { PrivacyAndPolicyComponent } from './privacy-and-policy/privacy-and-policy.component';
+import { AppRoutingModule } from './app-routing.module'; 
+
+import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -23,7 +29,10 @@ import { FormsModule } from '@angular/forms';
     declarations: [
         AppComponent,
         NavComponent,
-        FooterComponent
+        FooterComponent,
+        TermsAndConditionsComponent,
+        PrivacyAndPolicyComponent,
+        HomeComponent
     ],
     imports: [
         BrowserModule,
@@ -33,7 +42,9 @@ import { FormsModule } from '@angular/forms';
         CarouselModule,
         FlexLayoutModule,
         DemoMaterialModule,
-        FormsModule
+        FormsModule,
+        AppRoutingModule,
+        RouterModule
     ],
     providers: [],
     bootstrap: [AppComponent],
