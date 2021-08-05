@@ -46,7 +46,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const routes = [
     { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_0__.HomeComponent },
-    { path: 'privacy-and-policy', component: _privacy_and_policy_privacy_and_policy_component__WEBPACK_IMPORTED_MODULE_1__.PrivacyAndPolicyComponent },
+    { path: 'privacy-policy', component: _privacy_and_policy_privacy_and_policy_component__WEBPACK_IMPORTED_MODULE_1__.PrivacyAndPolicyComponent },
     { path: 'terms-and-conditions', component: _terms_and_conditions_terms_and_conditions_component__WEBPACK_IMPORTED_MODULE_2__.TermsAndConditionsComponent },
 ];
 class AppRoutingModule {
@@ -201,7 +201,7 @@ class FooterComponent {
     }
 }
 FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(); };
-FooterComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 28, vars: 0, consts: [[1, "relative", "pt-8", "pb-6"], ["fxLayout", "row", "fxLayoutAlign", "space-around center"], ["fxFlex", "83%", "fxFlex.md", "83%", "fxFlex.sm", "95%", "fxFlex.xs", "95%"], [1, "mx-auto"], [1, "flex", "flex-wrap", "text-center", "lg:text-left", "py-10"], [1, "w-full", "lg:w-6/12"], [1, "text-3xl", "font-semibold"], [1, "mt-4", "mb-2", "heading-color"], ["href", "https://globalfoodpartners.com/", "target", "_blank", 1, "text-heading-color", "hover:text-blueGray-800"], [1, "mt-4", "ml-1", "lg:mb-0", "mb-6"], ["href", "https://www.linkedin.com/company/36019661/admin/", "target", "_blank", "onclick", "window.open('https://www.linkedin.com/company/36019661/admin/', '_blank'); return false;", 1, "bg-blueGray-200", "heading-color"], ["width", "18", "src", "../../assets/img/GFP-icon-linkedin.png"], [1, "w-full", "lg:w-6/12", "px-4"], [1, "flex", "flex-wrap", "items-top", "mb-6"], [1, "w-full", "lg:w-4/12", "px-4", "ml-auto"], [1, "list-unstyled"], ["routerLink", "", 1, "link"], ["routerLink", "/privacy-and-policy", 1, "link"], ["routerLink", "/terms-and-conditions", 1, "link"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
+FooterComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 28, vars: 0, consts: [[1, "relative", "pt-8", "pb-6"], ["fxLayout", "row", "fxLayoutAlign", "space-around center"], ["fxFlex", "83%", "fxFlex.md", "83%", "fxFlex.sm", "95%", "fxFlex.xs", "95%"], [1, "mx-auto"], [1, "flex", "flex-wrap", "text-center", "lg:text-left", "py-10"], [1, "w-full", "lg:w-6/12"], [1, "text-3xl", "font-semibold"], [1, "mt-4", "mb-2", "heading-color"], ["href", "https://globalfoodpartners.com/", "target", "_blank", 1, "text-heading-color", "hover:text-blueGray-800"], [1, "mt-4", "ml-1", "lg:mb-0", "mb-6"], ["href", "https://www.linkedin.com/company/36019661/admin/", "target", "_blank", "onclick", "window.open('https://www.linkedin.com/company/36019661/admin/', '_blank'); return false;", 1, "bg-blueGray-200", "heading-color"], ["width", "18", "src", "../../assets/img/GFP-icon-linkedin.png"], [1, "w-full", "lg:w-6/12", "px-4"], [1, "flex", "flex-wrap", "items-top", "mb-6"], [1, "w-full", "lg:w-4/12", "px-4", "ml-auto"], [1, "list-unstyled"], ["routerLink", "", 1, "link"], ["routerLink", "/privacy-policy", 1, "link"], ["routerLink", "/terms-and-conditions", 1, "link"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "footer", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -234,7 +234,7 @@ FooterComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " Privacy and policy ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " Privacy Policy ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "li");
@@ -1074,7 +1074,7 @@ class PrivacyAndPolicyComponent {
     }
 }
 PrivacyAndPolicyComponent.ɵfac = function PrivacyAndPolicyComponent_Factory(t) { return new (t || PrivacyAndPolicyComponent)(); };
-PrivacyAndPolicyComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PrivacyAndPolicyComponent, selectors: [["privacy-and-policy"]], decls: 224, vars: 0, consts: [["fxLayout", "row", "fxLayoutAlign", "space-around center", 1, "pt-100"], ["fxFlex", "83%", "fxFlex.md", "83%", "fxFlex.sm", "90%", "fxFlex.xs", "95%"], [1, "main-title"], [1, "primary-text", "pt-4"], [1, "primary-text", "mt-6"], [1, "primary-text", "mt-2"], [1, "main-title2"], ["href", "http://welfareprogress.com", "target", "_blank"], ["href", "mailto:WelfareProgress@globalfoodpartners.com"], [1, "prefix-bold"], ["href", "mailto:welfareprogress@globalfoodpartners.com"], ["href", "mailto:team@globalfoodpartners.com"], ["href", "mailto:edps@edps.europa.eu"]], template: function PrivacyAndPolicyComponent_Template(rf, ctx) { if (rf & 1) {
+PrivacyAndPolicyComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PrivacyAndPolicyComponent, selectors: [["privacy-and-policy"]], decls: 226, vars: 0, consts: [["fxLayout", "row", "fxLayoutAlign", "space-around center", 1, "pt-100"], ["fxFlex", "83%", "fxFlex.md", "83%", "fxFlex.sm", "90%", "fxFlex.xs", "95%"], [1, "main-title"], [1, "primary-text", "pt-4"], [1, "primary-text", "mt-6"], [1, "primary-text", "mt-2"], [1, "main-title2"], ["href", "http://welfareprogress.com", "target", "_blank"], ["href", "mailto:WelfareProgress@globalfoodpartners.com"], [1, "prefix-bold"], ["href", "mailto:welfareprogress@globalfoodpartners.com"], ["href", "mailto:team@globalfoodpartners.com"], ["href", "mailto:edps@edps.europa.eu"]], template: function PrivacyAndPolicyComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -1232,7 +1232,7 @@ PrivacyAndPolicyComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "p", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](103, "Global Food Partners would like to send you information about services of ours that we think you might like. If you have agreed to receive marketing communications, you may always opt out at a later date. You have the right at any time to stop Global Food Partners from contacting you for marketing purposes or giving your data to other stakeholders. If you no longer wish to be contacted for marketing purposes, please email us at ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, "WelfareProgress@globalfoodpartners.com");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, "welfareprogress@globalfoodpartners.com");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](106, ". ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1338,76 +1338,79 @@ PrivacyAndPolicyComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](174, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](175, "Advertising \u2013 Global Food Partners uses these cookies to collect information about your visit to our website(s), the content you viewed, the link(s) you followed and information about your browser, device, and IP address. Global Food Partners sometimes shares some limited aspects of this data with third parties for advertising and/or marketing purposes. We may also share online data collected through cookies with our advertising partners. This means that when you visit another website, you may be shown advertising based on your browsing patterns on our website.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](176, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](177, "Add any other types of cookies we use");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](176, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](177, "How to manage cookies");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](178, "p", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](179, "You can set your browser not to accept cookies, and the above website tells you how to remove cookies from your browser. However, in a few cases, some of our website features may not function as a result.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](178, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](179, "How to manage cookies");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](181, "Withdrawing your consent");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "p", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](181, "You can set your browser not to accept cookies, and the above website tells you how to remove cookies from your browser. However, in a few cases, some of our website features may not function as a result.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](182, "p", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](183, "Where we rely on your consent as the legal basis for processing your personal information, you may withdraw your consent at any time simply by contacting us using the details at the end of this Policy.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](182, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](183, "Withdrawing your consent");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](184, "p", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](185, "If you would like to withdraw your consent or object to receiving any direct marketing to which you opted-in, you can do so using the unsubscribe tool in that communication (if it is an email), or by writing to us or calling us using the details at the end of this Policy.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](185, "Where we rely on your consent as the legal basis for processing your personal information, you may withdraw your consent at any time simply by contacting us using the details at the end of this Policy.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](186, "p", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](187, "If you have provided consent for your details to be shared with a third party, and wish to withdraw this consent, please also contact the relevant third party in order to amend your preferences.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](187, "If you would like to withdraw your consent or object to receiving any direct marketing to which you opted-in, you can do so using the unsubscribe tool in that communication (if it is an email), or by writing to us or calling us using the details at the end of this Policy.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](188, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](189, "Privacy policies of other websites");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](188, "p", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](189, "If you have provided consent for your details to be shared with a third party, and wish to withdraw this consent, please also contact the relevant third party in order to amend your preferences.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](190, "p", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](191, "Global Food Partners\u2019 website(s) may contain links to other websites. Our privacy policy applies only to our website, so if you click on a link to another website, you should read their privacy policy.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](190, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](191, "Privacy policies of other websites");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](192, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](193, "Changes to our privacy policy");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](192, "p", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](193, "Global Food Partners\u2019 website(s) may contain links to other websites. Our privacy policy applies only to our website, so if you click on a link to another website, you should read their privacy policy.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](194, "p", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](195, "Global Food Partners keeps its privacy policy under regular review and places any updates on this web page. If there are material changes to this Privacy Policy or in how Global Food Partners will use your data, we will notify you either by posting a notice of such changes before they take effect or by directly sending you a notification. We encourage you to periodically review this Privacy Policy to learn how Global Food Partners is processing your information. This privacy policy was last updated on 3 August 2021.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](194, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](195, "Changes to our privacy policy");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](196, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](197, "How to contact us");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](196, "p", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](197, "Global Food Partners keeps its privacy policy under regular review and places any updates on this web page. If there are material changes to this Privacy Policy or in how Global Food Partners will use your data, we will notify you either by posting a notice of such changes before they take effect or by directly sending you a notification. We encourage you to periodically review this Privacy Policy to learn how Global Food Partners is processing your information. This privacy policy was last updated on 3 August 2021.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](198, "p", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](199, "If you have any questions about Global Food Partners\u2019 privacy policy and the data we hold on you, or you would like to exercise one of your data protection rights, please do not hesitate to contact us.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](198, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](199, "How to contact us");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](200, "p", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](201, "You may email us at: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](202, "a", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](203, "team@globalfoodpartners.com");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](201, "If you have any questions about Global Food Partners\u2019 privacy policy and the data we hold on you, or you would like to exercise one of your data protection rights, please do not hesitate to contact us.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](204, ".");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](205, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](206, " You can also call us at: +65 8716 0470");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](202, "p", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](203, "You may email us at: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](204, "a", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](205, "team@globalfoodpartners.com");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](206, ".");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](207, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](208, " Or write to us at: Global Food Partners, 1629 K Street, NW, Suite 300, Washington, DC 20006, USA. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](208, " You can also call us at: +65 8716 0470");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](209, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](210, " Or write to us at: Global Food Partners, 1629 K Street, NW, Suite 300, Washington, DC 20006, USA. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](209, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](210, "How to contact the appropriate authority");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](211, "p", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](212, "Should you wish to report a complaint or if you feel that Global Food Partners has not addressed your concern in a satisfactory manner, you may contact the European Data Protection Supervisor.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](211, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](212, "How to contact the appropriate authority");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](213, "p", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](214, " Email: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](215, "a", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](216, "edps@edps.europa.eu");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](214, "Should you wish to report a complaint or if you feel that Global Food Partners has not addressed your concern in a satisfactory manner, you may contact the European Data Protection Supervisor.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](217, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](218, " Phone: +32 2 283 19 00");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](215, "p", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](216, " Email: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](217, "a", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](218, "edps@edps.europa.eu");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](219, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](220, " Address: Rue Wiertz 60");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](220, " Phone: +32 2 283 19 00");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](221, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](222, " 1047 Bruxelles/Brussel");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](222, " Address: Rue Wiertz 60");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](223, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](224, " 1047 Bruxelles/Brussel");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](223, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](225, "hr");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_1__.DefaultLayoutDirective, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_1__.DefaultLayoutAlignDirective, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_1__.DefaultFlexDirective], styles: [".main-title[_ngcontent-%COMP%]{\n    text-align: center;\n    color: rgb(51, 51, 51);\n    font-weight: 900;\n    font-size: 36px;\n  }\n\n  .main-title2[_ngcontent-%COMP%]{\n    margin-top: 20px;\n    color: rgb(51, 51, 51);\n    font-weight: 500;\n    font-size: 25px;\n  }\n\n  .prefix-bold[_ngcontent-%COMP%]{\n      font-weight: 500;\n  }\n\n  a[_ngcontent-%COMP%]{\n    color: #61C9A8;\n  }\n\n  hr[_ngcontent-%COMP%] {\n    margin-top: 50px;\n    width: 100%;\n    height: 4px;\n    margin-left: auto;\n    margin-right: auto;\n    background-color: #61C9A8;\n    border: 0 none;\n  }\n\n  li[_ngcontent-%COMP%]{\n    margin-top: 10px;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByaXZhY3ktYW5kLXBvbGljeS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksa0JBQWtCO0lBQ2xCLHNCQUFzQjtJQUN0QixnQkFBZ0I7SUFDaEIsZUFBZTtFQUNqQjs7RUFFQTtJQUNFLGdCQUFnQjtJQUNoQixzQkFBc0I7SUFDdEIsZ0JBQWdCO0lBQ2hCLGVBQWU7RUFDakI7O0VBRUE7TUFDSSxnQkFBZ0I7RUFDcEI7O0VBRUE7SUFDRSxjQUFjO0VBQ2hCOztFQUVBO0lBQ0UsZ0JBQWdCO0lBQ2hCLFdBQVc7SUFDWCxXQUFXO0lBQ1gsaUJBQWlCO0lBQ2pCLGtCQUFrQjtJQUNsQix5QkFBeUI7SUFDekIsY0FBYztFQUNoQjs7RUFFQTtJQUNFLGdCQUFnQjtFQUNsQiIsImZpbGUiOiJwcml2YWN5LWFuZC1wb2xpY3kuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYWluLXRpdGxle1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBjb2xvcjogcmdiKDUxLCA1MSwgNTEpO1xuICAgIGZvbnQtd2VpZ2h0OiA5MDA7XG4gICAgZm9udC1zaXplOiAzNnB4O1xuICB9XG5cbiAgLm1haW4tdGl0bGUye1xuICAgIG1hcmdpbi10b3A6IDIwcHg7XG4gICAgY29sb3I6IHJnYig1MSwgNTEsIDUxKTtcbiAgICBmb250LXdlaWdodDogNTAwO1xuICAgIGZvbnQtc2l6ZTogMjVweDtcbiAgfVxuXG4gIC5wcmVmaXgtYm9sZHtcbiAgICAgIGZvbnQtd2VpZ2h0OiA1MDA7XG4gIH1cblxuICBhe1xuICAgIGNvbG9yOiAjNjFDOUE4O1xuICB9XG5cbiAgaHIge1xuICAgIG1hcmdpbi10b3A6IDUwcHg7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiA0cHg7XG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICAgIGJhY2tncm91bmQtY29sb3I6ICM2MUM5QTg7XG4gICAgYm9yZGVyOiAwIG5vbmU7XG4gIH1cblxuICBsaXtcbiAgICBtYXJnaW4tdG9wOiAxMHB4O1xuICB9Il19 */"] });
+    } }, directives: [_angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_1__.DefaultLayoutDirective, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_1__.DefaultLayoutAlignDirective, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_1__.DefaultFlexDirective], styles: [".main-title[_ngcontent-%COMP%]{\n    text-align: center;\n    color: rgb(51, 51, 51);\n    font-weight: 900;\n    font-size: 26px;\n  }\n\n  .main-title2[_ngcontent-%COMP%]{\n    margin-top: 20px;\n    color: rgb(51, 51, 51);\n    font-weight: 500;\n    font-size: 25px;\n  }\n\n  .prefix-bold[_ngcontent-%COMP%]{\n      font-weight: 500;\n  }\n\n  a[_ngcontent-%COMP%]{\n    color: #61C9A8;\n  }\n\n  hr[_ngcontent-%COMP%] {\n    margin-top: 50px;\n    width: 100%;\n    height: 4px;\n    margin-left: auto;\n    margin-right: auto;\n    background-color: #61C9A8;\n    border: 0 none;\n  }\n\n  li[_ngcontent-%COMP%]{\n    margin-top: 10px;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByaXZhY3ktYW5kLXBvbGljeS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksa0JBQWtCO0lBQ2xCLHNCQUFzQjtJQUN0QixnQkFBZ0I7SUFDaEIsZUFBZTtFQUNqQjs7RUFFQTtJQUNFLGdCQUFnQjtJQUNoQixzQkFBc0I7SUFDdEIsZ0JBQWdCO0lBQ2hCLGVBQWU7RUFDakI7O0VBRUE7TUFDSSxnQkFBZ0I7RUFDcEI7O0VBRUE7SUFDRSxjQUFjO0VBQ2hCOztFQUVBO0lBQ0UsZ0JBQWdCO0lBQ2hCLFdBQVc7SUFDWCxXQUFXO0lBQ1gsaUJBQWlCO0lBQ2pCLGtCQUFrQjtJQUNsQix5QkFBeUI7SUFDekIsY0FBYztFQUNoQjs7RUFFQTtJQUNFLGdCQUFnQjtFQUNsQiIsImZpbGUiOiJwcml2YWN5LWFuZC1wb2xpY3kuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYWluLXRpdGxle1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBjb2xvcjogcmdiKDUxLCA1MSwgNTEpO1xuICAgIGZvbnQtd2VpZ2h0OiA5MDA7XG4gICAgZm9udC1zaXplOiAyNnB4O1xuICB9XG5cbiAgLm1haW4tdGl0bGUye1xuICAgIG1hcmdpbi10b3A6IDIwcHg7XG4gICAgY29sb3I6IHJnYig1MSwgNTEsIDUxKTtcbiAgICBmb250LXdlaWdodDogNTAwO1xuICAgIGZvbnQtc2l6ZTogMjVweDtcbiAgfVxuXG4gIC5wcmVmaXgtYm9sZHtcbiAgICAgIGZvbnQtd2VpZ2h0OiA1MDA7XG4gIH1cblxuICBhe1xuICAgIGNvbG9yOiAjNjFDOUE4O1xuICB9XG5cbiAgaHIge1xuICAgIG1hcmdpbi10b3A6IDUwcHg7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiA0cHg7XG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICAgIGJhY2tncm91bmQtY29sb3I6ICM2MUM5QTg7XG4gICAgYm9yZGVyOiAwIG5vbmU7XG4gIH1cblxuICBsaXtcbiAgICBtYXJnaW4tdG9wOiAxMHB4O1xuICB9Il19 */"] });
 
 
 /***/ }),
@@ -1435,7 +1438,7 @@ class TermsAndConditionsComponent {
     }
 }
 TermsAndConditionsComponent.ɵfac = function TermsAndConditionsComponent_Factory(t) { return new (t || TermsAndConditionsComponent)(); };
-TermsAndConditionsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TermsAndConditionsComponent, selectors: [["terms-and-conditions"]], decls: 266, vars: 0, consts: [["fxLayout", "row", "fxLayoutAlign", "space-around center", 1, "pt-100"], ["fxFlex", "83%", "fxFlex.md", "83%", "fxFlex.sm", "90%", "fxFlex.xs", "95%"], [1, "main-title", "mb-16"], [1, "primary-text", "mt-6"], [1, "prefix-bold"], ["href", "http://home.welfareprogress.com", "target", "_blank"], ["type", "1", 1, "primary-text", "mt-2"], ["type", "1", 1, "primary-text", "mt-6"], [1, "main-title2"], ["type", "a", 1, "primary-text", "mt-6"], ["routerLink", "/privacy-and-policy"]], template: function TermsAndConditionsComponent_Template(rf, ctx) { if (rf & 1) {
+TermsAndConditionsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TermsAndConditionsComponent, selectors: [["terms-and-conditions"]], decls: 266, vars: 0, consts: [["fxLayout", "row", "fxLayoutAlign", "space-around center", 1, "pt-100"], ["fxFlex", "83%", "fxFlex.md", "83%", "fxFlex.sm", "90%", "fxFlex.xs", "95%"], [1, "main-title", "mb-16"], [1, "primary-text", "mt-6"], [1, "prefix-bold"], ["href", "http://home.welfareprogress.com", "target", "_blank"], ["type", "1", 1, "primary-text", "mt-2"], ["type", "1", 1, "primary-text", "mt-6"], [1, "main-title2"], ["type", "a", 1, "primary-text", "mt-6"], ["routerLink", "/privacy-policy"]], template: function TermsAndConditionsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -1827,7 +1830,7 @@ TermsAndConditionsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTE
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](265, "hr");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_1__.DefaultLayoutDirective, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_1__.DefaultLayoutAlignDirective, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_1__.DefaultFlexDirective, _angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLinkWithHref], styles: [".main-title[_ngcontent-%COMP%]{\n    text-align: center;\n    color: rgb(51, 51, 51);\n    font-weight: 900;\n    font-size: 36px;\n  }\n\n  .main-title2[_ngcontent-%COMP%]{\n    margin-top: 20px;\n    color: rgb(51, 51, 51);\n    font-weight: 500;\n    font-size: 25px;\n  }\n\n  .prefix-bold[_ngcontent-%COMP%]{\n      font-weight: 500;\n  }\n\n  a[_ngcontent-%COMP%]{\n    color: #61C9A8;\n  }\n\n  hr[_ngcontent-%COMP%] {\n    margin-top: 50px;\n    width: 100%;\n    height: 4px;\n    margin-left: auto;\n    margin-right: auto;\n    background-color: #61C9A8;\n    border: 0 none;\n  }\n\n  li[_ngcontent-%COMP%]{\n    margin-top: 10px;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlcm1zLWFuZC1jb25kaXRpb25zLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxrQkFBa0I7SUFDbEIsc0JBQXNCO0lBQ3RCLGdCQUFnQjtJQUNoQixlQUFlO0VBQ2pCOztFQUVBO0lBQ0UsZ0JBQWdCO0lBQ2hCLHNCQUFzQjtJQUN0QixnQkFBZ0I7SUFDaEIsZUFBZTtFQUNqQjs7RUFFQTtNQUNJLGdCQUFnQjtFQUNwQjs7RUFFQTtJQUNFLGNBQWM7RUFDaEI7O0VBRUE7SUFDRSxnQkFBZ0I7SUFDaEIsV0FBVztJQUNYLFdBQVc7SUFDWCxpQkFBaUI7SUFDakIsa0JBQWtCO0lBQ2xCLHlCQUF5QjtJQUN6QixjQUFjO0VBQ2hCOztFQUVBO0lBQ0UsZ0JBQWdCO0VBQ2xCIiwiZmlsZSI6InRlcm1zLWFuZC1jb25kaXRpb25zLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubWFpbi10aXRsZXtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgY29sb3I6IHJnYig1MSwgNTEsIDUxKTtcbiAgICBmb250LXdlaWdodDogOTAwO1xuICAgIGZvbnQtc2l6ZTogMzZweDtcbiAgfVxuXG4gIC5tYWluLXRpdGxlMntcbiAgICBtYXJnaW4tdG9wOiAyMHB4O1xuICAgIGNvbG9yOiByZ2IoNTEsIDUxLCA1MSk7XG4gICAgZm9udC13ZWlnaHQ6IDUwMDtcbiAgICBmb250LXNpemU6IDI1cHg7XG4gIH1cblxuICAucHJlZml4LWJvbGR7XG4gICAgICBmb250LXdlaWdodDogNTAwO1xuICB9XG5cbiAgYXtcbiAgICBjb2xvcjogIzYxQzlBODtcbiAgfVxuXG4gIGhyIHtcbiAgICBtYXJnaW4tdG9wOiA1MHB4O1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogNHB4O1xuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgIG1hcmdpbi1yaWdodDogYXV0bztcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjNjFDOUE4O1xuICAgIGJvcmRlcjogMCBub25lO1xuICB9XG5cbiAgbGl7XG4gICAgbWFyZ2luLXRvcDogMTBweDtcbiAgfSJdfQ== */"] });
+    } }, directives: [_angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_1__.DefaultLayoutDirective, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_1__.DefaultLayoutAlignDirective, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_1__.DefaultFlexDirective, _angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLinkWithHref], styles: [".main-title[_ngcontent-%COMP%]{\n    text-align: center;\n    color: rgb(51, 51, 51);\n    font-weight: 900;\n    font-size: 26px;\n  }\n\n  .main-title2[_ngcontent-%COMP%]{\n    margin-top: 20px;\n    color: rgb(51, 51, 51);\n    font-weight: 500;\n    font-size: 25px;\n  }\n\n  .prefix-bold[_ngcontent-%COMP%]{\n      font-weight: 500;\n  }\n\n  a[_ngcontent-%COMP%]{\n    color: #61C9A8;\n  }\n\n  hr[_ngcontent-%COMP%] {\n    margin-top: 50px;\n    width: 100%;\n    height: 4px;\n    margin-left: auto;\n    margin-right: auto;\n    background-color: #61C9A8;\n    border: 0 none;\n  }\n\n  li[_ngcontent-%COMP%]{\n    margin-top: 10px;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlcm1zLWFuZC1jb25kaXRpb25zLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxrQkFBa0I7SUFDbEIsc0JBQXNCO0lBQ3RCLGdCQUFnQjtJQUNoQixlQUFlO0VBQ2pCOztFQUVBO0lBQ0UsZ0JBQWdCO0lBQ2hCLHNCQUFzQjtJQUN0QixnQkFBZ0I7SUFDaEIsZUFBZTtFQUNqQjs7RUFFQTtNQUNJLGdCQUFnQjtFQUNwQjs7RUFFQTtJQUNFLGNBQWM7RUFDaEI7O0VBRUE7SUFDRSxnQkFBZ0I7SUFDaEIsV0FBVztJQUNYLFdBQVc7SUFDWCxpQkFBaUI7SUFDakIsa0JBQWtCO0lBQ2xCLHlCQUF5QjtJQUN6QixjQUFjO0VBQ2hCOztFQUVBO0lBQ0UsZ0JBQWdCO0VBQ2xCIiwiZmlsZSI6InRlcm1zLWFuZC1jb25kaXRpb25zLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubWFpbi10aXRsZXtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgY29sb3I6IHJnYig1MSwgNTEsIDUxKTtcbiAgICBmb250LXdlaWdodDogOTAwO1xuICAgIGZvbnQtc2l6ZTogMjZweDtcbiAgfVxuXG4gIC5tYWluLXRpdGxlMntcbiAgICBtYXJnaW4tdG9wOiAyMHB4O1xuICAgIGNvbG9yOiByZ2IoNTEsIDUxLCA1MSk7XG4gICAgZm9udC13ZWlnaHQ6IDUwMDtcbiAgICBmb250LXNpemU6IDI1cHg7XG4gIH1cblxuICAucHJlZml4LWJvbGR7XG4gICAgICBmb250LXdlaWdodDogNTAwO1xuICB9XG5cbiAgYXtcbiAgICBjb2xvcjogIzYxQzlBODtcbiAgfVxuXG4gIGhyIHtcbiAgICBtYXJnaW4tdG9wOiA1MHB4O1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogNHB4O1xuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgIG1hcmdpbi1yaWdodDogYXV0bztcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjNjFDOUE4O1xuICAgIGJvcmRlcjogMCBub25lO1xuICB9XG5cbiAgbGl7XG4gICAgbWFyZ2luLXRvcDogMTBweDtcbiAgfSJdfQ== */"] });
 
 
 /***/ }),

@@ -7,7 +7,7 @@ import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-co
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'privacy-and-policy', component: PrivacyAndPolicyComponent },
+  { path: 'privacy-policy', component: PrivacyAndPolicyComponent },
   { path: 'terms-and-conditions', component: TermsAndConditionsComponent },
 
 ];
