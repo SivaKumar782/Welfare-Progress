@@ -1,6 +1,9 @@
 import { Component, OnInit, HostListener, Inject } from '@angular/core';
-
-import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
+import { FormBuilder, FormGroup, FormArray, FormControl, Validators, ValidatorFn } from '@angular/forms';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Router } from '@angular/router';
+import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { AuthService } from '../auth.service';
 
 
 
@@ -11,14 +14,22 @@ import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog
 })
 export class NavComponent implements OnInit {
 
-  constructor(public dialog: MatDialog) {}
+  constructor(public dialog: MatDialog,
+    private authService: AuthService,
+    private fb: FormBuilder,
+    private http: HttpClient,
+  ) { }
 
   navbarOpen = false;
   logoSrc = "../"
-
+  firstFormGroup: any;
+    baseUrl = "https://devapp.welfareprogress.com/api/auth/v1/signinObnes"
 
   ngOnInit() {
-    
+    this.firstFormGroup = this.fb.group({
+      email: [''],
+      password: [''],
+    })
   }
 
   setNavbarOpen() {
@@ -37,6 +48,25 @@ export class NavComponent implements OnInit {
     window.pageYOffset >= 80
       ? (this.isScrolled = true)
       : (this.isScrolled = false);
+  }
+
+
+  signin(){
+
+    this.authService
+    .login(this.firstFormGroup.value.email, this.firstFormGroup.value.password)
+    .subscribe(
+      (res) => {
+        console.log(res)
+      },
+      (err) => {
+      console.log(err)
+      }
+    );
+    // console.log(this.firstFormGroup.value)
+    // this.http.post(this.baseUrl, this.firstFormGroup.value).subscribe((res)=>{
+    //   console.log(res)
+    // })
   }
 
 
