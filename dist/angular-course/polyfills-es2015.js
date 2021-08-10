@@ -1,6 +1,6 @@
 (self["webpackChunkangular_course"] = self["webpackChunkangular_course"] || []).push([["polyfills"],{
 
-/***/ 5240:
+/***/ 85240:
 /*!*********************************************************!*\
   !*** ./node_modules/@angular/localize/fesm2015/init.js ***!
   \*********************************************************/
@@ -3194,7 +3194,7 @@ Zone.__load_patch('PromiseRejectionEvent', (global, Zone) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _angular_localize_init__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/localize/init */ 5240);
+/* harmony import */ var _angular_localize_init__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/localize/init */ 85240);
 /* harmony import */ var zone_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! zone.js */ 7277);
 /* harmony import */ var zone_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(zone_js__WEBPACK_IMPORTED_MODULE_1__);
 /***************************************************************************************************
