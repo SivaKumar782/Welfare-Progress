@@ -2,6 +2,9 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { BehaviorSubject, Observable, of } from 'rxjs';
 import { map } from 'rxjs/operators';
+import * as bcrypt from 'bcryptjs';
+import { DatePipe } from '@angular/common';
+
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })
 };
@@ -34,6 +37,17 @@ export class AuthService {
       })
     );
   }
+
+
+  triggerOtp(email: string): Observable<any> {
+    // console.log(comdata);
+    return this.http.post(this.baseUrl + '/otpTrigger', {
+      email
+    });
+  }
+
+
+
 
 
 }

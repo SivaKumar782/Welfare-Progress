@@ -1,9 +1,12 @@
 import { Component, OnInit, HostListener, Inject } from '@angular/core';
-import { FormBuilder, FormGroup, FormArray, FormControl, Validators, ValidatorFn } from '@angular/forms';
+import { FormBuilder, FormGroup, FormArray, FormControl,AbstractControl, Validators, ValidatorFn } from '@angular/forms';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { AuthService } from '../auth.service';
+import * as bcrypt from 'bcryptjs';
+const salt = bcrypt.genSaltSync(10);
+import { DatePipe } from '@angular/common';
 
 
 
@@ -13,6 +16,16 @@ import { AuthService } from '../auth.service';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
+  loginForm: FormGroup;
+  otpForm: FormGroup;
+  firstFormGroup: FormGroup;
+
+  baseUrl = "https://devapp.welfareprogress.com/api/auth/v1/signinObnes"
+
+  navbarOpen = false;
+  logoSrc = "../"
+  showErr: boolean = false
+  errMsg: any
 
   constructor(public dialog: MatDialog,
     private authService: AuthService,
@@ -20,16 +33,22 @@ export class NavComponent implements OnInit {
     private http: HttpClient,
   ) { }
 
-  navbarOpen = false;
-  logoSrc = "../"
-  firstFormGroup: any;
-    baseUrl = "https://devapp.welfareprogress.com/api/auth/v1/signinObnes"
 
   ngOnInit() {
-    this.firstFormGroup = this.fb.group({
+    this.loginForm = this.fb.group({
       email: [''],
       password: [''],
     })
+
+    this.otpForm = this.fb.group({
+      otp: ['', Validators.required]
+    });
+
+    this.firstFormGroup = this.fb.group({
+      password: ['', [Validators.required]],
+      newpassword: ['', [Validators.required]],
+      confirmpassword: ['', [Validators.required]],
+    }, { validator: this.passwordConfirming });
   }
 
   setNavbarOpen() {
@@ -51,27 +70,88 @@ export class NavComponent implements OnInit {
   }
 
 
-  signin(){
+  signin() {
 
     this.authService
-    .login(this.firstFormGroup.value.email, this.firstFormGroup.value.password)
-    .subscribe(
-      (res) => {
-        console.log(res)
-      },
-      (err) => {
-      console.log(err)
-      }
-    );
+      .login(this.loginForm.value.email, this.loginForm.value.password)
+      .subscribe(
+        (res) => {
+          if (res) {
+            this.errMsg = 'Enter OTP sent to your Email ID'
+            this.showErr = true
+            setTimeout(() => {
+              this.showErr = false
+              this.errMsg = ''
+            }, 3000);
+
+          } else {
+            this.errMsg = 'Invalid login'
+            this.showErr = true
+            setTimeout(() => {
+              this.showErr = false
+              this.errMsg = ''
+            }, 3000);
+          }
+        },
+        (err) => {
+
+          this.errMsg = err.error.message
+          this.showErr = true
+          setTimeout(() => {
+            this.showErr = false
+            this.errMsg = ''
+          }, 3000);
+        }
+      );
     // console.log(this.firstFormGroup.value)
     // this.http.post(this.baseUrl, this.firstFormGroup.value).subscribe((res)=>{
     //   console.log(res)
     // })
   }
 
+  triggerOtp() {
+    this.authService.triggerOtp(this.loginForm.value.email).subscribe(res => {
+      console.log('res', res)
+    })
+  }
+
+  //validation to compare both passwords
+  passwordConfirming(c: AbstractControl): { invalid: boolean } {
+    if (c.get('newpassword').value !== c.get('confirmpassword').value) {
+      return { invalid: true };
+    }
+  }
 
 
+  // updaterecordpassword(): void {
 
+  //   //password hash whihc gets stored in DB
+  //   const passworddata = {
+  //     password: bcrypt.hashSync(this.firstFormGroup.value.newpassword, 10),
+  //     pass_changed: 1,
+  //     pass_updatedon: this.datePipe.transform(this.passupdatedon, 'yyyy-MM-dd')
+  //   };
+
+  //   this.userservice.updatePassword(this.loginForm.value.email, passworddata)
+  //     .subscribe(
+  //       response => {
+  //         console.log(response);
+  //         this.passwordmessage = 'Password successfully changed';
+
+  //       },
+  //       error => {
+  //         console.log(error);
+  //       });
+
+  //   //new password is submitted and now users has to login again
+  //   setTimeout(() => {
+  //     this.forgotPass = false
+  //     this.loginWindow = true
+  //     this.otpWindow = false
+  //     this.newPassWindow = false
+  //   }, 3000);  //5s
+
+  // }
 
 }
 
