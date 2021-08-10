@@ -69,6 +69,9 @@ export class NavComponent implements OnInit {
       : (this.isScrolled = false);
   }
 
+  btnClick(){
+    window.open("https://app.welfareprogress.com/#/authentication/signin", "_blank");
+  }
 
   signin() {
 

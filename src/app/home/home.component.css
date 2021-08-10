@@ -308,4 +308,15 @@
     margin: 10px 0;
   }
   
-  
+  .link{
+    color: #61C9A8;
+}
+
+.link:hover{
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+
+.footli{
+    margin-top: 8px;
+}
