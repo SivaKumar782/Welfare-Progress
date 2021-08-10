@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener, Inject } from '@angular/core';
-import { FormBuilder, FormGroup, FormArray, FormControl,AbstractControl, Validators, ValidatorFn } from '@angular/forms';
+import { FormBuilder, FormGroup, FormArray, FormControl, AbstractControl, Validators, ValidatorFn } from '@angular/forms';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
@@ -19,7 +19,9 @@ export class NavComponent implements OnInit {
   loginForm: FormGroup;
   otpForm: FormGroup;
   firstFormGroup: FormGroup;
-
+  loginView: boolean = true
+  otpView: boolean = false
+  changePassView: boolean = true
   baseUrl = "https://devapp.welfareprogress.com/api/auth/v1/signinObnes"
 
   navbarOpen = false;
@@ -79,6 +81,7 @@ export class NavComponent implements OnInit {
           if (res) {
             this.errMsg = 'Enter OTP sent to your Email ID'
             this.showErr = true
+            this.triggerOtp()
             setTimeout(() => {
               this.showErr = false
               this.errMsg = ''
@@ -109,6 +112,31 @@ export class NavComponent implements OnInit {
     // })
   }
 
+  checktwofa(){
+    this.authService.checkOtp(this.loginForm.value.email, this.otpForm.value.otp).subscribe(res => {
+      console.log('res', res)
+
+      //two types of res 'Matched' means the OTP matches, or 'Try Again'
+      if (res['message'] == 'Matched') {
+
+        this.errMsg = 'Redirecting...'
+        this.showErr = true
+        setTimeout(() => {
+          this.showErr = false
+          this.errMsg = ''
+        }, 3000);
+      } else {
+        this.errMsg = 'Try agian'
+        this.showErr = true
+        setTimeout(() => {
+          this.showErr = false
+          this.errMsg = ''
+        }, 3000);
+        // this.otperror = true
+      }
+    })
+  }
+
   triggerOtp() {
     this.authService.triggerOtp(this.loginForm.value.email).subscribe(res => {
       console.log('res', res)
@@ -120,6 +148,10 @@ export class NavComponent implements OnInit {
     if (c.get('newpassword').value !== c.get('confirmpassword').value) {
       return { invalid: true };
     }
+  }
+
+  forgotPass(){
+    console.log("forgot password flow")
   }
 
 

@@ -46,7 +46,13 @@ export class AuthService {
     });
   }
 
-
+  checkOtp(email: string, onetimePass: string): Observable<any> {
+    // console.log(comdata);
+    return this.http.post(this.baseUrl + '/crossCheckOtp', {
+      email,
+      onetimePass
+    });
+  }
 
 
 
