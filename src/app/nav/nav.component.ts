@@ -19,10 +19,15 @@ export class NavComponent implements OnInit {
   loginForm: FormGroup;
   otpForm: FormGroup;
   firstFormGroup: FormGroup;
+  passupdatedon: Date = new Date();
+
   loginView: boolean = true
   otpView: boolean = false
-  changePassView: boolean = true
-  baseUrl = "https://devapp.welfareprogress.com/api/auth/v1/signinObnes"
+  changePassView: boolean = false
+  forgotPassFlow: boolean = false
+  accessToken
+  uid
+  // baseUrl = "http://localhost:3000/api/auth/v1/signinObnes"
 
   navbarOpen = false;
   logoSrc = "../"
@@ -32,6 +37,8 @@ export class NavComponent implements OnInit {
   constructor(public dialog: MatDialog,
     private authService: AuthService,
     private fb: FormBuilder,
+    public datePipe: DatePipe,
+
     private http: HttpClient,
   ) { }
 
@@ -47,7 +54,7 @@ export class NavComponent implements OnInit {
     });
 
     this.firstFormGroup = this.fb.group({
-      password: ['', [Validators.required]],
+      // password: ['', [Validators.required]],
       newpassword: ['', [Validators.required]],
       confirmpassword: ['', [Validators.required]],
     }, { validator: this.passwordConfirming });
@@ -79,13 +86,20 @@ export class NavComponent implements OnInit {
       .subscribe(
         (res) => {
           if (res) {
+            this.accessToken = res.accessToken
+            this.uid = res.uid
+            console.log(res)
+            console.log(this.accessToken)
             this.errMsg = 'Enter OTP sent to your Email ID'
             this.showErr = true
             this.triggerOtp()
+            this.otpView = true
+            this.loginView = false
+            this.changePassView = false
             setTimeout(() => {
               this.showErr = false
               this.errMsg = ''
-            }, 3000);
+            }, 5000);
 
           } else {
             this.errMsg = 'Invalid login'
@@ -112,21 +126,35 @@ export class NavComponent implements OnInit {
     // })
   }
 
-  checktwofa(){
+  checkTwoFa() {
     this.authService.checkOtp(this.loginForm.value.email, this.otpForm.value.otp).subscribe(res => {
       console.log('res', res)
 
       //two types of res 'Matched' means the OTP matches, or 'Try Again'
       if (res['message'] == 'Matched') {
 
-        this.errMsg = 'Redirecting...'
-        this.showErr = true
-        setTimeout(() => {
-          this.showErr = false
-          this.errMsg = ''
-        }, 3000);
+        if (this.forgotPassFlow == true) {
+          this.changePassView = true
+          this.otpView = false
+          this.loginView = false
+        } else if (this.forgotPassFlow == false) {
+           console.log(this.accessToken)
+          const redirectUrl = `http://localhost:49934/#/authentication/signin?uid=` + this.uid;
+          console.log(redirectUrl)
+          window.open(redirectUrl, '_blank');
+          this.errMsg = 'Redirecting...'
+          this.showErr = true
+          setTimeout(() => {
+            this.showErr = false
+            this.errMsg = ''
+          }, 3000);
+
+
+        }
+
+
       } else {
-        this.errMsg = 'Try agian'
+        this.errMsg = 'Try again'
         this.showErr = true
         setTimeout(() => {
           this.showErr = false
@@ -150,40 +178,88 @@ export class NavComponent implements OnInit {
     }
   }
 
-  forgotPass(){
+  forgotPass() {
+    // this.forgotPassFlow = true
     console.log("forgot password flow")
+
+    if (this.forgotPassFlow == false) {
+      this.otpView = false
+      this.changePassView = false
+      this.forgotPassFlow = true
+    } else {
+      this.authService.triggerOtp(this.loginForm.value.email).subscribe(res => {
+        console.log('res', res)
+      })
+      this.otpForm.reset()
+      this.errMsg = 'Enter OTP sent to your Email ID'
+      this.showErr = true
+      setTimeout(() => {
+        this.showErr = false
+        this.errMsg = ''
+      }, 3000);
+      this.otpForm.reset()
+      this.changePassView = false
+      this.loginView = false
+      this.otpView = true
+
+    }
   }
 
 
-  // updaterecordpassword(): void {
+  //Resend the OTP
+  resendOtp() {
+    this.authService.triggerOtp(this.loginForm.value.email).subscribe(res => {
+      console.log('res', res)
+    })
+    this.errMsg = 'OTP has been resend!'
+    this.showErr = true
+    setTimeout(() => {
+      this.showErr = false
+      this.errMsg = ''
+    }, 3000);
+    this.otpForm.reset()
+  }
 
-  //   //password hash whihc gets stored in DB
-  //   const passworddata = {
-  //     password: bcrypt.hashSync(this.firstFormGroup.value.newpassword, 10),
-  //     pass_changed: 1,
-  //     pass_updatedon: this.datePipe.transform(this.passupdatedon, 'yyyy-MM-dd')
-  //   };
 
-  //   this.userservice.updatePassword(this.loginForm.value.email, passworddata)
-  //     .subscribe(
-  //       response => {
-  //         console.log(response);
-  //         this.passwordmessage = 'Password successfully changed';
+  updaterecordpassword(): void {
 
-  //       },
-  //       error => {
-  //         console.log(error);
-  //       });
+    //password hash whihc gets stored in DB
+    const passworddata = {
+      password: bcrypt.hashSync(this.firstFormGroup.value.newpassword, 10),
+      pass_changed: 1,
+      pass_updatedon: this.datePipe.transform(this.passupdatedon, 'yyyy-MM-dd')
+    };
+    console.log(passworddata)
+    console.log(this.loginForm.value.email)
 
-  //   //new password is submitted and now users has to login again
-  //   setTimeout(() => {
-  //     this.forgotPass = false
-  //     this.loginWindow = true
-  //     this.otpWindow = false
-  //     this.newPassWindow = false
-  //   }, 3000);  //5s
+    this.authService.updatePassword(this.loginForm.value.email, passworddata)
+      .subscribe(
+        response => {
+          console.log(response);
+          this.errMsg = 'Password successfully changed'
+          this.showErr = true
+          this.loginView = true
+          this.otpView = false
+          this.changePassView = false
+          this.forgotPassFlow = false
+          setTimeout(() => {
+            this.showErr = false
+            this.errMsg = ''
+          }, 3000);
+        },
+        error => {
+          console.log(error);
+        });
 
-  // }
+    //new password is submitted and now users has to login again
+    setTimeout(() => {
+      // this.forgotPass = false
+      // this.loginWindow = true
+      // this.otpWindow = false
+      // this.newPassWindow = false
+    }, 3000);  //5s
+
+  }
 
 }
 

@@ -18,7 +18,9 @@ export class AuthService {
   constructor(
     private http: HttpClient
   ) { }
-  baseUrl = "https://devapp.welfareprogress.com/api" + '/auth/v1';
+  baseUrl = "http://localhost/api" + '/auth/v1';
+  baseUserUrl = "http://localhost/api" + '/userinformation/v1';
+
 
 
 
@@ -52,6 +54,11 @@ export class AuthService {
       email,
       onetimePass
     });
+  }
+
+
+  updatePassword(email: any, data: any): Observable<any> {
+    return this.http.put(`${this.baseUserUrl +'/updateUserPassword'}/${email}`, data);
   }
 
 
