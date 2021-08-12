@@ -142,7 +142,7 @@ export class NavComponent implements OnInit {
           this.loginView = false
         } else if (this.forgotPassFlow == false) {
            console.log(this.accessToken)
-          const redirectUrl = `http://localhost:49934/#/authentication/signin?uid=` + this.uid;
+          const redirectUrl = `https://devapp.welfareprogress.com/#/authentication/signin?uid=` + this.uid;
           console.log(redirectUrl)
           window.open(redirectUrl, '_blank');
           this.errMsg = 'Redirecting...'

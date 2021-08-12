@@ -18,10 +18,11 @@ export class AuthService {
   constructor(
     private http: HttpClient
   ) { }
-  baseUrl = "http://localhost/api" + '/auth/v1';
-  baseUserUrl = "http://localhost/api" + '/userinformation/v1';
+  baseUrl = "https://devapp.welfareprogress.com/api" + '/auth/v1';
+  baseUserUrl = "https://devapp.welfareprogress.com/api" + '/userinformation/v1';
 
-
+//apiUrl: 'https://devapp.welfareprogress.com/api'
+//  apiUrl: 'https://app.welfareprogress.com/api'
 
 
 
