@@ -95,6 +95,7 @@ a {
     height: 50px;
     border-radius: 4px;
     outline: none;
+    text-transform: uppercase;
 }
 
 .signinbtn{
@@ -107,4 +108,5 @@ a {
   height: 50px;
   border-radius: 4px;
   outline: none;
+  text-transform: uppercase;
 }
