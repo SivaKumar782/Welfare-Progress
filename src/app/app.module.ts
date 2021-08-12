@@ -16,7 +16,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import {AuthService} from './auth.service'
-
+import { DatePipe } from '@angular/common';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatIconModule } from '@angular/material/icon';
 @NgModule({
   // schemas: [
   //     CUSTOM_ELEMENTS_SCHEMA
@@ -41,8 +44,12 @@ import {AuthService} from './auth.service'
     AppRoutingModule,
     RouterModule,
     ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatIconModule,
+
   ],
-  providers: [AuthService],
+  providers: [AuthService,  DatePipe  ],
   bootstrap: [AppComponent],
   entryComponents: [AppComponent]
 })
