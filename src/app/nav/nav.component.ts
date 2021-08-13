@@ -73,6 +73,10 @@ export class NavComponent implements OnInit {
     window.open("https://app.welfareprogress.com/#/authentication/signin", "_blank");
   }
 
+  register(){
+    window.open("https://app.welfareprogress.com/#/authentication/signup", "_blank");
+  }
+
   signin() {
 
     this.authService
