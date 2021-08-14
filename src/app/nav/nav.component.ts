@@ -9,7 +9,7 @@ const salt = bcrypt.genSaltSync(10);
 import { DatePipe } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
 import { LanguageService } from '../services/language.service';
-
+import { NgbDropdownConfig, NgbDropdown, NgbDropdownMenu } from '@ng-bootstrap/ng-bootstrap';
 @Component({
   selector: 'app-nav',
   templateUrl: './nav.component.html',
@@ -47,7 +47,8 @@ export class NavComponent implements OnInit {
     private http: HttpClient,
     public language: LanguageService,
     public translate: TranslateService,
-    public languageService: LanguageService
+    public languageService: LanguageService,
+    config: NgbDropdownConfig
   ) {
     let browserLang;
     translate.addLangs(this.language.languages);
@@ -57,6 +58,7 @@ export class NavComponent implements OnInit {
       browserLang = translate.getBrowserLang();
     }
     translate.use(browserLang.match(/en|es/) ? browserLang : 'en');
+    config.autoClose = false;
 
    }
 

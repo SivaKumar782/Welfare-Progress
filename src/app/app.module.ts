@@ -24,7 +24,7 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
+import { NgbDropdownConfig, NgbDropdown, NgbDropdownMenu } from '@ng-bootstrap/ng-bootstrap';
 import {
   HttpClientModule,
   HTTP_INTERCEPTORS,
@@ -69,7 +69,7 @@ import {
 
   ],
   // exports: [TranslateModule],
-  providers: [AuthService,  DatePipe  ],
+  providers: [AuthService,  DatePipe , NgbDropdownConfig ],
   bootstrap: [AppComponent],
   entryComponents: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]

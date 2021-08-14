@@ -124,3 +124,16 @@ a {
 .countryFlags{
   padding-left: 5px;
 }
+
+/* .mat-form-field {
+  display: block;
+}
+
+.show {
+  width: 400px;
+} */
+
+
+.mat-form-field {
+  width: 340px;
+}

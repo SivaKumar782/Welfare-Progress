@@ -30,7 +30,7 @@
           </mat-option>
         </mat-select>
       </mat-form-field>
-      <button mat-flat-button disabled>{{'Find report' | translate}}</button>
+      <button mat-flat-button disabled class="reportBtn">{{'Find report' | translate}}</button>
     </div>
 
 
@@ -113,12 +113,7 @@
           {{'Who we are' | translate}}
         </h3>
         <div class="flex mt-4 flex-wrap justify-center">
-          <p class="mb-4 primary-text leading-relaxed">
-            {{'Global Food Partners is a multinational consulting firm that works with businesses to develop,
-            implement and report progress on high animal welfare and responsible sourcing policies to
-            improve
-            their profitability and sustainability.' | translate}}
-          </p>
+          <p class="mb-4 primary-text leading-relaxed" innerHtml="{{'Global Food Partners is a multinational consulting firm that works with businesses to develop, implement and report progress on high animal welfare and responsible sourcing policies to improve their profitability and sustainability.' | translate}}"></p>
           <p class="primary-text">
             {{'Our team has a combined 50+ years of corporate and on-farm experience developing and executing
             animal
