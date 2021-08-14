@@ -7,8 +7,8 @@ import { AuthService } from '../auth.service';
 import * as bcrypt from 'bcryptjs';
 const salt = bcrypt.genSaltSync(10);
 import { DatePipe } from '@angular/common';
-
-
+import { TranslateService } from '@ngx-translate/core';
+import { LanguageService } from '../services/language.service';
 
 @Component({
   selector: 'app-nav',
@@ -34,16 +34,62 @@ export class NavComponent implements OnInit {
   showErr: boolean = false
   errMsg: any
 
+  flagvalue;
+  countryName;
+  langStoreValue: string;
+  defaultFlag: string;
+
   constructor(public dialog: MatDialog,
     private authService: AuthService,
     private fb: FormBuilder,
     public datePipe: DatePipe,
 
     private http: HttpClient,
-  ) { }
+    public language: LanguageService,
+    public translate: TranslateService,
+    public languageService: LanguageService
+  ) {
+    let browserLang;
+    translate.addLangs(this.language.languages);
+    if (localStorage.getItem('lang')) {
+      browserLang = localStorage.getItem('lang');
+    } else {
+      browserLang = translate.getBrowserLang();
+    }
+    translate.use(browserLang.match(/en|es/) ? browserLang : 'en');
+
+   }
+
+  listLang = [
+    { text: 'English', flag: 'assets/images/flags/us.jpg', lang: 'en' },
+   { text: 'Spanish', flag: 'assets/images/flags/spain.jpg', lang: 'es' },
+    //  { text: 'German', flag: 'assets/images/flags/germany.jpg', lang: 'de' }
+  ];
+
+  setLanguage(text: string, lang: string, flag: string) {
+    this.countryName = text;
+     this.flagvalue = flag;
+    this.langStoreValue = lang;
+    this.languageService.setLanguage(lang);
+  }
 
 
   ngOnInit() {
+
+
+    this.langStoreValue = localStorage.getItem('lang');
+    const val = this.listLang.filter((x) => x.lang === this.langStoreValue);
+    this.countryName = val.map((element) => element.text);
+    if (val.length === 0) {
+      if (this.flagvalue === undefined) {
+        this.defaultFlag = 'assets/images/flags/us.jpg';
+      }
+    } else {
+      this.flagvalue = val.map((element) => element.flag);
+    }
+
+
+
     this.loginForm = this.fb.group({
       email: [''],
       password: [''],
@@ -268,5 +314,7 @@ export class NavComponent implements OnInit {
 
   }
 
+
+  
 }
 
