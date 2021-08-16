@@ -196,7 +196,7 @@
   
   
   .period{
-    width: 70%;
+    width: 55%;
   }
   
   
@@ -319,4 +319,8 @@
 
 .footli{
     margin-top: 8px;
+}
+
+.reportBtn{
+  width: 45%;
 }
