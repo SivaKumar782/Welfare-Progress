@@ -118,7 +118,8 @@ a {
 }
 
 .selectedFlag img{
-  max-width: 70%;
+  max-width: 55%;
+  padding-top: 5px;
 }
 
 .countryFlags{
