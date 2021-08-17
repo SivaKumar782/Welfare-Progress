@@ -42,19 +42,20 @@
   "Mercy For Animals supports the comprehensive, uniform cage-free egg progress reporting enabled by WelfareProgress.com. As we encourage transparency on corporate animal welfare goals through initiatives like Monitor de Iniciativas Corporativas por los Animales, this tool streamlines reporting expectations and formats to help the world transition away from the caging of laying hens.":"<q>Mercy For Animals apoya WelfareProgress.com ya que es un sistema de reporte de huevo libre de jaula detallado y uniforme. A medida que alentamos la transparencia en los objetivos corporativos de bienestar animal con iniciativas como Monitor de Iniciativas Corporativas por los Animales, esta herramienta simplifica las expectativas de reporte y formatos para ayudar al mundo a eliminar las jaulas donde se alojan a las gallinas ponedoras.</q>",
   "We believe that reporting on progress is an essential step to make sure cage-free policies are followed. We have been working with companies in Latin America and launched reports to share more about companies’ progress in the region. We will be doing the same in Asia. We are happy to see a new platform that will centralize questionnaires and reporting from companies, so we decided to start sharing this new questionnaire with companies. We’ll create regional reports using the public data available on welfareprogress.com.":"<q>Creemos que reportar progreso es un paso esencial para asegurar que los compromisos de huevo libre de jaula sean cumplidos. Hemos estado trabajando con empresas en América Latina publicando reportes para compartir el progreso de las empresas en la región y haremos lo mismo en Asia. Nos da gusto ver una nueva plataforma que agrupará diferentes cuestionarios y reportes corporativos, la cual comenzaremos a compartir con empresas. Crearemos nuestros reportes regionales usando la información pública y disponible en <a href='http://welfareprogress.com' target='_blank'>WelfareProgress.com</a>.",
   "The Humane League invites corporations to utilize WelfareProgress.com to report progress on their animal welfare goals. The platform is designed in a way to boost convenience and efficiency for all stakeholders alike.":"<q>The Humane League invita a empresas a utilizar <a href='http://welfareprogress.com' target='_blank'>WelfareProgress.com</a> para reportar su progreso en relación a sus objetivos de bienestar animal. Esta plataforma está diseñada de manera para incrementar la conveniencia y eficiencia de todos los stakeholders por igual.</q>",
-  "Enter company name":"Enter company name",
+  "Enter company name":"Ingrese nombre de empresa",
+  "Report cage-free progress":"Reportar progreso libre de jaula",
   "Period":"Período",
   "Why report":"¿Por qué reportar?",
   "About Global Food Partners":"Sobre Global Food Partners",
   "Login": "iniciar sesión",  
   "Email ID": "correo electrónico",  
   "Password": "contraseña",
-  "Sign In":"NA",
+  "Sign In":"Registrarse",
   "Register":"Registro",
   "Forgot password?":"olvidó su contraseña?",
   "Send OTP":"envío de contraseña de un solo uso",
   "Enter OTP sent to your Email ID":"Ingrese su Contraseña de un solo uso enviado a su ID de correo electrónico",
-  "Password successfully changed":"NA",
+  "Password successfully changed":"Contraseña ha sido cambiada",
   "OTP has been resend!":"NA",
   "Try Again":"Intente de Nuevo",
   "OTP":"Contraseña de un solo uso",
@@ -64,6 +65,9 @@
   "Confirm password":"confirmar contraseña",
   "Confirm Password is required":"confirmar contraseña es requerido",
   "Password doesn't match":"su contraseña no coincide",
-  "Save Password":"Guardar contraseña"
+  "Save Password":"Guardar contraseña",
+  "Copyright © 2021 Global Food Partners":"Derechos Reservados © 2021 <a href='https://globalfoodpartners.com/' target='_blank'> Global Food Partners </a>",
+  "Follow Us":"Síguenos"
+
   
 }

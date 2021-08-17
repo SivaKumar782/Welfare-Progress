@@ -27,6 +27,10 @@ export class NavComponent implements OnInit {
   forgotPassFlow: boolean = false
   accessToken
   uid
+  hide1 = true;
+  hide2 = true;
+  hide3 = true;
+
   // baseUrl = "http://localhost:3000/api/auth/v1/signinObnes"
 
   navbarOpen = false;
@@ -38,6 +42,11 @@ export class NavComponent implements OnInit {
   countryName;
   langStoreValue: string;
   defaultFlag: string;
+
+  alert: boolean = false
+  submitted = false;
+  error = '';
+
 
   constructor(public dialog: MatDialog,
     private authService: AuthService,
@@ -91,9 +100,10 @@ export class NavComponent implements OnInit {
     }
 
 
-
+    
+  
     this.loginForm = this.fb.group({
-      email: [''],
+      email: ['', [Validators.required, Validators.email, Validators.minLength(5)]],
       password: [''],
     })
 
@@ -131,11 +141,17 @@ export class NavComponent implements OnInit {
   }
 
   register(){
-    window.open("https://app.welfareprogress.com/#/authentication/signup", "_blank");
+    window.open("https://app.welfareprogress.com/#/authentication/signup", "_self");
   }
 
+ 
   signin() {
 
+    this.otpForm.setValue({
+      otp: '',
+    });
+
+    // $( "reldiv" ).load(window.location.href + "reldiv" );
     this.authService
       .login(this.loginForm.value.email, this.loginForm.value.password)
       .subscribe(
@@ -196,7 +212,7 @@ export class NavComponent implements OnInit {
            console.log(this.accessToken)
           const redirectUrl = `https://devapp.welfareprogress.com/#/authentication/signin?uid=` + this.uid;
           console.log(redirectUrl)
-          window.open(redirectUrl, '_blank');
+          window.open(redirectUrl, '_self');
           this.errMsg = 'Redirecting...'
           this.showErr = true
           setTimeout(() => {
@@ -231,6 +247,10 @@ export class NavComponent implements OnInit {
     if (c.get('newpassword').value !== c.get('confirmpassword').value) {
       return { invalid: true };
     }
+  }
+
+  get f() {
+    return this.loginForm.controls;
   }
 
   forgotPass() {
@@ -317,6 +337,7 @@ export class NavComponent implements OnInit {
   }
 
 
+  
   
 }
 

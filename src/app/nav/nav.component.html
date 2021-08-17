@@ -17,7 +17,7 @@
             </a>
           </div>
         </div>
-        
+
         <div id="navbar" class="collapse navbar-collapse mt-1">
           <ul class="nav navbar-nav navbar-right">
 
@@ -31,7 +31,9 @@
                   <a href="javascript:void(0);" class="dropdown-item lang-item-list" *ngFor="let item of listLang"
                     (click)="setLanguage(item.text, item.lang, item.flag)"
                     [ngClass]="{'active': langStoreValue === item.lang}" ngbDropdownItem>
-                    <div class="countryFlags"><img src="{{item.flag}}" class="flag-img" height="12" style="padding:5px;"> <span class="align-middle" style="padding:5px;color: #333;">{{item.text}}</span></div>
+                    <div class="countryFlags"><img src="{{item.flag}}" class="flag-img" height="12"
+                        style="padding:5px;"> <span class="align-middle"
+                        style="padding:5px;color: #333;">{{item.text}}</span></div>
                   </a>
                 </div>
               </div>
@@ -41,33 +43,62 @@
 
             <li>
               <div ngbDropdown [autoClose]="false">
-                <button class=" btn-signin heading-color mt-7 text-md dropdown-toggle" ngbDropdownToggle>Report
-                  cage-free
-                  progress <span class="caret"></span></button>
+                <button class=" btn-signin heading-color mt-7 text-md dropdown-toggle text-primary-color" ngbDropdownToggle>
+                  {{'Report cage-free progress' | translate}} <span class="caret"></span></button>
                 <div ngbDropdownMenu aria-labelledby="dropdownConfig">
                   <!-- <ul class="" role=""> -->
-                    <div *ngIf="showErr" class="construction">{{errMsg | translate}}</div>
-                    <div *ngIf="loginView" class="col-lg-12 mt-4">
-                      <form [formGroup]="loginForm" id="ajax-login-form" action="" method="post" role="form"
-                        autocomplete="off">
-    
-                        <mat-form-field class="col-lg-12" appearance="outline">
+                  <div *ngIf="showErr" class="construction">{{errMsg | translate}}</div>
+                  <div *ngIf="loginView" class="col-lg-12 mt-4">
+                    <form [formGroup]="loginForm" id="ajax-login-form" action="" method="post" role="form"
+                      autocomplete="off">
+
+                      <!-- <mat-form-field class="col-lg-12">
                           <mat-label>{{'Email ID' | translate}}</mat-label>
                           <input matInput formControlName="email">
                         </mat-form-field>
     
-                        <mat-form-field *ngIf="!forgotPassFlow" class="col-lg-12" appearance="outline">
+                        <mat-form-field *ngIf="!forgotPassFlow" class="col-lg-12" >
                           <mat-label for="password">{{'Password' | translate}}</mat-label>
                           <input matInput formControlName="password">
+                        </mat-form-field> -->
+
+                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-3 mt-3">
+                        <mat-form-field class="example-full-width">
+                          <mat-label>{{ 'Email ID' | translate }} </mat-label>
+                          <input matInput formControlName="email" required>
+                          <mat-icon matSuffix>email</mat-icon>
+                          <mat-error *ngIf="loginForm.get('email').hasError('required') || f.email.touched">
+                              {{ 'Please enter a valid email address' | translate }}
+                            </mat-error>
+
                         </mat-form-field>
-    
-    
-                        <div class="form-group">
-    
-                          <div class="row">
-                            <div class="">
-    
-                              <div [hidden]="forgotPassFlow" class="container">
+                      </div>
+
+                      <div *ngIf="!forgotPassFlow" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-3 mt-3">
+                        <mat-form-field class="example-full-width">
+                          <mat-label>{{ 'Password' | translate }}</mat-label>
+                          <input matInput formControlName="password" [type]="hide1 ? 'password' : 'text'" required>
+                          <mat-icon matSuffix (click)="hide1 = !hide1">
+                            {{hide1 ? 'visibility_off' : 'visibility'}}</mat-icon>
+                          <mat-error *ngIf="f.password.hasError('required')">
+                              {{ 'Password is required' | translate }}
+                            </mat-error>
+                        </mat-form-field>
+                      </div>
+
+
+
+                      <div class="row">
+                        <div class="">
+
+                          <div [hidden]="forgotPassFlow" class="px-12">
+                            <button mat-flat-button color="primary" (click)="signin()" class="signinbtn" type="submit">
+                              {{'Login' | translate }}
+                            </button>
+                          </div>
+
+
+                          <!-- <div [hidden]="forgotPassFlow" class="container">
                                 <div class="col-xs-6 pull-left button-lc">
                                   <button (click)="signin()" type="submit" name="login-submit" id="login-submit"
                                     class="signinbtn" value="Sign In"> {{'Sign in' | translate}}</button>
@@ -76,115 +107,124 @@
                                   <button (click)="register()"
                                     name="create-submit" id="create-submit"
                                     class="registerbtn" value="Create Account"> {{'Register' | translate}}</button>
-    
                                 </div>
-                              </div>
-                              <div [hidden]="!forgotPassFlow" class="container">
-                                <div class="col-xs-12 pull-left button-lc">
-                                  <button (click)="forgotPass()" type="submit" name="login-submit" id="login-submit"
-                                    class="signinbtn" value="Sign In"> {{'Send OTP' | translate}}</button>
-                                </div>
-                              </div>
+                              </div> -->
+
+
+                          <div [hidden]="!forgotPassFlow" class="container">
+                            <div class="col-xs-12 pull-left button-lc">
+                              <button (click)="forgotPass()" type="submit" name="login-submit" id="login-submit"
+                                class="signinbtn" value="Sign In"> {{'Send OTP' | translate}}</button>
                             </div>
                           </div>
                         </div>
-                        <div class="form-group">
-                          <div class="row">
-                            <div class="col-lg-12">
-                              <div class="text-center">
-                                <a (click)="forgotPass()" class="forgot-password">{{'Forgot password?' | translate}}</a>
-    
-                              </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="row">
+                          <div class="col-lg-12 px-12 mt-2">
+                            <div class="text-right">
+                              <a (click)="forgotPass()" class="forgot-password pointer">{{'Forgot password?' | translate}}</a>
                             </div>
                           </div>
                         </div>
-                      </form>
-    
-                    </div>
-                    <div *ngIf="otpView" class="col-lg-12 mt-4">
-                      <form [formGroup]="otpForm" id="ajax-login-form" action="" method="post" role="form"
-                        autocomplete="off">
-                        <mat-form-field class="col-lg-12" appearance="outline">
-                          <mat-label >{{'OTP' | translate}}</mat-label>
-                          <input matInput formControlName="otp" placeholder="OTP" value="" autocomplete="off">
-                        </mat-form-field>
-    
-    
-                        <div class="form-group">
-                          <div class="row">
-                            <div class="container">
-    
-                              <div class="col-xs-6 pull-left button-lc">
-                                <button (click)="checkTwoFa()" type="submit" name="login-submit" id="login-submit"
-                                  class="signinbtn" value="Sign In"> {{'Login' | translate}}</button>
-                              </div>
-                              <div class="col-xs-6 pull-right">
-                                <button (click)="resendOtp()" type="submit" type="submit" name="create-submit"
-                                  id="create-submit" class="registerbtn" value="Sign In"> {{'Resend' | translate}}</button>
-    
-    
-                              </div>
+                      </div>
+                      <div class="mt-8 text-center">
+
+                        <p class="my-4">{{"Don't have an account?" | translate}}
+                          <a (click)="register()"
+                          name="create-submit" id="create-submit" class="font-weight-medium text-primary pointer">
+                            {{'Register' | translate}} </a>
+                         </p>
+                        
+                      </div>
+                    </form>
+
+                  </div>
+                  <div *ngIf="otpView" class="col-lg-12 mt-4">
+                    <form [formGroup]="otpForm" id="ajax-login-form" action="" method="post" role="form"
+                      autocomplete="off">
+                      <mat-form-field class="col-lg-12 mt-3">
+                        <mat-label>{{'OTP' | translate}}</mat-label>
+                        <input matInput formControlName="otp" placeholder="OTP" value="" autocomplete="off">
+                      </mat-form-field>
+
+
+                      <div class="form-group">
+                        <div class="row">
+                          <div class="container">
+
+                            <div class="col-xs-6 pull-left button-lc">
+                              <button (click)="checkTwoFa()" type="submit" name="login-submit" id="login-submit"
+                                class="signinbtn" value="Sign In"> {{'Login' | translate}}</button>
                             </div>
-    
-    
-                          </div>
-                        </div>
-                      </form>
-    
-                    </div>
-                    <div *ngIf="changePassView" class="col-lg-12 mt-4">
-                      <form [formGroup]="firstFormGroup" id="ajax-login-form" action="" method="post" role="form"
-                        autocomplete="off">
-    
-    
-    
-                        <mat-form-field class="col-lg-12" appearance="outline">
-                          <mat-label>{{'New Password' | translate}} </mat-label>
-                          <input matInput formControlName="newpassword" />
-                          <!-- <mat-icon matSuffix (click)="hide1 = !hide1">{{hide1 ? 'visibility_off' : 'visibility'}}
-                          </mat-icon> -->
-                          <mat-error *ngIf="firstFormGroup.get('newpassword').hasError('required')">
-                            {{'New Password is required' | translate}}
-                          </mat-error>
-    
-                        </mat-form-field>
-    
-                        <mat-form-field class="col-lg-12" appearance="outline">
-                          <mat-label>{{'Confirm password' | translate}} </mat-label>
-                          <input matInput formControlName="confirmpassword">
-                          <!-- <mat-icon matSuffix (click)="hide2 = !hide2">{{hide2 ? 'visibility_off' : 'visibility'}}
-                          </mat-icon> -->
-                          <mat-error *ngIf="firstFormGroup.get('confirmpassword').hasError('required')">
-                            {{'Confirm Password is required' | translate}}
-                          </mat-error>
-                        </mat-form-field>
-    
-                        <span *ngIf="firstFormGroup.errors?.invalid">
-                          {{"Password doesn't match" | translate}}
-                        </span>
-                        <div class="form-group">
-                          <div class="row">
-                            <div class="container">
-                              <div class=" col-xs-12 pull-left button-lc">
-                                <button [disabled]="firstFormGroup.invalid" (click)="updaterecordpassword();" type="submit"
-                                  name="login-submit" id="login-submit" class="signinbtn"
-                                  value="Sign In"> {{'Save password' | translate}}</button>
-                              </div>
+                            <div class="col-xs-6 pull-right">
+                              <button (click)="resendOtp()" type="submit" type="submit" name="create-submit"
+                                id="create-submit" class="registerbtn" value="Sign In"> {{'Resend' |
+                                translate}}</button>
+
+
                             </div>
-    
-    
                           </div>
+
+
                         </div>
-    
-                      </form>
-                    </div>
+                      </div>
+                    </form>
+
+                  </div>
+                  <div *ngIf="changePassView" class="col-lg-12 mt-4">
+                    <form [formGroup]="firstFormGroup" id="ajax-login-form" action="" method="post" role="form"
+                      autocomplete="off">
+
+
+
+                      <mat-form-field class="col-lg-12 mt-3">
+                        <mat-label>{{'New Password' | translate}} </mat-label>
+                        <input matInput formControlName="newpassword" [type]="hide2 ? 'password' : 'text'" required/>
+                        <mat-icon matSuffix (click)="hide2 = !hide2">
+                          {{hide2 ? 'visibility_off' : 'visibility'}}</mat-icon>
+                        <mat-error *ngIf="firstFormGroup.get('newpassword').hasError('required')">
+                          {{'New Password is required' | translate}}
+                        </mat-error>
+
+                      </mat-form-field>
+
+                      <mat-form-field class="col-lg-12 mt-3">
+                        <mat-label>{{'Confirm password' | translate}} </mat-label>
+                        <input matInput formControlName="confirmpassword" [type]="hide3 ? 'password' : 'text'" required>
+                          <mat-icon matSuffix (click)="hide3 = !hide3">
+                            {{hide3 ? 'visibility_off' : 'visibility'}}</mat-icon>
+                        <mat-error *ngIf="firstFormGroup.get('confirmpassword').hasError('required')">
+                          {{'Confirm Password is required' | translate}}
+                        </mat-error>
+                      </mat-form-field>
+
+                      <span *ngIf="firstFormGroup.errors?.invalid" class="px-12">
+                        {{"Password doesn't match" | translate}}
+                      </span>
+                      <div class="form-group">
+                        <div class="row">
+                          <div class="container">
+                            <div class=" col-xs-12 pull-left button-lc">
+                              <button [disabled]="firstFormGroup.invalid" (click)="updaterecordpassword();"
+                                type="submit" name="login-submit" id="login-submit" class="signinbtn" value="Sign In">
+                                {{'Save password' | translate}}</button>
+                            </div>
+                          </div>
+
+
+                        </div>
+                      </div>
+
+                    </form>
+                  </div>
                   <!-- </ul> -->
                 </div>
               </div>
             </li>
-     
 
-            
+
+
             <!-- <li class="dropdown">
               <button class=" btn-signin heading-color mt-7 text-md dropdown-toggle" data-toggle="dropdown">Report
                 cage-free
