@@ -225,7 +225,7 @@ export class NavComponent implements OnInit {
 
 
       } else {
-        this.errMsg = 'Try again'
+        this.errMsg = 'Try Again'
         this.showErr = true
         setTimeout(() => {
           this.showErr = false
