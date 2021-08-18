@@ -2565,7 +2565,7 @@
             flag: 'assets/images/flags/us.jpg',
             lang: 'en'
           }, {
-            text: 'Spanish',
+            text: 'Español',
             flag: 'assets/images/flags/spain.jpg',
             lang: 'es'
           } //  { text: 'German', flag: 'assets/images/flags/germany.jpg', lang: 'de' }
