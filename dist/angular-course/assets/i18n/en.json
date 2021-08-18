@@ -43,6 +43,7 @@
   "We believe that reporting on progress is an essential step to make sure cage-free policies are followed. We have been working with companies in Latin America and launched reports to share more about companies’ progress in the region. We will be doing the same in Asia. We are happy to see a new platform that will centralize questionnaires and reporting from companies, so we decided to start sharing this new questionnaire with companies. We’ll create regional reports using the public data available on welfareprogress.com.":"<q>We believe that reporting on progress is an essential step to make sure cage-free policies are followed. We have been working with companies in Latin America and launched reports to share more about companies’ progress in the region. We will be doing the same in Asia. We are happy to see a new platform that will centralize questionnaires and reporting from companies, so we decided to start sharing this new questionnaire with companies. We’ll create regional reports using the public data available on <a href='http://welfareprogress.com' target='_blank'>welfareprogress.com</a>.</q>",
   "The Humane League invites corporations to utilize WelfareProgress.com to report progress on their animal welfare goals. The platform is designed in a way to boost convenience and efficiency for all stakeholders alike.":"<q>The Humane League invites corporations to utilize <a href='http://welfareprogress.com' target='_blank'>WelfareProgress.com</a> to report progress on their animal welfare goals. The platform is designed in a way to boost convenience and efficiency for all stakeholders alike.</q>",
   "Enter company name":"Enter company name",
+  "Report cage-free progress":"Report cage-free progress",
   "Period":"Period",
   "Why report":"Why report",
   "About Global Food Partners":"About Global Food Partners",
@@ -55,7 +56,7 @@
   "Send OTP":"Send OTP",
   "Enter OTP sent to your Email ID":"Enter OTP sent to your Email ID",
   "Password successfully changed":"Password successfully changed",
-  "OTP has been resend!":"OTP has been resend!",
+  "OTP has been resend!":"OTP has been resent!",
   "Try Again":"Try Again",
   "OTP":"OTP",
   "RESEND":"RESEND",
@@ -64,6 +65,9 @@
   "Confirm password":"Confirm password",
   "Confirm Password is required":"Confirm Password is required",
   "Password doesn't match":"Password doesn't match",
-  "Save Password":"Save Password"
+  "Save Password":"Save Password",
+  "Copyright © 2021 Global Food Partners":"Copyright © 2021 <a href='https://globalfoodpartners.com/' target='_blank'> Global Food Partners </a>",
+  "Follow Us":"Follow Us",
+  "Don't have an account?":"Don't have an account?"
 
 }
