@@ -56,11 +56,7 @@
   "Send OTP":"envío de contraseña de un solo uso",
   "Enter OTP sent to your Email ID":"Ingrese su Contraseña de un solo uso enviado a su ID de correo electrónico",
   "Password successfully changed":"Contraseña ha sido cambiada",
-<<<<<<< HEAD
-  "OTP has been resend!":"NA",
-=======
   "OTP has been resend!":"Contraseña de un solo uso ha sido reenviado",
->>>>>>> a3d9b1e7fa590a8b23a04340708bd4ff93baafac
   "Try Again":"Intente de Nuevo",
   "OTP":"Contraseña de un solo uso",
   "RESEND":"reenviar",
@@ -71,13 +67,9 @@
   "Password doesn't match":"su contraseña no coincide",
   "Save Password":"Guardar contraseña",
   "Copyright © 2021 Global Food Partners":"Derechos Reservados © 2021 <a href='https://globalfoodpartners.com/' target='_blank'> Global Food Partners </a>",
-<<<<<<< HEAD
-  "Follow Us":"Síguenos"
-=======
   "Follow Us":"Síguenos",
   "Don't have an account?":"No tienes un cuenta?"
 
->>>>>>> a3d9b1e7fa590a8b23a04340708bd4ff93baafac
 
   
 }
