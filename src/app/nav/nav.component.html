@@ -43,24 +43,13 @@
 
             <li>
               <div ngbDropdown [autoClose]="false">
-                <button class=" btn-signin heading-color mt-7 text-md dropdown-toggle text-primary-color" ngbDropdownToggle>
-                  {{'Report cage-free progress' | translate}} <span class="caret"></span></button>
-                <div ngbDropdownMenu aria-labelledby="dropdownConfig">
-                  <!-- <ul class="" role=""> -->
+                <button class=" btn-signin heading-color mt-7 text-md dropdown-toggle text-primary-color" (click)="btnClick()" ngbDropdownToggle>
+                  {{'Report cage-free progress' | translate}} </button>
+                <!-- <div ngbDropdownMenu aria-labelledby="dropdownConfig">
                   <div *ngIf="showErr" class="construction">{{errMsg | translate}}</div>
                   <div *ngIf="loginView" class="col-lg-12 mt-4">
                     <form [formGroup]="loginForm" id="ajax-login-form" action="" method="post" role="form"
                       autocomplete="off">
-
-                      <!-- <mat-form-field class="col-lg-12">
-                          <mat-label>{{'Email ID' | translate}}</mat-label>
-                          <input matInput formControlName="email">
-                        </mat-form-field>
-    
-                        <mat-form-field *ngIf="!forgotPassFlow" class="col-lg-12" >
-                          <mat-label for="password">{{'Password' | translate}}</mat-label>
-                          <input matInput formControlName="password">
-                        </mat-form-field> -->
 
                       <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-3 mt-3">
                         <mat-form-field class="example-full-width">
@@ -98,18 +87,7 @@
                           </div>
 
 
-                          <!-- <div [hidden]="forgotPassFlow" class="container">
-                                <div class="col-xs-6 pull-left button-lc">
-                                  <button (click)="signin()" type="submit" name="login-submit" id="login-submit"
-                                    class="signinbtn" value="Sign In"> {{'Sign in' | translate}}</button>
-                                </div>
-                                <div class="col-xs-6 pull-right">
-                                  <button (click)="register()"
-                                    name="create-submit" id="create-submit"
-                                    class="registerbtn" value="Create Account"> {{'Register' | translate}}</button>
-                                </div>
-                              </div> -->
-
+                       
 
                           <div [hidden]="!forgotPassFlow" class="container">
                             <div class="col-xs-12 pull-left button-lc">
@@ -218,150 +196,9 @@
 
                     </form>
                   </div>
-                  <!-- </ul> -->
-                </div>
+                </div> -->
               </div>
             </li>
-
-
-
-            <!-- <li class="dropdown">
-              <button class=" btn-signin heading-color mt-7 text-md dropdown-toggle" data-toggle="dropdown">Report
-                cage-free
-                progress <span class="caret"></span></button>
-              <ul class="dropdown-menu dropdown-lr animated slideInRight" role="menu">
-                <div *ngIf="showErr" class="construction">{{errMsg | translate}}</div>
-                <div *ngIf="loginView" class="col-lg-12 mt-4">
-                  <form [formGroup]="loginForm" id="ajax-login-form" action="" method="post" role="form"
-                    autocomplete="off">
-
-                    <mat-form-field class="col-lg-12" appearance="outline">
-                      <mat-label>{{'Email ID' | translate}}</mat-label>
-                      <input matInput formControlName="email">
-                    </mat-form-field>
-
-                    <mat-form-field *ngIf="!forgotPassFlow" class="col-lg-12" appearance="outline">
-                      <mat-label for="password">{{'Password' | translate}}</mat-label>
-                      <input matInput formControlName="password">
-                    </mat-form-field>
-
-
-                    <div class="form-group">
-
-                      <div class="row">
-                        <div class="">
-
-                          <div [hidden]="forgotPassFlow" class="container">
-                            <div class="col-xs-6 pull-left button-lc">
-                              <button (click)="signin()" type="submit" name="login-submit" id="login-submit"
-                                class="signinbtn" value="Sign In"> {{'Sign in' | translate}}</button>
-                            </div>
-                            <div class="col-xs-6 pull-right">
-                              <button (click)="register()"
-                                name="create-submit" id="create-submit"
-                                class="registerbtn" value="Create Account"> {{'Register' | translate}}</button>
-
-                            </div>
-                          </div>
-                          <div [hidden]="!forgotPassFlow" class="container">
-                            <div class="col-xs-12 pull-left button-lc">
-                              <button (click)="forgotPass()" type="submit" name="login-submit" id="login-submit"
-                                class="signinbtn" value="Sign In"> {{'Send OTP' | translate}}</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="row">
-                        <div class="col-lg-12">
-                          <div class="text-center">
-                            <a (click)="forgotPass()" class="forgot-password">{{'Forgot password?' | translate}}</a>
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-
-                </div>
-                <div *ngIf="otpView" class="col-lg-12 mt-4">
-                  <form [formGroup]="otpForm" id="ajax-login-form" action="" method="post" role="form"
-                    autocomplete="off">
-                    <mat-form-field class="col-lg-12" appearance="outline">
-                      <mat-label >{{'OTP' | translate}}</mat-label>
-                      <input matInput formControlName="otp" placeholder="OTP" value="" autocomplete="off">
-                    </mat-form-field>
-
-
-                    <div class="form-group">
-                      <div class="row">
-                        <div class="container">
-
-                          <div class="col-xs-6 pull-left button-lc">
-                            <button (click)="checkTwoFa()" type="submit" name="login-submit" id="login-submit"
-                              class="signinbtn" value="Sign In"> {{'Login' | translate}}</button>
-                          </div>
-                          <div class="col-xs-6 pull-right">
-                            <button (click)="resendOtp()" type="submit" type="submit" name="create-submit"
-                              id="create-submit" class="registerbtn" value="Sign In"> {{'Resend' | translate}}</button>
-
-
-                          </div>
-                        </div>
-
-
-                      </div>
-                    </div>
-                  </form>
-
-                </div>
-                <div *ngIf="changePassView" class="col-lg-12 mt-4">
-                  <form [formGroup]="firstFormGroup" id="ajax-login-form" action="" method="post" role="form"
-                    autocomplete="off">
-
-
-
-                    <mat-form-field class="col-lg-12" appearance="outline">
-                      <mat-label>{{'New Password' | translate}} </mat-label>
-                      <input matInput formControlName="newpassword" />
-                    
-                      <mat-error *ngIf="firstFormGroup.get('newpassword').hasError('required')">
-                        {{'New Password is required' | translate}}
-                      </mat-error>
-
-                    </mat-form-field>
-
-                    <mat-form-field class="col-lg-12" appearance="outline">
-                      <mat-label>{{'Confirm password' | translate}} </mat-label>
-                      <input matInput formControlName="confirmpassword">
-                      
-                      <mat-error *ngIf="firstFormGroup.get('confirmpassword').hasError('required')">
-                        {{'Confirm Password is required' | translate}}
-                      </mat-error>
-                    </mat-form-field>
-
-                    <span *ngIf="firstFormGroup.errors?.invalid">
-                      {{"Password doesn't match" | translate}}
-                    </span>
-                    <div class="form-group">
-                      <div class="row">
-                        <div class="container">
-                          <div class=" col-xs-12 pull-left button-lc">
-                            <button [disabled]="firstFormGroup.invalid" (click)="updaterecordpassword();" type="submit"
-                              name="login-submit" id="login-submit" class="signinbtn"
-                              value="Sign In"> {{'Save password' | translate}}</button>
-                          </div>
-                        </div>
-
-
-                      </div>
-                    </div>
-
-                  </form>
-                </div>
-              </ul>
-            </li> -->
           </ul>
         </div>
       </div>
