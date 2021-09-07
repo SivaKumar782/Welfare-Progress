@@ -23,9 +23,10 @@
 
             <li class="nav-item">
               <div ngbDropdown class="d-inline-block mt-9" [autoClose]="true">
-                <a ngbDropdownToggle class="lang-dropdown selectedFlag">
-                  <img *ngIf="flagvalue !== undefined" src="{{flagvalue}}" height="16">
-                  <img *ngIf="flagvalue === undefined" src="{{defaultFlag}}" height="16">
+                <a ngbDropdownToggle class="lang-dropdown">
+                  <!-- <img *ngIf="flagvalue !== undefined" src="{{flagvalue}}" height="16"> -->
+                  <!-- <img *ngIf="flagvalue === undefined" src="{{defaultFlag}}" height="16"> -->
+                  <div class="dispCountry">{{countryName}}</div>
                 </a>
                 <div ngbDropdownMenu class="dropdown-menu lang-item dropdown-menu-right pullDown">
                   <a href="javascript:void(0);" class="dropdown-item lang-item-list" *ngFor="let item of listLang"
