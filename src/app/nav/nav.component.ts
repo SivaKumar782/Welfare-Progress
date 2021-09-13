@@ -77,6 +77,7 @@ export class NavComponent implements OnInit {
     //  { text: 'German', flag: 'assets/images/flags/germany.jpg', lang: 'de' }
   ];
 
+
   setLanguage(text: string, lang: string, flag: string) {
     this.countryName = text;
      this.flagvalue = flag;
@@ -86,6 +87,7 @@ export class NavComponent implements OnInit {
 
 
   ngOnInit() {
+
 
 
     this.langStoreValue = localStorage.getItem('lang');

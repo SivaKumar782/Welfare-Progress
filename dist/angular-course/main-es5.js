@@ -3792,6 +3792,10 @@
             browserLang = translate.getBrowserLang();
           }
 
+          if (localStorage.getItem('lang') == null) {
+            localStorage.setItem('lang', 'en');
+          }
+
           translate.use(browserLang.match(/en|es/) ? browserLang : 'en');
         }
 
