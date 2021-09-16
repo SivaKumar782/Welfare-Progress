@@ -3998,6 +3998,13 @@ mat-panel-title, .primary-text{
   color: #333;
 }
 
+.primary-text2{
+  /* padding-left: 10%; */
+  font-size: 16px;
+  line-height: 2rem;
+  color: #333;
+}
+
 .w-text{
   color: #fff;
 }
