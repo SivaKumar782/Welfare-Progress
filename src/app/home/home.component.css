@@ -333,3 +333,16 @@
 .sinergiaImg{
   height: 150px;
 }
+
+.asterisk{
+  font-size: 35px;
+  color: #333;
+    padding-top: 7px;
+    position: absolute;
+}
+
+.asterisk2{
+  font-size: 30px;
+  padding-top: 3px;
+    position: absolute;
+}
