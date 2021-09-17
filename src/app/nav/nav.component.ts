@@ -139,7 +139,7 @@ export class NavComponent implements OnInit {
   }
 
   btnClick(){
-    window.open("https://devapp.welfareprogress.com/#/authentication/signin", "_blank");
+    window.open("https://app.welfareprogress.com/#/authentication/signin", "_blank");
   }
 
   register(){

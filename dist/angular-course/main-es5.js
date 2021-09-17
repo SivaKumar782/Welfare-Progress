@@ -2646,7 +2646,7 @@
         }, {
           key: "btnClick",
           value: function btnClick() {
-            window.open("https://devapp.welfareprogress.com/#/authentication/signin", "_blank");
+            window.open("https://app.welfareprogress.com/#/authentication/signin", "_blank");
           }
         }, {
           key: "register",
