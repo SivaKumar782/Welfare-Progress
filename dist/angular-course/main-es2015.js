@@ -1355,7 +1355,7 @@ class NavComponent {
     }
     btnClick() {
         let lang = localStorage.getItem("lang");
-        window.open("https://app.welfareprogress.com/#/authentication/signin?lang=" + lang, "_blank");
+        window.open("https://devapp.welfareprogress.com/#/authentication/signin?lang=" + lang, "_blank");
         // window.open("http://localhost:4200/#/authentication/signin?lang="+lang, "_blank");
     }
     register() {
