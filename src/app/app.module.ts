@@ -30,6 +30,7 @@ import {
   HTTP_INTERCEPTORS,
   HttpClient
 } from '@angular/common/http';
+import { ReportsComponent } from './reports/reports.component';
 
 @NgModule({
   // schemas: [
@@ -41,7 +42,8 @@ import {
     FooterComponent,
     TermsAndConditionsComponent,
     PrivacyAndPolicyComponent,
-    HomeComponent
+    HomeComponent,
+    ReportsComponent
   ],
   imports: [
     NgbModule,
