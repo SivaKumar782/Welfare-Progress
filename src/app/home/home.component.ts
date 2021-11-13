@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import {Router} from '@angular/router';
+
 // import * as $ from 'jquery';
 declare var $: any;
 // import 'bootstrap';
@@ -17,7 +19,7 @@ export class HomeComponent implements OnInit {
     toggleTabs($tabNumber: number) {
         this.openTab = $tabNumber;
     }
-    constructor() {
+    constructor(private router: Router) {
 
     }
 
@@ -33,6 +35,10 @@ export class HomeComponent implements OnInit {
     }
 
 
+    reports(){
+      // this.router.navigateByUrl('/reports');
+      window.open('/reports', "_self");
+    }
 
     customOptions: OwlOptions = {
         loop: true,
