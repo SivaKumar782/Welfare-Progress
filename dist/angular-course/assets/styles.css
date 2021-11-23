@@ -15,11 +15,17 @@ button {
     border-radius: 4px;
 }
 
+.text-bold{
+    font-weight: bold;
+}
 
 .text-black{
     color: #000;
 }
 
+.hover-pointer{
+    cursor: pointer;
+}
 
 .course-category {
     margin-top: 15px;
