@@ -57,6 +57,29 @@ export class HomeComponent implements OnInit {
       return this.options.filter(option => option.toLowerCase().includes(filterValue));
     }
 
+
+    onSelectionChange(event){
+      this.periods = [];
+      if(this.selected == 'ACCOR'){
+        this.periods.push({"value":"2019","viewValue":"2019"})
+      }else if(this.selected == 'CMR SAB DE CV'){
+        this.periods.push({"value":"2020","viewValue":"2020"})
+      }else if(this.selected == 'COMPANIA ARGENTINA DE JUGOS'){
+        this.periods.push({"value":"2021","viewValue":"2021"})
+      }else if(this.selected == 'Huevos Guillén'){
+        this.periods.push({"value":"2021","viewValue":"2021"})
+      }else if(this.selected == 'PT Sari Pizza Indonesia'){
+        this.periods.push({"value":"2021","viewValue":"2021"})
+      }else if(this.selected == 'SaladStop! Pte Ltd.'){
+        this.periods.push({"value":"2021","viewValue":"2021"})
+      }else if(this.selected == 'Vapiano Colombia'){
+        this.periods.push({"value":"2020","viewValue":"2020"})
+      }else if(this.selected == 'Wyndham Destinations'){
+        this.periods.push({"value":"2020","viewValue":"2020"})
+      }
+    }
+
+
     findreport(){
       if(this.selected == 'ACCOR'){
         window.open(window.location.href+'/assets/wp/reports/ACCOR.pdf', '_blank');
@@ -116,18 +139,18 @@ export class HomeComponent implements OnInit {
 
 
       periods = [
-        {value: '2021', viewValue: '2021'},
-        {value: '2020', viewValue: '2020'},
-        {value: '2019', viewValue: '2019'},
-        {value: '2018', viewValue: '2018'},
-        {value: '2017', viewValue: '2017'},
-        {value: '2016', viewValue: '2016'},
-        {value: '2015', viewValue: '2015'},
-        {value: '2014', viewValue: '2014'},
-        {value: '2013/14', viewValue: '2013/14'},
-        {value: '2012/13', viewValue: '2012/13'},
-        {value: '2013/12', viewValue: '2011/12'},
-        {value: '2010/11', viewValue: '2010/11'},
+        // {value: '2021', viewValue: '2021'},
+        // {value: '2020', viewValue: '2020'},
+        // {value: '2019', viewValue: '2019'},
+        // {value: '2018', viewValue: '2018'},
+        // {value: '2017', viewValue: '2017'},
+        // {value: '2016', viewValue: '2016'},
+        // {value: '2015', viewValue: '2015'},
+        // {value: '2014', viewValue: '2014'},
+        // {value: '2013/14', viewValue: '2013/14'},
+        // {value: '2012/13', viewValue: '2012/13'},
+        // {value: '2013/12', viewValue: '2011/12'},
+        // {value: '2010/11', viewValue: '2010/11'},
 
         
       ];
