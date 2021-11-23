@@ -6,4 +6,5 @@ mat-card{
 .heading1{
     font-weight: 600;
     font-size: 2.75rem;
+    text-align: center;
   }

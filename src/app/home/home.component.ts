@@ -2,6 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import {Router} from '@angular/router';
 
+import {FormControl} from '@angular/forms';
+import {Observable} from 'rxjs';
+import {map, startWith} from 'rxjs/operators';
+
 // import * as $ from 'jquery';
 declare var $: any;
 // import 'bootstrap';
@@ -12,10 +16,18 @@ declare var $: any;
 })
 export class HomeComponent implements OnInit {
 
+  myControl = new FormControl();
+  options: string[] = [
+    'ACCOR', 'CMR SAB DE CV', 'COMPANIA ARGENTINA DE JUGOS', 'Huevos Guillén', 
+    'PT Sari Pizza Indonesia', 'SaladStop! Pte Ltd.', 'Vapiano Colombia', 'Wyndham Destinations'
+  ];
+  filteredOptions: Observable<string[]>;
+
   title = 'welfare-progress';
     panelOpenState = false;
 
     openTab = 1;
+    selected;
     toggleTabs($tabNumber: number) {
         this.openTab = $tabNumber;
     }
@@ -25,6 +37,11 @@ export class HomeComponent implements OnInit {
 
     ngOnInit() {
 
+      this.filteredOptions = this.myControl.valueChanges.pipe(
+        startWith(''),
+        map(value => this._filter(value)),
+      );
+
       
       $('[data-toggle="tooltip"]').tooltip()
 
@@ -32,6 +49,35 @@ export class HomeComponent implements OnInit {
       
 
 
+    }
+
+    private _filter(value: string): string[] {
+      const filterValue = value.toLowerCase();
+  
+      return this.options.filter(option => option.toLowerCase().includes(filterValue));
+    }
+
+    findreport(){
+      if(this.selected == 'ACCOR'){
+        window.open(window.location.href+'/assets/wp/reports/ACCOR.pdf', '_blank');
+      }else if(this.selected == 'CMR SAB DE CV'){
+        window.open(window.location.href+'/assets/wp/reports/CMR SAB DE CV.pdf', '_blank');
+      }else if(this.selected == 'COMPANIA ARGENTINA DE JUGOS'){
+        window.open(window.location.href+'/assets/wp/reports/COMPANIA ARGENTINA DE JUGOS.pdf', '_blank');
+      }else if(this.selected == 'Huevos Guillén'){
+        window.open(window.location.href+'/assets/wp/reports/Huevos Guillén.pdf', '_blank');
+      }else if(this.selected == 'PT Sari Pizza Indonesia'){
+        window.open(window.location.href+'/assets/wp/reports/PT Sari Pizza Indonesia.pdf', '_blank');
+      }else if(this.selected == 'SaladStop! Pte Ltd.'){
+        window.open(window.location.href+'/assets/wp/reports/Eat wide awake.pdf', '_blank');
+      }else if(this.selected == 'Vapiano Colombia'){
+        window.open(window.location.href+'/assets/wp/reports/Vapiano Colombia.pdf', '_blank');
+      }else if(this.selected == 'Wyndham Destinations'){
+        window.open(window.location.href+'/assets/wp/reports/Wyndham Destinations.pdf', '_blank');
+      }
+      else{
+        alert('Select a company');
+      }
     }
 
 

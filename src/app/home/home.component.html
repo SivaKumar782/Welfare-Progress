@@ -11,25 +11,39 @@
 
   <div fxFlex="30%" fxFlex.md="30%" fxFlex.sm="90%" fxFlex.xs="95%">
 
-    <mat-card-title class="coming-soon">{{'Coming soon' | translate}}</mat-card-title>
+    <!-- <mat-card-title class="coming-soon">{{'Coming soon' | translate}}</mat-card-title> -->
     <mat-card-title class="heading1 soon">{{'View cage-free progress' | translate}}
     </mat-card-title>
     <div class="soon">
+      <!-- <mat-form-field floatLabel="never" appearance="outline" class="company">
+        <input matInput placeholder="{{'Enter company name' | translate}}">
+      </mat-form-field> -->
+
       <mat-form-field floatLabel="never" appearance="outline" class="company">
-        <input matInput placeholder="{{'Enter company name' | translate}}" disabled>
+        <input type="text"
+               placeholder="{{'Enter company name' | translate}}"
+               matInput
+               [formControl]="myControl"
+               [matAutocomplete]="auto" [(ngModel)]="selected">
+        <mat-autocomplete #auto="matAutocomplete">
+          <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+            {{option}}
+          </mat-option>
+        </mat-autocomplete>
       </mat-form-field>
+
     </div>
     <div class="soon">
       <mat-form-field floatLabel="never" appearance="outline" class="period">
-        <mat-select placeholder="{{'Period' | translate}}" disabled>
+        <mat-select placeholder="{{'Period' | translate}}">
           <mat-option *ngFor="let period of periods" [value]="period.value">
             {{period.viewValue}}
           </mat-option>
         </mat-select>
       </mat-form-field>
-      <button mat-flat-button disabled class="reportBtn">{{'Find report' | translate}}</button>
+      <button mat-flat-button (click)="findreport()" class="reportBtn">{{'Find report' | translate}}</button>
     </div>
-    <div class="p-color text-center" (click)="reports()">{{'View reports' | translate}}</div>
+    <div class="p-color primary-text text-bold hover-pointer text-center" (click)="reports()">{{'View all reports' | translate}}</div>
 
 
   </div>
