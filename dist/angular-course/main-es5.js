@@ -916,7 +916,7 @@
 
           this.router = router;
           this.myControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormControl();
-          this.options = ['ACCOR', 'CMR SAB DE CV', 'COMPANIA ARGENTINA DE JUGOS', 'Huevos Guillén', 'PT Sari Pizza Indonesia', 'SaladStop! Pte Ltd.', 'Vapiano Colombia', 'Wyndham Destinations'];
+          this.options = ['ACCOR', 'CMR SAB DE CV', 'COMPANIA ARGENTINA DE JUGOS', 'Huevos Guillén', 'PT Sari Pizza Indonesia', 'SaladStop! Pte Ltd.', 'Vapiano Colombia', 'Wyndham Destinations', 'Qbano'];
           this.title = 'welfare-progress';
           this.panelOpenState = false;
           this.openTab = 1;
@@ -1030,6 +1030,11 @@
                 "value": "2020",
                 "viewValue": "2020"
               });
+            } else if (this.selected == 'Qbano') {
+              this.periods.push({
+                "value": "2021",
+                "viewValue": "2021"
+              });
             }
           }
         }, {
@@ -1051,6 +1056,8 @@
               window.open(window.location.href + '/assets/wp/reports/Vapiano Colombia.pdf', '_blank');
             } else if (this.selected == 'Wyndham Destinations') {
               window.open(window.location.href + '/assets/wp/reports/Wyndham Destinations.pdf', '_blank');
+            } else if (this.selected == 'Qbano') {
+              window.open(window.location.href + '/assets/wp/reports/Qbano.pdf', '_blank');
             } else {
               alert('Select a company');
             }
