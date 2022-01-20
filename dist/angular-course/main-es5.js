@@ -916,7 +916,7 @@
 
           this.router = router;
           this.myControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormControl();
-          this.options = ['ACCOR', 'CMR SAB DE CV', 'COMPANIA ARGENTINA DE JUGOS', 'Huevos Guillén', 'PT Sari Pizza Indonesia', 'SaladStop! Pte Ltd.', 'Vapiano Colombia', 'Wyndham Destinations', 'Qbano'];
+          this.options = ['ACCOR', 'CMR SAB DE CV', 'COMPANIA ARGENTINA DE JUGOS', 'Huevos Guillén', 'PT Sari Pizza Indonesia', 'SaladStop! Pte Ltd.', 'Vapiano Colombia', 'Wyndham Destinations', 'Qbano', 'Crepes & Waffles'];
           this.title = 'welfare-progress';
           this.panelOpenState = false;
           this.openTab = 1;
@@ -1035,6 +1035,11 @@
                 "value": "2021",
                 "viewValue": "2021"
               });
+            } else if (this.selected == 'Crepes & Waffles') {
+              this.periods.push({
+                "value": "2021",
+                "viewValue": "2021"
+              });
             }
           }
         }, {
@@ -1058,6 +1063,8 @@
               window.open(window.location.href + '/assets/wp/reports/Wyndham Destinations.pdf', '_blank');
             } else if (this.selected == 'Qbano') {
               window.open(window.location.href + '/assets/wp/reports/Qbano.pdf', '_blank');
+            } else if (this.selected == 'Crepes & Waffles') {
+              window.open(window.location.href + '/assets/wp/reports/Crepes & Waffles.pdf', '_blank');
             } else {
               alert('Select a company');
             }
@@ -4024,9 +4031,9 @@
       _ReportsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: _ReportsComponent,
         selectors: [["reports"]],
-        decls: 71,
+        decls: 75,
         vars: 6,
-        consts: [[1, "pt-100"], [1, "heading1", "px-12", "py-8"], ["fxLayout", "row wrap", "fxLayout.xs", "column", "fxLayoutAlign", "space-around center"], [1, "py-10"], ["fxFlex", "calc(33%-25px)", "fxFlex.sm", "calc(50%-25px)"], [1, "px-16", "py-12", "text-center", "text-md", "text-md"], ["target", "_blank", "href", "../../assets/wp/reports/ACCOR.pdf", 1, "text-black"], [1, "px-16", "py-12", "text-center", "text-md"], ["target", "_blank", "href", "../../assets/wp/reports/CMR SAB DE CV.pdf", 1, "text-black"], [1, "px-16", "py-8", "text-center", "text-md"], ["target", "_blank", "href", "../../assets/wp/reports/COMPANIA ARGENTINA DE JUGOS.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Huevos Guill\xE9n.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/PT Sari Pizza Indonesia.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Eat wide awake.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Vapiano Colombia.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Wyndham Destinations.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Qbano.pdf", 1, "text-black"], ["fxFlex", "calc(33%-25px)", "fxFlex.sm", "calc(50%-25px)", 2, "box-shadow", "none"], ["fxLayout", "row wrap", "fxLayout.xs", "column", "fxLayoutAlign", "space-around center", 1, "py-8"], ["mat-button", "", "routerLink", "", 2, "color", "inherit", "background", "#cccccc!important"]],
+        consts: [[1, "pt-100"], [1, "heading1", "px-12", "py-8"], ["fxLayout", "row wrap", "fxLayout.xs", "column", "fxLayoutAlign", "space-around center"], [1, "py-10"], ["fxFlex", "calc(33%-25px)", "fxFlex.sm", "calc(50%-25px)"], [1, "px-16", "py-12", "text-center", "text-md", "text-md"], ["target", "_blank", "href", "../../assets/wp/reports/ACCOR.pdf", 1, "text-black"], [1, "px-16", "py-12", "text-center", "text-md"], ["target", "_blank", "href", "../../assets/wp/reports/CMR SAB DE CV.pdf", 1, "text-black"], [1, "px-16", "py-8", "text-center", "text-md"], ["target", "_blank", "href", "../../assets/wp/reports/COMPANIA ARGENTINA DE JUGOS.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Huevos Guill\xE9n.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/PT Sari Pizza Indonesia.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Eat wide awake.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Vapiano Colombia.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Wyndham Destinations.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Qbano.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Crepes & Waffles.pdf", 1, "text-black"], ["fxFlex", "calc(33%-25px)", "fxFlex.sm", "calc(50%-25px)", 2, "box-shadow", "none"], ["fxLayout", "row wrap", "fxLayout.xs", "column", "fxLayoutAlign", "space-around center", 1, "py-8"], ["mat-button", "", "routerLink", "", 2, "color", "inherit", "background", "#cccccc!important"]],
         template: function ReportsComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -4249,31 +4256,47 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "div", 3);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](62, "mat-card", 17);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "mat-card", 4);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "mat-card-content");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "div", 3);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "p", 7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](64, "mat-card", 17);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "a", 17);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "div", 3);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](66, "mat-card", 17);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "Crepes & Waffles");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "div", 18);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "button", 19);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](70, "translate");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](68, "mat-card", 18);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](70, "mat-card", 18);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "div", 19);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "button", 20);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](74, "translate");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4287,9 +4310,9 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 2, "Reports - Annual Communication of Progress"));
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](67);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](71);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](70, 4, "Back"));
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](74, 4, "Back"));
           }
         },
         directives: [_angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_1__.DefaultLayoutDirective, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_1__.DefaultLayoutAlignDirective, _angular_material_card__WEBPACK_IMPORTED_MODULE_2__.MatCard, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_1__.DefaultFlexDirective, _angular_material_card__WEBPACK_IMPORTED_MODULE_2__.MatCardContent, _angular_material_button__WEBPACK_IMPORTED_MODULE_3__.MatButton, _angular_router__WEBPACK_IMPORTED_MODULE_4__.RouterLink],
