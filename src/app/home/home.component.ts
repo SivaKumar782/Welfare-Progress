@@ -21,6 +21,7 @@ export class HomeComponent implements OnInit {
     'ACCOR', 'CMR SAB DE CV', 'COMPANIA ARGENTINA DE JUGOS', 'Huevos Guillén', 
     'PT Sari Pizza Indonesia', 'SaladStop! Pte Ltd.', 'Vapiano Colombia', 'Wyndham Destinations', 'Qbano', 'Crepes & Waffles'
   ];
+  
   filteredOptions: Observable<string[]>;
 
   title = 'welfare-progress';
@@ -36,6 +37,8 @@ export class HomeComponent implements OnInit {
     }
 
     ngOnInit() {
+
+      this.options.sort();
 
       this.filteredOptions = this.myControl.valueChanges.pipe(
         startWith(''),
