@@ -972,6 +972,7 @@
           value: function ngOnInit() {
             var _this = this;
 
+            this.options.sort();
             this.filteredOptions = this.myControl.valueChanges.pipe((0, rxjs_operators__WEBPACK_IMPORTED_MODULE_2__.startWith)(''), (0, rxjs_operators__WEBPACK_IMPORTED_MODULE_3__.map)(function (value) {
               return _this._filter(value);
             }));
@@ -4033,7 +4034,7 @@
         selectors: [["reports"]],
         decls: 75,
         vars: 6,
-        consts: [[1, "pt-100"], [1, "heading1", "px-12", "py-8"], ["fxLayout", "row wrap", "fxLayout.xs", "column", "fxLayoutAlign", "space-around center"], [1, "py-10"], ["fxFlex", "calc(33%-25px)", "fxFlex.sm", "calc(50%-25px)"], [1, "px-16", "py-12", "text-center", "text-md", "text-md"], ["target", "_blank", "href", "../../assets/wp/reports/ACCOR.pdf", 1, "text-black"], [1, "px-16", "py-12", "text-center", "text-md"], ["target", "_blank", "href", "../../assets/wp/reports/CMR SAB DE CV.pdf", 1, "text-black"], [1, "px-16", "py-8", "text-center", "text-md"], ["target", "_blank", "href", "../../assets/wp/reports/COMPANIA ARGENTINA DE JUGOS.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Huevos Guill\xE9n.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/PT Sari Pizza Indonesia.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Eat wide awake.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Vapiano Colombia.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Wyndham Destinations.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Qbano.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Crepes & Waffles.pdf", 1, "text-black"], ["fxFlex", "calc(33%-25px)", "fxFlex.sm", "calc(50%-25px)", 2, "box-shadow", "none"], ["fxLayout", "row wrap", "fxLayout.xs", "column", "fxLayoutAlign", "space-around center", 1, "py-8"], ["mat-button", "", "routerLink", "", 2, "color", "inherit", "background", "#cccccc!important"]],
+        consts: [[1, "pt-100"], [1, "heading1", "px-12", "py-8"], ["fxLayout", "row wrap", "fxLayout.xs", "column", "fxLayoutAlign", "space-around center"], [1, "py-10"], ["fxFlex", "calc(33%-25px)", "fxFlex.sm", "calc(50%-25px)"], [1, "px-16", "py-12", "text-center", "text-md", "text-md"], ["target", "_blank", "href", "../../assets/wp/reports/ACCOR.pdf", 1, "text-black"], [1, "px-16", "py-12", "text-center", "text-md"], ["target", "_blank", "href", "../../assets/wp/reports/CMR SAB DE CV.pdf", 1, "text-black"], [1, "px-16", "py-8", "text-center", "text-md"], ["target", "_blank", "href", "../../assets/wp/reports/COMPANIA ARGENTINA DE JUGOS.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Crepes & Waffles.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Huevos Guill\xE9n.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/PT Sari Pizza Indonesia.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Qbano.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Eat wide awake.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Vapiano Colombia.pdf", 1, "text-black"], ["target", "_blank", "href", "../../assets/wp/reports/Wyndham Destinations.pdf", 1, "text-black"], ["fxFlex", "calc(33%-25px)", "fxFlex.sm", "calc(50%-25px)", 2, "box-shadow", "none"], ["fxLayout", "row wrap", "fxLayout.xs", "column", "fxLayoutAlign", "space-around center", 1, "py-8"], ["mat-button", "", "routerLink", "", 2, "color", "inherit", "background", "#cccccc!important"]],
         template: function ReportsComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -4124,7 +4125,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "a", 11);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Huevos Guill\xE9n");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Crepes & Waffles");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4150,7 +4151,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "a", 12);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "PT Sari Pizza Indonesia");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Huevos Guill\xE9n");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4172,7 +4173,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "a", 13);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "SaladStop! Pte Ltd.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "PT Sari Pizza Indonesia");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4194,7 +4195,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "a", 14);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Vapiano Colombia");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Qbano");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4216,7 +4217,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "a", 15);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "Wyndham Destinations");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "SaladStop! Pte Ltd.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4242,7 +4243,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "a", 16);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "Qbano");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "Vapiano Colombia");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4264,7 +4265,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "a", 17);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "Crepes & Waffles");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "Wyndham Destinations");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
