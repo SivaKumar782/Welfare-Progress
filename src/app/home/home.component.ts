@@ -18,8 +18,32 @@ export class HomeComponent implements OnInit {
 
   myControl = new FormControl();
   options: string[] = [
-    'ACCOR', 'CMR SAB DE CV', 'COMPANIA ARGENTINA DE JUGOS', 'Huevos Guillén', 
-    'PT Sari Pizza Indonesia', 'SaladStop! Pte Ltd.', 'Vapiano Colombia', 'Wyndham Destinations', 'Qbano', 'Crepes & Waffles', 'Procafecol S.A.'
+
+
+    'ACCOR',
+
+'CMR SAB DE CV',
+
+'COMPANIA ARGENTINA DE JUGOS',
+
+'Crepes & Waffles',
+
+'Huevos Guillén',
+
+'Procafecol S.A.',
+
+'PT Sari Pizza Indonesia',
+
+'Qbano',
+
+'SaladStop! Pte Ltd.',
+
+'Vapiano Colombia',
+
+'Wyndham Destinations'
+
+
+    
   ];
   
   filteredOptions: Observable<string[]>;
@@ -38,7 +62,7 @@ export class HomeComponent implements OnInit {
 
     ngOnInit() {
 
-      this.options.sort();
+      // this.options.sort();
 
       this.filteredOptions = this.myControl.valueChanges.pipe(
         startWith(''),

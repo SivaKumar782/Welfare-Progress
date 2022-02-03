@@ -433,8 +433,17 @@ class HomeComponent {
         this.router = router;
         this.myControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormControl();
         this.options = [
-            'ACCOR', 'CMR SAB DE CV', 'COMPANIA ARGENTINA DE JUGOS', 'Huevos Guillén',
-            'PT Sari Pizza Indonesia', 'SaladStop! Pte Ltd.', 'Vapiano Colombia', 'Wyndham Destinations', 'Qbano', 'Crepes & Waffles', 'Procafecol S.A.'
+            'ACCOR',
+            'CMR SAB DE CV',
+            'COMPANIA ARGENTINA DE JUGOS',
+            'Crepes & Waffles',
+            'Huevos Guillén',
+            'Procafecol S.A.',
+            'PT Sari Pizza Indonesia',
+            'Qbano',
+            'SaladStop! Pte Ltd.',
+            'Vapiano Colombia',
+            'Wyndham Destinations'
         ];
         this.title = 'welfare-progress';
         this.panelOpenState = false;
@@ -485,7 +494,7 @@ class HomeComponent {
         this.openTab = $tabNumber;
     }
     ngOnInit() {
-        this.options.sort();
+        // this.options.sort();
         this.filteredOptions = this.myControl.valueChanges.pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_2__.startWith)(''), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_3__.map)(value => this._filter(value)));
         $('[data-toggle="tooltip"]').tooltip();
         // (<any>$('[data-toggle="tooltip"]')).tooltip();
