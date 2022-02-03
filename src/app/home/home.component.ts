@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
   myControl = new FormControl();
   options: string[] = [
     'ACCOR', 'CMR SAB DE CV', 'COMPANIA ARGENTINA DE JUGOS', 'Huevos Guillén', 
-    'PT Sari Pizza Indonesia', 'SaladStop! Pte Ltd.', 'Vapiano Colombia', 'Wyndham Destinations', 'Qbano', 'Crepes & Waffles'
+    'PT Sari Pizza Indonesia', 'SaladStop! Pte Ltd.', 'Vapiano Colombia', 'Wyndham Destinations', 'Qbano', 'Crepes & Waffles', 'Procafecol S.A.'
   ];
   
   filteredOptions: Observable<string[]>;
@@ -83,6 +83,8 @@ export class HomeComponent implements OnInit {
         this.periods.push({"value":"2021","viewValue":"2021"})
       }else if(this.selected == 'Crepes & Waffles'){
         this.periods.push({"value":"2021","viewValue":"2021"})
+      }else if(this.selected == 'Procafecol S.A.'){
+        this.periods.push({"value":"2021","viewValue":"2021"})
       }
     }
 
@@ -108,6 +110,8 @@ export class HomeComponent implements OnInit {
         window.open(window.location.href+'/assets/wp/reports/Qbano.pdf', '_blank');
       }else if(this.selected == 'Crepes & Waffles'){
         window.open(window.location.href+'/assets/wp/reports/Crepes & Waffles.pdf', '_blank');
+      }else if(this.selected == 'Procafecol S.A.'){
+        window.open(window.location.href+'/assets/wp/reports/Procafecol S.A..pdf', '_blank');
       }
       else{
         alert('Select a company');
