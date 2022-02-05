@@ -48,6 +48,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const routes = [
     { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_0__.HomeComponent },
+    { path: 'es', component: _home_home_component__WEBPACK_IMPORTED_MODULE_0__.HomeComponent },
     { path: 'privacy-policy', component: _privacy_and_policy_privacy_and_policy_component__WEBPACK_IMPORTED_MODULE_1__.PrivacyAndPolicyComponent },
     { path: 'terms-and-conditions', component: _terms_and_conditions_terms_and_conditions_component__WEBPACK_IMPORTED_MODULE_2__.TermsAndConditionsComponent },
     { path: 'reports', component: _reports_reports_component__WEBPACK_IMPORTED_MODULE_3__.ReportsComponent },
@@ -1453,7 +1454,16 @@ class NavComponent {
         this.languageService.setLanguage(lang);
     }
     ngOnInit() {
-        this.langStoreValue = localStorage.getItem('lang');
+        this.currentURL = window.location.href;
+        if (this.currentURL.includes('/es')) {
+            this.langStoreValue = 'es';
+            this.languageService.setLanguage('es');
+        }
+        else {
+            this.langStoreValue = 'en';
+            this.languageService.setLanguage('en');
+        }
+        // this.langStoreValue = localStorage.getItem('lang');
         const val = this.listLang.filter((x) => x.lang === this.langStoreValue);
         this.countryName = val.map((element) => element.text);
         if (val.length === 0) {
