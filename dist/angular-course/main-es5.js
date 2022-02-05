@@ -100,6 +100,9 @@
         path: '',
         component: _home_home_component__WEBPACK_IMPORTED_MODULE_0__.HomeComponent
       }, {
+        path: 'es',
+        component: _home_home_component__WEBPACK_IMPORTED_MODULE_0__.HomeComponent
+      }, {
         path: 'privacy-policy',
         component: _privacy_and_policy_privacy_and_policy_component__WEBPACK_IMPORTED_MODULE_1__.PrivacyAndPolicyComponent
       }, {
@@ -2774,7 +2777,17 @@
           value: function ngOnInit() {
             var _this2 = this;
 
-            this.langStoreValue = localStorage.getItem('lang');
+            this.currentURL = window.location.href;
+
+            if (this.currentURL.includes('/es')) {
+              this.langStoreValue = 'es';
+              this.languageService.setLanguage('es');
+            } else {
+              this.langStoreValue = 'en';
+              this.languageService.setLanguage('en');
+            } // this.langStoreValue = localStorage.getItem('lang');
+
+
             var val = this.listLang.filter(function (x) {
               return x.lang === _this2.langStoreValue;
             });

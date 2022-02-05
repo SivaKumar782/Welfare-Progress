@@ -8,6 +8,7 @@ import { ReportsComponent } from './reports/reports.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'es', component: HomeComponent },
   { path: 'privacy-policy', component: PrivacyAndPolicyComponent },
   { path: 'terms-and-conditions', component: TermsAndConditionsComponent },
   { path: 'reports', component: ReportsComponent },

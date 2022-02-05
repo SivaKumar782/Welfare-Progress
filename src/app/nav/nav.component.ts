@@ -85,12 +85,23 @@ export class NavComponent implements OnInit {
     this.languageService.setLanguage(lang);
   }
 
-
+  currentURL;
   ngOnInit() {
 
 
+    this.currentURL = window.location.href; 
+    if(this.currentURL.includes('/es')){
+      this.langStoreValue = 'es';
+      this.languageService.setLanguage('es');
 
-    this.langStoreValue = localStorage.getItem('lang');
+    }
+    else{
+      this.langStoreValue = 'en';
+      this.languageService.setLanguage('en');
+
+    }
+
+    // this.langStoreValue = localStorage.getItem('lang');
     const val = this.listLang.filter((x) => x.lang === this.langStoreValue);
     this.countryName = val.map((element) => element.text);
     if (val.length === 0) {
