@@ -28,6 +28,8 @@ export class HomeComponent implements OnInit {
 
 'Crepes & Waffles',
 
+'Grupo Restaurantero Gigante',
+
 'Huevos Guillén',
 
 'Procafecol S.A.',
@@ -109,6 +111,8 @@ export class HomeComponent implements OnInit {
         this.periods.push({"value":"2021","viewValue":"2021"})
       }else if(this.selected == 'Procafecol S.A.'){
         this.periods.push({"value":"2021","viewValue":"2021"})
+      }else if(this.selected == 'Grupo Restaurantero Gigante'){
+        this.periods.push({"value":"2021","viewValue":"2021"})
       }
     }
 
@@ -136,6 +140,8 @@ export class HomeComponent implements OnInit {
         window.open(window.location.href+'/assets/wp/reports/Crepes & Waffles.pdf', '_blank');
       }else if(this.selected == 'Procafecol S.A.'){
         window.open(window.location.href+'/assets/wp/reports/Procafecol S.A..pdf', '_blank');
+      }else if(this.selected == 'Grupo Restaurantero Gigante'){
+        window.open(window.location.href+'/assets/wp/reports/Grupo Restaurantero Gigante.pdf', '_blank');
       }
       else{
         alert('Select a company');
